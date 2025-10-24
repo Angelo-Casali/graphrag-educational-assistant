@@ -54,95 +54,221 @@ class EducationalContext:
     metadata: Dict[str, Any]
 
 class PedagogicalKnowledgeBase:
-    """Educational domain knowledge and best practices"""
+    """Neuroscience domain knowledge and teaching applications"""
     
     def __init__(self):
         self.methodology_categories = {
-            'Cooperative Learning': {
-                'category': 'Collaborative Pedagogy',
-                'best_for': ['social_interaction', 'peer_learning', 'inclusion'],
-                'implementation': 'Organize students in diverse groups of 3-5 members',
+            'IntrinsicMotivation': {
+                'category': 'Motivational Systems',
+                'best_for': ['engagement', 'self_directed_learning', 'persistence'],
+                'implementation': 'Foster autonomy, competence, and relatedness in learning',
                 'applications': [
-                    'Jigsaw method for complex topics',
-                    'Think-Pair-Share for quick engagement',
-                    'Group investigations for project work'
+                    'Offer choice in learning activities',
+                    'Connect content to student interests and real-world applications',
+                    'Set personalized, meaningful learning goals'
                 ],
                 'special_needs_adaptations': [
-                    'Assign complementary roles based on abilities',
-                    'Provide visual and verbal instructions',
-                    'Use peer tutoring for support'
+                    'Celebrate progress and effort over outcomes',
+                    'Use authentic, relevant assessment methods',
+                    'Build on student strengths and interests'
                 ]
             },
-            'Flipped Classroom': {
-                'category': 'Blended Learning',
-                'best_for': ['self_paced_learning', 'active_classroom_time', 'differentiation'],
-                'implementation': 'Pre-recorded content at home, active learning in class',
+            'ExtrinsicMotivation': {
+                'category': 'Motivational Systems',
+                'best_for': ['initial_engagement', 'behavior_management', 'skill_acquisition'],
+                'implementation': 'Use external rewards strategically and transition to intrinsic motivation',
                 'applications': [
-                    'Video lectures for concept introduction',
-                    'Interactive activities during class time',
-                    'Personalized learning paths'
+                    'Provide immediate feedback and recognition',
+                    'Use gamification elements for engagement',
+                    'Gradually fade external rewards'
                 ],
                 'special_needs_adaptations': [
-                    'Closed captions for hearing impaired',
-                    'Audio descriptions for visually impaired',
-                    'Flexible pacing for cognitive disabilities'
+                    'Pair rewards with intrinsic satisfaction',
+                    'Focus on mastery rather than performance',
+                    'Transition to self-directed goal setting'
                 ]
             },
-            'Project based learning': {
-                'category': 'Constructivist Pedagogy',
-                'best_for': ['real_world_application', 'creativity', 'problem_solving'],
-                'implementation': 'Long-term projects addressing real-world problems',
+            'GrowthMindset': {
+                'category': 'Mindset & Beliefs',
+                'best_for': ['resilience', 'learning_from_failure', 'challenge_seeking'],
+                'implementation': 'Teach brain plasticity and the power of "yet"',
                 'applications': [
-                    'Community service projects',
-                    'Scientific investigations',
-                    'Creative multimedia presentations'
+                    'Reframe mistakes as learning opportunities',
+                    'Praise effort, strategies, and progress',
+                    'Share stories of growth and improvement'
                 ],
                 'special_needs_adaptations': [
-                    'Break projects into manageable steps',
-                    'Provide multiple means of expression',
-                    'Offer choice in topics and formats'
+                    'Model growth mindset language consistently',
+                    'Provide specific feedback on learning strategies',
+                    'Celebrate small wins and incremental progress'
                 ]
             },
-            'Station Rotation': {
-                'category': 'Differentiated Instruction',
-                'best_for': ['varied_learning_styles', 'small_group_instruction', 'skill_building'],
-                'implementation': 'Multiple learning stations with different activities',
+            'FixedMindset': {
+                'category': 'Mindset & Beliefs',
+                'best_for': ['awareness', 'intervention', 'mindset_shift'],
+                'implementation': 'Recognize and challenge fixed mindset beliefs',
                 'applications': [
-                    'Skills practice stations',
-                    'Technology integration stations',
-                    'Teacher-led instruction station'
+                    'Identify fixed mindset triggers in students',
+                    'Teach about neuroplasticity explicitly',
+                    'Provide counter-examples of ability development'
                 ],
                 'special_needs_adaptations': [
-                    'Adaptive technology stations',
-                    'Sensory-friendly environments',
-                    'Modified task complexity'
+                    'Create safe environment for risk-taking',
+                    'Normalize struggle as part of learning',
+                    'Use growth-oriented language'
+                ]
+            },
+            'Metacognition': {
+                'category': 'Self-Regulation & Awareness',
+                'best_for': ['planning', 'monitoring', 'reflection', 'strategy_use'],
+                'implementation': 'Explicitly teach thinking about thinking',
+                'applications': [
+                    'Use think-aloud protocols during problem-solving',
+                    'Implement reflection journals and self-assessment',
+                    'Teach specific learning strategies explicitly'
+                ],
+                'special_needs_adaptations': [
+                    'Provide metacognitive question prompts',
+                    'Use checklists for self-monitoring',
+                    'Model metacognitive thinking regularly'
+                ]
+            },
+            'PositiveStressEustress': {
+                'category': 'Stress & Arousal',
+                'best_for': ['optimal_challenge', 'engagement', 'performance'],
+                'implementation': 'Create optimal challenge level (Goldilocks zone)',
+                'applications': [
+                    'Set appropriately challenging tasks',
+                    'Provide support structures for complex tasks',
+                    'Frame challenges as growth opportunities'
+                ],
+                'special_needs_adaptations': [
+                    'Monitor stress levels during activities',
+                    'Teach stress management techniques',
+                    'Balance challenge with adequate support'
+                ]
+            },
+            'NegativeStressDistress': {
+                'category': 'Stress & Arousal',
+                'best_for': ['stress_reduction', 'anxiety_management', 'wellbeing'],
+                'implementation': 'Reduce excessive stress and create safe learning environment',
+                'applications': [
+                    'Implement calming routines before assessments',
+                    'Teach breathing and relaxation techniques',
+                    'Reduce time pressure when possible'
+                ],
+                'special_needs_adaptations': [
+                    'Provide predictable routines and structures',
+                    'Offer breaks and movement opportunities',
+                    'Create emotionally safe classroom climate'
+                ]
+            },
+            'PositiveEmotions': {
+                'category': 'Emotional Systems',
+                'best_for': ['engagement', 'memory', 'creativity', 'motivation'],
+                'implementation': 'Foster positive emotional climate in classroom',
+                'applications': [
+                    'Build positive teacher-student relationships',
+                    'Celebrate successes and learning moments',
+                    'Use humor and joy in teaching'
+                ],
+                'special_needs_adaptations': [
+                    'Create emotionally safe environment',
+                    'Acknowledge and validate student emotions',
+                    'Use positive emotion to enhance memory'
+                ]
+            },
+            'Attention': {
+                'category': 'Cognitive Processes',
+                'best_for': ['focus', 'information_processing', 'learning_efficiency'],
+                'implementation': 'Design lessons to capture and maintain attention',
+                'applications': [
+                    'Use varied stimuli and teaching methods',
+                    'Minimize distractions in learning environment',
+                    'Chunk information into manageable segments'
+                ],
+                'special_needs_adaptations': [
+                    'Provide movement breaks regularly',
+                    'Use visual and auditory cues strategically',
+                    'Teach attention self-monitoring strategies'
+                ]
+            },
+            'WorkingMemory': {
+                'category': 'Memory Systems',
+                'best_for': ['information_retention', 'problem_solving', 'comprehension'],
+                'implementation': 'Reduce cognitive load and support working memory',
+                'applications': [
+                    'Chunk information into smaller units',
+                    'Use visual aids and graphic organizers',
+                    'Provide written instructions alongside verbal'
+                ],
+                'special_needs_adaptations': [
+                    'Limit amount of new information presented',
+                    'Allow use of external memory aids',
+                    'Provide repetition and rehearsal opportunities'
+                ]
+            },
+            'ExecutiveFunctions': {
+                'category': 'Cognitive Control',
+                'best_for': ['planning', 'organization', 'self_regulation', 'goal_achievement'],
+                'implementation': 'Scaffold executive function development',
+                'applications': [
+                    'Teach planning and organizational strategies explicitly',
+                    'Use checklists and visual schedules',
+                    'Break complex tasks into steps'
+                ],
+                'special_needs_adaptations': [
+                    'Provide external organizational tools',
+                    'Model executive function strategies',
+                    'Gradually transfer responsibility to students'
+                ]
+            },
+            'CriticalThinking': {
+                'category': 'Higher-Order Thinking',
+                'best_for': ['analysis', 'evaluation', 'problem_solving'],
+                'implementation': 'Teach critical thinking skills explicitly',
+                'applications': [
+                    'Use Socratic questioning methods',
+                    'Teach argument analysis and evaluation',
+                    'Provide opportunities for debate and discussion'
+                ],
+                'special_needs_adaptations': [
+                    'Scaffold critical thinking with graphic organizers',
+                    'Model thinking processes explicitly',
+                    'Start with concrete examples'
                 ]
             }
         }
         
         self.special_needs_mapping = {
-            'Blind': ['visual_impairment', 'tactile_learning', 'audio_support'],
-            'Deaf': ['hearing_impairment', 'visual_learning', 'sign_language'],
-            'Physical disability': ['mobility_accommodation', 'assistive_technology', 'environmental_modification'],
-            'Cognitive disability': ['cognitive_support', 'simplified_instruction', 'repetition'],
-            'Adhd': ['attention_management', 'movement_breaks', 'structured_environment'],
-            'Attention Deficit': ['focus_strategies', 'clear_instructions', 'minimal_distractions'],
-            'Autism spectrum disorder': ['routine_structure', 'sensory_considerations', 'social_support'],
-            'NoPersonalMotivation': ['engagement_strategies', 'relevance_connection', 'choice_provision']
+            'Motivation': ['engagement_strategies', 'relevance_connection', 'choice_provision'],
+            'Attention': ['focus_strategies', 'minimize_distractions', 'varied_stimuli'],
+            'WorkingMemory': ['chunking', 'repetition', 'visual_aids', 'reduced_cognitive_load'],
+            'ExecutiveFunctions': ['scaffolding', 'explicit_instruction', 'organizational_tools'],
+            'PositiveEmotions': ['safe_environment', 'positive_relationships', 'success_experiences'],
+            'NegativeEmotions': ['emotion_regulation', 'coping_strategies', 'emotional_support'],
+            'PositiveStressEustress': ['optimal_challenge', 'growth_zone', 'support_structures'],
+            'NegativeStressDistress': ['stress_reduction', 'anxiety_management', 'calm_environment'],
+            'GrowthMindset': ['praise_effort', 'normalize_struggle', 'celebrate_progress'],
+            'FixedMindset': ['challenge_beliefs', 'teach_neuroplasticity', 'reframe_failure'],
+            'Metacognition': ['self_monitoring', 'reflection_tools', 'strategy_instruction'],
+            'Memory': ['encoding_strategies', 'retrieval_practice', 'spaced_repetition'],
+            'Creativity': ['divergent_thinking', 'open_ended_tasks', 'brainstorming'],
+            'CriticalThinking': ['questioning_techniques', 'analysis_frameworks', 'evaluation_criteria']
         }
         
         self.fallback_strategies = {
             'no_results': [
-                'Universal Design for Learning (UDL) principles',
-                'Differentiated instruction approaches',
-                'Multi-sensory learning techniques',
-                'Collaborative learning environments'
+                'Evidence-based teaching practices grounded in learning sciences',
+                'Brain-friendly learning environment design',
+                'Multi-modal instruction techniques',
+                'Growth mindset cultivation strategies'
             ],
             'low_confidence': [
-                'Consult special education specialists',
-                'Implement gradual methodology introduction',
-                'Use assessment-based adaptation',
-                'Seek peer teacher collaboration'
+                'Consult neuroscience education specialists or educational psychologists',
+                'Review current research on learning sciences and cognitive neuroscience',
+                'Implement evidence-based strategies gradually with monitoring',
+                'Seek peer teacher collaboration and professional development'
             ]
         }
 

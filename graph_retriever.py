@@ -53,31 +53,79 @@ class HybridGraphRetriever:
         if self.use_vectors:
             self._load_node2vec_model()
         
-        # Educational domain boosts (higher = more relevant)
+        # Neuroscience domain boosts (higher = more relevant)
         self.domain_boosts = {
-            'StudentWithSpecialNeeds': 2.0,
-            'PedagogicalMethodology': 2.0,
-            'StudentCharacteristic': 1.5,
-            'Context': 1.5,
-            'Lighting': 1.2,
-            'Colour': 1.2,
-            'Furniture': 1.2,
-            'Acoustic': 1.2,
-            'InteractiveBoard': 1.3,
-            'EnvironmentalBarrier': 1.1,
-            'EnvironmentalSupport': 1.1
+            # Core motivation concepts
+            'MotivationalModulation': 2.5,
+            'IntrinsicMotivation': 2.5,
+            'ExtrinsicMotivation': 2.5,
+            
+            # Mindset concepts
+            'Mindset': 2.3,
+            'GrowthMindset': 2.3,
+            'FixedMindset': 2.3,
+            
+            # Stress and emotions
+            'PositiveStressEustress': 2.0,
+            'NegativeStressDistress': 2.0,
+            'PositiveEmotions': 2.0,
+            'NegativeEmotions': 2.0,
+            'Emotions': 2.0,
+            
+            # Cognitive functions
+            'ExecutiveFunctions': 2.2,
+            'Metacognition': 2.2,
+            'CriticalThinking': 2.2,
+            'Attention': 2.1,
+            'WorkingMemory': 2.1,
+            'LongTermMemory': 2.1,
+            'Creativity': 1.9,
+            
+            # Learning processes
+            'LearningDevelopment': 1.8,
+            'LearningOutcomes': 1.8,
+            'MemoryEncoding': 1.7,
+            'Consolidation': 1.7,
+            'Neuroplasticity': 1.8,
+            
+            # Processing and control
+            'CognitiveLoad': 1.6,
+            'CognitiveControl': 1.6,
+            'AttentionalControl': 1.6,
+            'PrefrontalCortexactivation': 1.5
         }
         
-        # Schema typo corrections (from your audit)
-        self.schema_corrections = {
-            'TeachingApproch': 'TeachingApproach'  # Fix the typo
-        }
+        # Schema typo corrections (none needed for neuroscience graph)
+        self.schema_corrections = {}
         
-        # Whitelist for neighbor expansion (focus on educational relevance)
+        # Whitelist for neighbor expansion (focus on neuroscience relevance)
         self.expansion_labels = {
-            'PedagogicalMethodology', 'StudentWithSpecialNeeds', 'StudentCharacteristic',
-            'Context', 'Colour', 'Lighting', 'Furniture', 'Acoustic', 'InteractiveBoard',
-            'EnvironmentalBarrier', 'EnvironmentalSupport', 'LearningEnvironment'
+            # Motivation
+            'MotivationalModulation', 'IntrinsicMotivation', 'ExtrinsicMotivation',
+            
+            # Mindset
+            'Mindset', 'GrowthMindset', 'FixedMindset',
+            
+            # Emotions and Stress
+            'PositiveStressEustress', 'NegativeStressDistress',
+            'PositiveEmotions', 'NegativeEmotions', 'Emotions',
+            
+            # Cognitive Functions
+            'ExecutiveFunctions', 'Metacognition', 'CriticalThinking',
+            'Attention', 'WorkingMemory', 'LongTermMemory', 'Memory',
+            'Creativity', 'executivecontrol',
+            
+            # Learning and Development
+            'LearningDevelopment', 'LearningOutcomes', 'Neuroplasticity',
+            'MemoryEncoding', 'Memoryencoding', 'Consolidation',
+            
+            # Processing
+            'CognitiveLoad', 'Cognitiveload', 'CognitiveControl', 'Cognitivecontrol',
+            'AttentionalControl', 'PrefrontalCortexactivation', 'Prefrontalcortexactivation',
+            
+            # Other relevant
+            'AffectiveProcesses', 'SocialCognition', 'Communication',
+            'ProblemSolving', 'Reasoning', 'BrainAdaptability'
         }
     
     def _load_node2vec_model(self, model_path: str = "models/educational_node2vec"):

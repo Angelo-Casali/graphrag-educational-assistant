@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-multilingual_text2cypher.py - Production multilingual text2cypher for Italian teachers
-Enhanced with comprehensive educational terminology including UDL, BES, DSA concepts
+multilingual_text2cypher.py - Multilingual text2cypher for Neuroscience Knowledge Graph
+Maps Italian teacher queries to neuroscience concepts in Neo4j
 """
 
 import re
@@ -13,7 +13,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 class MultilingualText2Cypher:
-    """Production-ready multilingual text2cypher for Italian educational queries"""
+    """Multilingual text2cypher for Italian neuroscience educational queries"""
     
     def __init__(self):
         # Use config.py which loads from .env
@@ -24,202 +24,185 @@ class MultilingualText2Cypher:
             config.openai.api_key
         )
         
-        # Comprehensive Italian → English educational term mapping
-        # Mapped to ACTUAL node names in your Neo4j database
+        # Italian → English mappings for NEUROSCIENCE knowledge graph
+        # Based on actual node names in kg_neuro_neo4j.json
         self.italian_terms = {
-            # Special Educational Needs - Map to actual StudentWithSpecialNeeds nodes
-            "ipovedenti": "Blind",  # ✅ Exists in your data
-            "disabilità uditive": "Deaf",  # ✅ Exists in your data  
-            "disabilità": "Physical disability",  # ✅ Exists in your data
-            "disabilità fisica": "Physical disability",  # ✅ Exact match
-            "dislessia": "Language difficulties due to foreign origin",  # ✅ Closest match
-            "ADHD": "Adhd",  # ✅ Exists (case sensitive)
-            "deficit di attenzione": "Attention Deficit",  # ✅ Exists
-            "autismo": "Autism spectrum disorder",  # ✅ Exists
-            "disturbi dello spettro autistico": "Autism spectrum disorder",  # ✅ CRITICAL FIX - Added!
-            "motivazione": "NoPersonalMotivation",  # ✅ Exists (for lack of motivation)
-            "senza motivazione": "NoPersonalMotivation",  # ✅ Alternative phrasing
-            "eccellenza": "Excellence in some or all subjects",  # ✅ Exists
-            "difficoltà cognitive": "Cognitive disability [mild, moderate, severe]",  # ✅ Exact match with brackets
-            "difficoltà cognitive lievi": "Cognitive disability [mild, moderate, severe]",  # ✅ Exact match
-            "difficoltà cognitive moderate": "Cognitive disability [mild, moderate, severe]",  # ✅ Exact match
-            "difficoltà cognitive gravi": "Cognitive disability [mild, moderate, severe]",  # ✅ Exact match
-            "difficoltà di lettura": "reading difficulties",  # Keep generic term
-            "iperattività": "Hyperactivity Disorder",  # ✅ Exists in your data
-            "disturbo oppositivo": "Oppositional Defiant Disorder - ODD",  # ✅ Exists in your data
-            "plusdotazione": "Giftedness",  # ✅ Exists in your data
-            "muto": "Mute or no verbal",  # ✅ Exists in your data
-            # Removed non-existent terms: discalculici, discalculia, dislessici, BES, DSA, etc.
-            
-            # UDL (Universal Design for Learning)
-            "UDL": "Universal Design for Learning",
-            "Universal Design for Learning": "Universal Design for Learning",
-            "progettazione universale": "universal design",
-            "linee guida UDL": "UDL guidelines",
-            "principi UDL": "UDL principles",
-            "strategie UDL": "UDL strategies",
-            "tecniche UDL": "UDL techniques",
-            "framework UDL": "UDL framework",
-            
-            # Teaching and Learning Methods - Map to actual PedagogicalMethodology nodes
-            "apprendimento cooperativo": "Cooperative Learning",  # ✅ Exists in your data
-            "flipped classroom": "Flipped Classroom",  # ✅ Exists in your data
-            "game based learning": "GameBasedLearning",  # ✅ Exists in your data
-            "debate": "Debate",  # ✅ Exists in your data
-            "project based learning": "Project based learning",  # ✅ Exists in your data
-            "role playing": "Role Playing, Debate",  # ✅ Exists in your data
-            "station rotation": "Station Rotation",  # ✅ Exists in your data
-            "stem": "Stem",  # ✅ Exists in your data
-            "peertopeereducation": "Peertopeereducation",  # ✅ Exists in your data
-            
-            # Teaching Approaches - Map to actual TeachingApproach nodes
-            "lezioni frontali": "Frontal lessons",  # ✅ Exists in your data
-            "lezioni frontali lunghe": "long frontal lessons",  # ✅ Exists in your data
-            "supporti visivi, alternative bilingue": "Visual supports, bilingual alternatives",  # ✅ Exists in your data
-            
-            # Generic terms (keep as they are useful for query context)
-            "obiettivi diversificati": "differentiated objectives",
-            "obiettivi didattici": "learning objectives",
-            "classe eterogenea": "heterogeneous class",
-            "classe multilingue": "multilingual class",
-            "risorse visive": "visual resources",
-            "risorse analogiche": "analog resources",
-            "supporti visivi": "visual supports",
-            "supporti linguistici": "linguistic supports",
-            "supporti motori": "motor supports",
-            "attività": "activities",
-            "partecipazione": "participation",
-            "prerequisiti": "prerequisites",
-            "metodologie": "methodologies",
-            "strategie": "strategies",
-            "strumenti tecnologici": "technological tools",
-            "unità didattica": "didactic unit",
-            "sequenza didattica": "didactic sequence",
-            
-            # Assessment and Evaluation  
-            "valutazione formativa": "formative assessment",
-            "valutazione": "assessment",
-            "verifiche": "tests",
-            "competenze linguistiche": "linguistic competencies",
-            "comprensione del testo": "text comprehension",
-            "comprensione della lettura": "reading comprehension",
-            "DSA": "Language difficulties due to foreign origin",  # ✅ Map DSA to closest existing term  (check that 14/09/25)
-            "durante le verifiche": "during tests",  # For assessment context
-            
-            # Subject Areas
-            "scienze": "science",
-            "storia": "history", 
-            "matematica": "mathematics",
-            "geografia": "geography",
-            "inglese": "English",
-            "lingua inglese": "English language",
-            "frazioni": "fractions",
-            "biodiversità": "biodiversity",
-            "prima guerra mondiale": "World War I",
-            
-            # Grade Levels
-            "quarta elementare": "fourth grade",
-            "prima elementare": "first grade",
-            "seconda elementare": "second grade",
-            "terza elementare": "third grade",
-            "quinta elementare": "fifth grade",
-            "3 elementare": "third grade",
-            "prima media": "sixth grade",
-            "prima superiore": "ninth grade",
-            
-            # Learning Concepts
-            "apprendimento": "learning",
+            # ============ MOTIVATION ============
+            # Label: MotivationalModulation, IntrinsicMotivation, ExtrinsicMotivation
+            "motivazione intrinseca": "Intrinsic motivation",
+            "intrinseca": "Intrinsic",
+            "motivazione estrinseca": "Extrinsic motivation",
+            "estrinseca": "Extrinsic",
             "motivazione": "motivation",
-            "autonomia": "autonomy",
-            "inclusiva": "inclusive",
-            "accessibile": "accessible",
-            "adattamenti": "adaptations",
-            "differenziare": "differentiate",
-            "modalità alternative": "alternative methods",
-            "rappresentazione dei contenuti": "content representation",
+            "motivazionale": "motivational",
             
-            # Environmental Factors - Map to actual node labels
-            "illuminazione": "Lighting",  # ✅ Exists as node label
-            "colori": "Colour",  # ✅ Exists as node label
-            "acustica": "Acoustic",  # ✅ Exists as node label
-            "arredi": "Furniture",  # ✅ Exists as node label
-            "texture": "Texture",  # ✅ Exists as node label
-            "odori": "Smell",  # ✅ Exists as node label
-            "ambiente di apprendimento": "LearningEnvironment",  # ✅ Exists as node label
-            "barriere ambientali": "EnvironmentalBarrier",  # ✅ Exists as node label
-            "supporto ambientale": "EnvironmentalSupport",  # ✅ Exists as node label
-            "rischi ambientali": "EnvironmentalRisk",  # ✅ Exists as node label
-            "strategie ambientali": "EnvironmentalStrategy",  # ✅ Exists as node label
-            "infrastruttura": "Infrastructure",  # ✅ Exists as node label
-            "barriere infrastrutturali": "InfrastructureBarrier",  # ✅ Exists as node label
-            "lavagna interattiva": "InteractiveBoard",  # ✅ Exists as node label
+            # ============ MINDSET ============
+            # Label: Mindset, GrowthMindset, FixedMindset
+            "mentalità di crescita": "Growth mindset",
+            "mentalità fissa": "Fixed mindset",
+            "mindset di crescita": "Growth mindset",
+            "mindset fisso": "Fixed mindset",
+            "crescita": "Growth",
+            "fisso": "Fixed",
+            "mentalità": "mindset",
             
-            # Student Characteristics - Map to actual StudentCharacteristic nodes
-            "eccellenza in alcune o tutte le materie": "Excellence in some or all subjects",  # ✅ Exists
-            "difficoltà in alcune o tutte le materie": "Struggles in some or all subjects",  # ✅ Exists
-            "alta motivazione intrinseca": "High intrinsic motivation",  # ✅ Exists
-            "mancanza di motivazione": "Lack of motivation",  # ✅ Exists
-            "timidezza significativa": "Significant shyness or relational closure",  # ✅ Exists
-            "problemi personali o familiari": "Personal or family issues beyond our control",  # ✅ Exists
+            # ============ STRESS & EMOTIONS ============
+            # Label: Emotions, PositiveStressEustress, NegativeStressDistress
+            "stress positivo": "positive stress",
+            "stress negativo": "negative stress",
+            "eustress": "eustress",
+            "distress": "distress",
+            "stress": "stress",
+            "emozioni positive": "positive emotions",
+            "emozioni negative": "negative emotions",
+            "emozioni": "emotions",
+            "ansia": "anxiety",
             
-            # Context - Map to actual Context nodes
-            "coesivo": "Cohesive",  # ✅ Exists
-            "diviso in gruppi": "Split in groups",  # ✅ Exists
-            "con elementi disturbanti": "With disruptive elements",  # ✅ Exists
-            "motivato": "Motivated",  # ✅ Exists
-            "divario di genere": "Gender gap",  # ✅ Exists
+            # ============ ATTENTION ============
+            # Label: Attention (various types)
+            "attenzione": "attention",
+            "attenzione selettiva": "selective attention",
+            "attenzione divisa": "divided attention",
+            "attenzione sostenuta": "sustained attention",
+            "attenzione focalizzata": "focused attention",
+            "concentrazione": "concentration",
+            "focus": "focus",
             
-            # General Terms (keep as they are useful for query context)
+            # ============ MEMORY ============
+            # Label: Memory, WorkingMemory, LongTermMemory
+            "memoria di lavoro": "working memory",
+            "memoria a breve termine": "short-term memory",
+            "memoria a lungo termine": "long-term memory",
+            "memoria": "memory",
+            "codifica": "encoding",
+            "consolidamento": "consolidation",
+            "recupero": "retrieval",
+            
+            # ============ EXECUTIVE FUNCTIONS ============
+            # Label: ExecutiveFunctions, executivecontrol
+            "funzioni esecutive": "executive functions",
+            "controllo esecutivo": "executive control",
+            "autoregolazione": "self-regulation",
+            "pianificazione": "planning",
+            "controllo inibitorio": "inhibitory control",
+            "flessibilità cognitiva": "cognitive flexibility",
+            
+            # ============ METACOGNITION ============
+            # Label: Metacognition
+            "metacognizione": "metacognition",
+            "consapevolezza metacognitiva": "metacognitive awareness",
+            "monitoraggio metacognitivo": "metacognitive monitoring",
+            "autoriflessione": "self-reflection",
+            
+            # ============ LEARNING & COGNITION ============
+            # Label: CognitiveLoad, LearningOutcomes, etc.
+            "carico cognitivo": "cognitive load",
+            "apprendimento": "learning",
+            "apprendimento profondo": "deep learning",
+            "comprensione profonda": "deep understanding",
+            "elaborazione profonda": "deep processing",
+            "elaborazione": "processing",
+            
+            # ============ CREATIVITY ============
+            # Label: Creativity
+            "creatività": "creativity",
+            "pensiero divergente": "divergent thinking",
+            "pensiero creativo": "creative thinking",
+            "innovazione": "innovation",
+            
+            # ============ CRITICAL THINKING ============
+            # Label: CriticalThinking
+            "pensiero critico": "critical thinking",
+            "ragionamento": "reasoning",
+            "analisi": "analysis",
+            "valutazione": "evaluation",
+            "problem solving": "problem solving",
+            "risoluzione problemi": "problem solving",
+            
+            # ============ NEUROPLASTICITY & BRAIN ============
+            # Label: Neuroplasticity, BrainAdaptability
+            "neuroplasticità": "neuroplasticity",
+            "plasticità cerebrale": "brain plasticity",
+            "adattabilità cerebrale": "brain adaptability",
+            
+            # ============ TEACHING & LEARNING CONTEXT ============
             "studenti": "students",
-            "ragazzi": "students",
-            "bambini": "children",
+            "insegnamento": "teaching",
             "insegnare": "teach",
-            "adattare": "adapt",
-            "aiutare": "help",
-            "favorire": "promote",
+            "apprendere": "learn",
             "facilitare": "facilitate",
-            "progettare": "design",
-            "integrare": "integrate",
-            "utilizzare": "use",
             "supportare": "support",
-            "raggiungere": "achieve",
-            "migliorare": "improve"
+            "migliorare": "improve",
+            "sviluppare": "develop",
+            "incoraggiare": "encourage",
+            "promuovere": "promote",
+            
+            # ============ COMMON QUESTION WORDS ============
+            "cos'è": "what is",
+            "qual è": "what is",
+            "quali sono": "what are",
+            "come": "how",
+            "perché": "why",
+            "quando": "when",
+            "dove": "where",
+            "differenza": "difference",
+            "tra": "between",
+            "relazione": "relationship",
+            "collegamento": "connection",
+            "influenza": "influence",
+            "effetto": "effect",
+            "impatto": "impact",
         }
         
-        # Advanced query patterns for complex educational concepts
+        # Query type patterns for neuroscience topics
         self.query_patterns = {
-            "udl_queries": [
-                "UDL", "universal design", "linee guida", "principi", "framework"
+            "motivation_queries": [
+                "motivazione", "intrinseca", "estrinseca", "motivation"
             ],
-            "assessment_queries": [
-                "valutazione", "verifiche", "competenze", "comprensione"
+            "stress_queries": [
+                "stress", "ansia", "anxiety", "eustress", "distress"
             ],
-            "special_needs_queries": [
-                "BES", "DSA", "disabilità", "difficoltà", "dislessia", "discalculia", "ipovedenti"
+            "mindset_queries": [
+                "mentalità", "mindset", "crescita", "growth", "fisso", "fixed"
             ],
-            "differentiation_queries": [
-                "diversificat", "eterogenea", "adattamenti", "inclusiv", "accessibil"
+            "memory_queries": [
+                "memoria", "memory", "working", "lungo termine", "codifica"
+            ],
+            "attention_queries": [
+                "attenzione", "attention", "focus", "concentrazione"
+            ],
+            "metacognition_queries": [
+                "metacognizione", "metacognition", "autoriflessione"
+            ],
+            "executive_function_queries": [
+                "funzioni esecutive", "executive", "autoregolazione", "pianificazione"
+            ],
+            "creativity_queries": [
+                "creatività", "creativity", "pensiero divergente", "innovazione"
+            ],
+            "critical_thinking_queries": [
+                "pensiero critico", "critical thinking", "ragionamento", "problem solving"
             ]
         }
     
     def detect_language(self, query: str) -> str:
-        """Enhanced language detection for educational queries"""
+        """Detect if query is in Italian or English"""
         italian_indicators = [
-            # Basic indicators
-            "come", "cosa", "quali", "che", "per", "con", "gli", "delle", "nella", 
-            "posso", "sono", "può", "hanno", "studenti", "bambini", "lezione",
-            # Educational indicators
-            "obiettivi", "classe", "metodologie", "strategie", "valutazione",
-            "apprendimento", "insegnare", "adattare", "facilitare", "supportare"
+            # Question words
+            "come", "cosa", "quali", "qual", "che", "perché", "quando", "dove",
+            # Common verbs
+            "posso", "sono", "può", "hanno", "è",
+            # Common nouns
+            "studenti", "apprendimento", "insegnare", "differenza"
         ]
         
         query_lower = query.lower()
         italian_count = sum(1 for word in italian_indicators if word in query_lower)
         
-        return "italian" if italian_count >= 2 else "english"
+        return "italian" if italian_count >= 1 else "english"
     
     def detect_query_type(self, query: str) -> List[str]:
-        """Detect the type of educational query for better processing"""
+        """Detect the type of neuroscience query"""
         query_lower = query.lower()
         detected_types = []
         
@@ -227,13 +210,13 @@ class MultilingualText2Cypher:
             if any(keyword.lower() in query_lower for keyword in keywords):
                 detected_types.append(pattern_type)
         
-        return detected_types
+        return detected_types if detected_types else ["general"]
     
     def enhance_italian_query(self, italian_query: str) -> str:
-        """Enhanced Italian query processing with educational context"""
+        """Translate Italian neuroscience terms to English for Neo4j matching"""
         enhanced_query = italian_query
         
-        # Replace Italian terms with English equivalents (order matters - longer terms first)
+        # Replace Italian terms with English equivalents (longer terms first)
         sorted_terms = sorted(self.italian_terms.items(), key=lambda x: len(x[0]), reverse=True)
         
         for italian_term, english_term in sorted_terms:
@@ -241,31 +224,31 @@ class MultilingualText2Cypher:
             pattern = re.compile(re.escape(italian_term), re.IGNORECASE)
             enhanced_query = pattern.sub(english_term, enhanced_query)
         
-        # Detect query types for additional context
+        # Detect query types for context
         query_types = self.detect_query_type(italian_query)
         
-        # Add educational context based on query type
-        context_parts = ["Educational query"]
+        # Add neuroscience context prefix
+        if "motivation_queries" in query_types:
+            context_prefix = "Neuroscience query about motivation: "
+        elif "stress_queries" in query_types:
+            context_prefix = "Neuroscience query about stress and emotions: "
+        elif "mindset_queries" in query_types:
+            context_prefix = "Neuroscience query about mindset: "
+        elif "memory_queries" in query_types:
+            context_prefix = "Neuroscience query about memory: "
+        elif "attention_queries" in query_types:
+            context_prefix = "Neuroscience query about attention: "
+        elif "executive_function_queries" in query_types:
+            context_prefix = "Neuroscience query about executive functions: "
+        else:
+            context_prefix = "Neuroscience educational query: "
         
-        if "udl_queries" in query_types:
-            context_parts.append("Universal Design for Learning context")
-        
-        if "special_needs_queries" in query_types:
-            context_parts.append("Special Educational Needs context")
-        
-        if "assessment_queries" in query_types:
-            context_parts.append("Assessment and evaluation context")
-        
-        if "differentiation_queries" in query_types:
-            context_parts.append("Differentiated instruction context")
-        
-        context_prefix = f"{': '.join(context_parts)}: "
         enhanced_query = context_prefix + enhanced_query
         
         return enhanced_query
     
     def process_query(self, query: str, execute: bool = True) -> Dict:
-        """Process query with enhanced multilingual and educational support"""
+        """Process query with neuroscience-specific multilingual support"""
         original_query = query
         language = self.detect_language(query)
         query_types = self.detect_query_type(query)
@@ -275,27 +258,27 @@ class MultilingualText2Cypher:
         # Enhance Italian queries for better Neo4j mapping
         if language == "italian":
             enhanced_query = self.enhance_italian_query(query)
-            logger.info(f"Enhanced query: {enhanced_query}")
+            logger.info(f"Enhanced query: {enhanced_query[:100]}...")
         else:
             enhanced_query = query
         
         # Process with text2cypher pipeline
         result = self.pipeline.process_question(enhanced_query, execute=execute)
         
-        # Add comprehensive multilingual metadata
+        # Add multilingual metadata
         result.update({
             "original_query": original_query,
             "detected_language": language,
             "detected_query_types": query_types,
             "enhanced_query": enhanced_query if language == "italian" else None,
             "multilingual_processing": True,
-            "educational_context": True
+            "neuroscience_context": True
         })
         
         return result
     
     def batch_process_queries(self, queries: List[str], execute: bool = False) -> List[Dict]:
-        """Process multiple queries efficiently with detailed reporting"""
+        """Process multiple neuroscience queries efficiently"""
         results = []
         
         # Statistics tracking
@@ -325,52 +308,55 @@ class MultilingualText2Cypher:
         """Close pipeline connections"""
         self.pipeline.close()
 
-# Enhanced testing function for comprehensive teacher queries
-def test_comprehensive_italian_queries():
-    """Test function for comprehensive Italian teacher queries including UDL, BES, DSA"""
+# Test function for neuroscience queries
+def test_neuroscience_italian_queries():
+    """Test Italian neuroscience queries"""
     
-    # Validate configuration first
+    # Validate configuration
     is_valid, errors = config.validate()
     if not is_valid:
         print("❌ Configuration errors:")
         for error in errors:
             print(f"  - {error}")
-        print("\n💡 Update your .env file with:")
-        print("NEO4J_PASSWORD=your_actual_password")
-        print("OPENAI_API_KEY=sk-your-actual-key")
         return
     
-    # Comprehensive test queries from teachers_queries.txt
+    # Neuroscience test queries in Italian
     test_queries = [
-        # UDL queries
-        "Quali strategie UDL posso integrare in una unità didattica sulla biodiversità?",
-        "Come posso aiutare gli studenti a raggiungere degli obiettivi seguendo le linee guida dell'UDL?",
-        "Esistono metodologie che possano essere utilizzate insieme al framework dell'UDL?",
+        # Motivation
+        "Qual è la differenza tra motivazione intrinseca ed estrinseca?",
+        "Come posso incoraggiare la motivazione intrinseca negli studenti?",
         
-        # Special needs queries  
-        "Come posso adattare una lezione di scienze per studenti con disabilità uditive?",
-        "Quali prerequisiti sono necessari per insegnare le frazioni con bambini discalculici?",
-        "Ci sono strategie per i ragazzi ipovedenti?",
-        "Quali risorse posso utilizzare per supportare studenti con DSA durante le verifiche?",
+        # Mindset
+        "Cos'è la mentalità di crescita?",
+        "Qual è la differenza tra mentalità di crescita e mentalità fissa?",
         
-        # Assessment queries
-        "Esistono esempi di valutazione formativa di lingua inglese per studenti con dislessia?",
-        "Come posso valutare in modo formativo le competenze linguistiche in una classe multilingue?",
+        # Stress
+        "Lo stress può essere positivo per l'apprendimento?",
+        "Come influisce lo stress sull'apprendimento?",
         
-        # Differentiation queries
-        "Come posso determinare obiettivi diversificati all'interno di una classe eterogenea?",
-        "Come posso differenziare una lezione di geografia per studenti con livelli diversi?",
+        # Memory
+        "Cos'è la memoria di lavoro?",
+        "Come posso migliorare la memoria di lavoro degli studenti?",
         
-        # Technology integration
-        "Quali strumenti tecnologici posso usare per facilitare l'apprendimento di inglese con studenti dislessici?",
-        "Come posso progettare una lezione di matematica che includa supporti visivi usando l'AI?"
+        # Attention
+        "Come funziona l'attenzione selettiva?",
+        "Quali fattori influenzano l'attenzione degli studenti?",
+        
+        # Executive Functions
+        "Cosa sono le funzioni esecutive?",
+        "Come posso supportare lo sviluppo delle funzioni esecutive?",
+        
+        # Metacognition
+        "Cos'è la metacognizione e perché è importante?",
+        
+        # Critical Thinking
+        "Come posso sviluppare il pensiero critico negli studenti?"
     ]
     
     multilingual_processor = MultilingualText2Cypher()
     
     try:
-        print("🚀 Testing Comprehensive Italian Teacher Queries")
-        print("🎓 Including UDL, BES, DSA, Assessment, and Technology Integration")
+        print("🧠 Testing Neuroscience Italian Teacher Queries")
         print("=" * 100)
         
         for i, query in enumerate(test_queries, 1):
@@ -381,15 +367,16 @@ def test_comprehensive_italian_queries():
             
             print(f"Language: {result['detected_language']}")
             print(f"Query Types: {', '.join(result.get('detected_query_types', ['general']))}")
-            print(f"Enhanced: {result.get('enhanced_query', 'N/A')[:100]}...")
-            print(f"Cypher: {result['cypher_query']}")
+            if result.get('enhanced_query'):
+                print(f"Enhanced: {result['enhanced_query'][:120]}...")
+            print(f"Cypher: {result['cypher_query'][:150]}...")
             print(f"Valid: {result['metadata'].get('is_valid', False)}")
             
             if result['metadata'].get('validation_error'):
-                print(f"Error: {result['metadata']['validation_error']}")
+                print(f"⚠️ Error: {result['metadata']['validation_error'][:100]}...")
     
     finally:
         multilingual_processor.close()
 
 if __name__ == "__main__":
-    test_comprehensive_italian_queries() 
+    test_neuroscience_italian_queries()

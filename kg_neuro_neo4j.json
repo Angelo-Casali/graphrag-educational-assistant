@@ -1,0 +1,5480 @@
+{
+  "nodes": [
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_selective_attention",
+        "name": "selective",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "ModulationofBottomUpSalience",
+      "properties": {
+        "id": "concept_sensory_filtering_modulation_of_bottom_up_salience",
+        "name": "Sensory Filtering",
+        "concept": "Modulation of Bottom-Up Salience"
+      }
+    },
+    {
+      "label": "PerceptualProcessing",
+      "properties": {
+        "id": "concept_sensory_input_perceptual_processing",
+        "name": "Sensory Input",
+        "concept": "Perceptual Processing"
+      }
+    },
+    {
+      "label": "AttentionalControl",
+      "properties": {
+        "id": "concept_prefrontal_cortex_attentional_control",
+        "name": "prefrontal cortex",
+        "concept": "Attentional Control"
+      }
+    },
+    {
+      "label": "Emotions",
+      "properties": {
+        "id": "concept_stress_positive_or_negative_emotions",
+        "name": "stress (positive or negative)",
+        "concept": "Emotions"
+      }
+    },
+    {
+      "label": "MotivationalModulation",
+      "properties": {
+        "id": "concept_intrinsic_motivational_modulation",
+        "name": "Intrinsic",
+        "concept": "Motivational Modulation"
+      }
+    },
+    {
+      "label": "MotivationalModulation",
+      "properties": {
+        "id": "concept_extrinsic_motivational_modulation",
+        "name": "Extrinsic",
+        "concept": "Motivational Modulation"
+      }
+    },
+    {
+      "label": "executivecontrol",
+      "properties": {
+        "id": "concept_self_regulation_executive_control",
+        "name": "Self-regulation",
+        "concept": "executive control"
+      }
+    },
+    {
+      "label": "Memory",
+      "properties": {
+        "id": "concept_short_term_working_memory_memory",
+        "name": "short-term / working memory",
+        "concept": "Memory"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_divided_attention",
+        "name": "divided",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "Cognitiveload",
+      "properties": {
+        "id": "concept_intrinsec_cognitive_load",
+        "name": "Intrinsec",
+        "concept": "Cognitive load"
+      }
+    },
+    {
+      "label": "Cognitiveload",
+      "properties": {
+        "id": "concept_extraneous_cognitive_load",
+        "name": "Extraneous",
+        "concept": "Cognitive load"
+      }
+    },
+    {
+      "label": "Cognitiveload",
+      "properties": {
+        "id": "concept_germane_cognitive_load",
+        "name": "Germane",
+        "concept": "Cognitive load"
+      }
+    },
+    {
+      "label": "Memoryencoding",
+      "properties": {
+        "id": "concept_deep_processing_memory_encoding",
+        "name": "deep processing",
+        "concept": "Memory encoding"
+      }
+    },
+    {
+      "label": "MemorySystem",
+      "properties": {
+        "id": "concept_long_term_memory_memory_system",
+        "name": "long-term memory",
+        "concept": "Memory System"
+      }
+    },
+    {
+      "label": "PsychoBiologicalfactor",
+      "properties": {
+        "id": "concept_sleep_deprivation_psycho_biological_factor",
+        "name": "sleep deprivation",
+        "concept": "Psycho-Biological factor"
+      }
+    },
+    {
+      "label": "Affectiveprocesses",
+      "properties": {
+        "id": "concept_anxiety_affective_processes",
+        "name": "anxiety",
+        "concept": "Affective processes"
+      }
+    },
+    {
+      "label": "Environmentalfactors",
+      "properties": {
+        "id": "concept_excessive_use_of_technology_environmental_factors",
+        "name": "excessive use of technology",
+        "concept": "Environmental factors"
+      }
+    },
+    {
+      "label": "CognitiveLoad",
+      "properties": {
+        "id": "concept_multitasking_cognitive_load",
+        "name": "multitasking",
+        "concept": "Cognitive Load"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_all_types_attention",
+        "name": "All types",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "DefaultModeNetworkActivity",
+      "properties": {
+        "id": "concept_mind_wandering_default_mode_network_activity",
+        "name": "mind-wandering",
+        "concept": "Default Mode Network Activity"
+      }
+    },
+    {
+      "label": "RestorationofExecutiveResources",
+      "properties": {
+        "id": "concept_breaks_restoration_of_executive_resources",
+        "name": "Breaks",
+        "concept": "Restoration of Executive Resources"
+      }
+    },
+    {
+      "label": "MemorySystems",
+      "properties": {
+        "id": "concept_memory_encoding_memory_systems",
+        "name": "Memory Encoding",
+        "concept": "Memory Systems"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_sustained_attention",
+        "name": "Sustained",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "AttentionalControl",
+      "properties": {
+        "id": "concept_cognitive_fatigue_attentional_control",
+        "name": "cognitive fatigue",
+        "concept": "Attentional Control"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_divided_attention",
+        "name": "Divided",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "ResourceAllocation",
+      "properties": {
+        "id": "concept_working_memory_capacity_resource_allocation",
+        "name": "working memory capacity",
+        "concept": "Resource Allocation"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_focused_attention",
+        "name": "Focused",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "BottomUpSalience",
+      "properties": {
+        "id": "concept_external_distractions_bottom_up_salience",
+        "name": "external distractions",
+        "concept": "Bottom-Up Salience"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_vigilance_attention",
+        "name": "Vigilance",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "AttentionalState",
+      "properties": {
+        "id": "concept_arousal_regulation_attentional_state",
+        "name": "arousal regulation",
+        "concept": "Attentional State"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_top_down_attention",
+        "name": "Top-down",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "AffectiveMotivationalModulation",
+      "properties": {
+        "id": "concept_goals_and_expectations_affective_motivational_modu",
+        "name": "goals and expectations",
+        "concept": "Affective–Motivational Modulation"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_bottom_up_attention",
+        "name": "Bottom-up",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "SensoryProcessing",
+      "properties": {
+        "id": "concept_salient_stimuli_sensory_processing",
+        "name": "Salient Stimuli",
+        "concept": "Sensory Processing"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_selective_attention",
+        "name": "Selective",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "CrossModalSensoryProcessing",
+      "properties": {
+        "id": "concept_multimodal_sensory_input_cross_modal_sensory_proce",
+        "name": "Multimodal Sensory Input",
+        "concept": "Cross-Modal Sensory Processing"
+      }
+    },
+    {
+      "label": "TemporalAttentionStructuring",
+      "properties": {
+        "id": "concept_task_chunking_temporal_attention_structuring",
+        "name": "task chunking",
+        "concept": "Temporal Attention Structuring"
+      }
+    },
+    {
+      "label": "AttentionalControlRegulation",
+      "properties": {
+        "id": "concept_mindfulness_based_practices_attentional_control_re",
+        "name": "mindfulness-based practices",
+        "concept": "Attentional Control / Regulation"
+      }
+    },
+    {
+      "label": "LongTermMemoryConsolidation",
+      "properties": {
+        "id": "concept_active_retrieval_long_term_memory_consolidation",
+        "name": "Active Retrieval",
+        "concept": "Long-Term Memory Consolidation"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_joint_attention_attention",
+        "name": "Joint Attention",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "SocialCognitiveDevelopment",
+      "properties": {
+        "id": "concept_language_development_social_cognitive_development",
+        "name": "language development",
+        "concept": "Social Cognitive Development"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_visual_spatial_attention",
+        "name": "Visual-Spatial",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "SpatialAttentionSystems",
+      "properties": {
+        "id": "concept_interactive_game_based_tasks_spatial_attention_sys",
+        "name": "Interactive Game-Based Tasks",
+        "concept": "Spatial Attention Systems"
+      }
+    },
+    {
+      "label": "PrefrontalExecutiveControlNetworks",
+      "properties": {
+        "id": "concept_adhd_prefrontal_executive_control_networks",
+        "name": "adhd",
+        "concept": "Prefrontal/Executive Control Networks"
+      }
+    },
+    {
+      "label": "LongTermMemoryFormation",
+      "properties": {
+        "id": "concept_deep_processing_long_term_memory_formation",
+        "name": "Deep Processing",
+        "concept": "Long-Term Memory Formation"
+      }
+    },
+    {
+      "label": "AttentionalFiltering",
+      "properties": {
+        "id": "concept_top_down_control_attentional_filtering",
+        "name": "top-down control",
+        "concept": "Attentional Filtering"
+      }
+    },
+    {
+      "label": "AttentionalControl",
+      "properties": {
+        "id": "concept_irrelevant_stimuli_attentional_control",
+        "name": "irrelevant stimuli",
+        "concept": "Attentional Control"
+      }
+    },
+    {
+      "label": "ExecutiveControlLimitations",
+      "properties": {
+        "id": "concept_multitask_practice_executive_control_limitations",
+        "name": "Multitask Practice",
+        "concept": "Executive Control Limitations"
+      }
+    },
+    {
+      "label": "OptimalAttentionalNetworkActivation",
+      "properties": {
+        "id": "concept_flow_state_optimal_attentional_network_activation",
+        "name": "flow state",
+        "concept": "Optimal Attentional Network Activation"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_sustained_attention",
+        "name": "sustained",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "CoordinatedActivationofExecutiveandAttentionalNetw",
+      "properties": {
+        "id": "concept_flow_state_coordinated_activation_of_executive_and",
+        "name": "flow state",
+        "concept": "Coordinated Activation of Executive and Attentional Networks"
+      }
+    },
+    {
+      "label": "WorkingMemory",
+      "properties": {
+        "id": "concept_chunking_organization_working_memory",
+        "name": "Chunking / Organization",
+        "concept": "Working Memory"
+      }
+    },
+    {
+      "label": "LongTermMemory",
+      "properties": {
+        "id": "concept_encoding_long_term_memory",
+        "name": "Encoding",
+        "concept": "Long-Term Memory"
+      }
+    },
+    {
+      "label": "WorkingMemory",
+      "properties": {
+        "id": "concept_visualization_mental_imagery_working_memory",
+        "name": "Visualization / Mental Imagery",
+        "concept": "Working Memory"
+      }
+    },
+    {
+      "label": "Consolidation",
+      "properties": {
+        "id": "concept_deep_processing_consolidation",
+        "name": "Deep processing",
+        "concept": "Consolidation"
+      }
+    },
+    {
+      "label": "WorkingMemory",
+      "properties": {
+        "id": "concept_rehearsal_working_memory",
+        "name": "Rehearsal",
+        "concept": "Working Memory"
+      }
+    },
+    {
+      "label": "Consolidation",
+      "properties": {
+        "id": "concept_retrieval_strength_consolidation",
+        "name": "Retrieval Strength",
+        "concept": "Consolidation"
+      }
+    },
+    {
+      "label": "WorkingMemory",
+      "properties": {
+        "id": "concept_capacity_working_memory",
+        "name": "Capacity",
+        "concept": "Working Memory"
+      }
+    },
+    {
+      "label": "Cognitiveload",
+      "properties": {
+        "id": "concept_information_processing_cognitive_load",
+        "name": "information processing",
+        "concept": "Cognitive load"
+      }
+    },
+    {
+      "label": "Deepunderstanding",
+      "properties": {
+        "id": "concept_elaboration_speed_deep_understanding",
+        "name": "Elaboration speed",
+        "concept": "Deep understanding"
+      }
+    },
+    {
+      "label": "Multimodalinformationintegration",
+      "properties": {
+        "id": "concept_deep_processing_multimodal_information_integration",
+        "name": "Deep processing",
+        "concept": "Multimodal information integration"
+      }
+    },
+    {
+      "label": "Longtermmemory",
+      "properties": {
+        "id": "concept_retrieval_strength_long_term_memory",
+        "name": "Retrieval Strength",
+        "concept": "Long term memory"
+      }
+    },
+    {
+      "label": "ExecutiveFunctions",
+      "properties": {
+        "id": "concept_planning_executive_functions",
+        "name": "Planning",
+        "concept": "Executive Functions"
+      }
+    },
+    {
+      "label": "Adaptivethinking",
+      "properties": {
+        "id": "concept_cognitive_flexibility_adaptive_thinking",
+        "name": "Cognitive flexibility",
+        "concept": "Adaptive thinking"
+      }
+    },
+    {
+      "label": "Prefrontalcortexactivation",
+      "properties": {
+        "id": "concept_inhibitory_control_prefrontal_cortex_activation",
+        "name": "Inhibitory Control",
+        "concept": "Prefrontal cortex activation"
+      }
+    },
+    {
+      "label": "AffectiveConstraint",
+      "properties": {
+        "id": "concept_stress_and_fatigue_affective_constraint",
+        "name": "Stress and Fatigue",
+        "concept": "Affective Constraint"
+      }
+    },
+    {
+      "label": "ExecutiveFunctions",
+      "properties": {
+        "id": "concept_metacognition_executive_functions",
+        "name": "Metacognition",
+        "concept": "Executive Functions"
+      }
+    },
+    {
+      "label": "Cognitivecontrol",
+      "properties": {
+        "id": "concept_self_regulation_cognitive_control",
+        "name": "Self-regulation",
+        "concept": "Cognitive control"
+      }
+    },
+    {
+      "label": "Cognitivecontrol",
+      "properties": {
+        "id": "concept_error_detection_correction_cognitive_control",
+        "name": "Error Detection & Correction",
+        "concept": "Cognitive control"
+      }
+    },
+    {
+      "label": "Adaptivebehavior",
+      "properties": {
+        "id": "concept_learning_strategies_adaptive_behavior",
+        "name": "Learning Strategies",
+        "concept": "Adaptive behavior"
+      }
+    },
+    {
+      "label": "Deeplearning",
+      "properties": {
+        "id": "concept_transfer_of_learning_deep_learning",
+        "name": "Transfer of Learning",
+        "concept": "Deep learning"
+      }
+    },
+    {
+      "label": "Cognitivebias",
+      "properties": {
+        "id": "concept_overconfidence_bias_cognitive_bias",
+        "name": "Overconfidence bias",
+        "concept": "Cognitive bias"
+      }
+    },
+    {
+      "label": "ExecutiveFunctions",
+      "properties": {
+        "id": "concept_inhibitory_control_executive_functions",
+        "name": "Inhibitory Control",
+        "concept": "Executive Functions"
+      }
+    },
+    {
+      "label": "MotorControl",
+      "properties": {
+        "id": "concept_response_inhibition_motor_control",
+        "name": "Response Inhibition",
+        "concept": "Motor Control"
+      }
+    },
+    {
+      "label": "CognitiveFiltering",
+      "properties": {
+        "id": "concept_interference_control_cognitive_filtering",
+        "name": "Interference Control",
+        "concept": "Cognitive Filtering"
+      }
+    },
+    {
+      "label": "PrefrontalCortexactivation",
+      "properties": {
+        "id": "concept_cognitive_control_prefrontal_cortex_activation",
+        "name": "Cognitive control",
+        "concept": "Prefrontal Cortex activation"
+      }
+    },
+    {
+      "label": "Adaptivethinking",
+      "properties": {
+        "id": "concept_planning_problem_solving_adaptive_thinking",
+        "name": "Planning & Problem Solving",
+        "concept": "Adaptive thinking"
+      }
+    },
+    {
+      "label": "AffectiveBiologicalConstraints",
+      "properties": {
+        "id": "concept_excessive_stress_affective_biological_constraints",
+        "name": "Excessive stress",
+        "concept": "Affective & Biological Constraints"
+      }
+    },
+    {
+      "label": "AffectiveBiologicalConstraints",
+      "properties": {
+        "id": "concept_fatigue_affective_biological_constraints",
+        "name": "Fatigue",
+        "concept": "Affective & Biological Constraints"
+      }
+    },
+    {
+      "label": "AffectiveBiologicalConstraints",
+      "properties": {
+        "id": "concept_adhd_affective_biological_constraints",
+        "name": "ADHD",
+        "concept": "Affective & Biological Constraints"
+      }
+    },
+    {
+      "label": "AffectiveBiologicalConstraints",
+      "properties": {
+        "id": "concept_sleep_deprivation_affective_biological_constraints",
+        "name": "Sleep deprivation",
+        "concept": "Affective & Biological Constraints"
+      }
+    },
+    {
+      "label": "EducationalClinicalInterventions",
+      "properties": {
+        "id": "concept_mindfulness_educational_clinical_interventions",
+        "name": "Mindfulness",
+        "concept": "Educational & Clinical Interventions"
+      }
+    },
+    {
+      "label": "EducationalClinicalInterventions",
+      "properties": {
+        "id": "concept_cognitive_training_educational_clinical_interventi",
+        "name": "Cognitive Training",
+        "concept": "Educational & Clinical Interventions"
+      }
+    },
+    {
+      "label": "EducationalClinicalInterventions",
+      "properties": {
+        "id": "concept_delay_of_gratification_tasks_educational_clinical_",
+        "name": "Delay-of-Gratification Tasks",
+        "concept": "Educational & Clinical Interventions"
+      }
+    },
+    {
+      "label": "LongTermMemory",
+      "properties": {
+        "id": "concept_consolidation_long_term_memory",
+        "name": "Consolidation",
+        "concept": "Long-Term Memory"
+      }
+    },
+    {
+      "label": "Neuroplasticity",
+      "properties": {
+        "id": "concept_sleep_neuroplasticity",
+        "name": "Sleep",
+        "concept": "Neuroplasticity"
+      }
+    },
+    {
+      "label": "MemoryStabilization",
+      "properties": {
+        "id": "concept_rehearsal_memory_stabilization",
+        "name": "Rehearsal",
+        "concept": "Memory Stabilization"
+      }
+    },
+    {
+      "label": "MemoryStabilization",
+      "properties": {
+        "id": "concept_reactivation_memory_stabilization",
+        "name": "Reactivation",
+        "concept": "Memory Stabilization"
+      }
+    },
+    {
+      "label": "AmygdalaHippocampusInteraction",
+      "properties": {
+        "id": "concept_emotional_arousal_amygdala_hippocampus_interaction",
+        "name": "Emotional Arousal",
+        "concept": "Amygdala–Hippocampus Interaction"
+      }
+    },
+    {
+      "label": "DistributedPracticeEffect",
+      "properties": {
+        "id": "concept_spaced_repetition_distributed_practice_effect",
+        "name": "Spaced Repetition",
+        "concept": "Distributed Practice Effect"
+      }
+    },
+    {
+      "label": "PriorKnowledgeScaffolding",
+      "properties": {
+        "id": "concept_schema_integration_prior_knowledge_scaffolding",
+        "name": "Schema Integration",
+        "concept": "Prior Knowledge Scaffolding"
+      }
+    },
+    {
+      "label": "AffectiveBiologicalConstraints",
+      "properties": {
+        "id": "concept_negative_stress_affective_biological_constraints",
+        "name": "Negative Stress",
+        "concept": "Affective & Biological Constraints"
+      }
+    },
+    {
+      "label": "KnowledgeIntegration",
+      "properties": {
+        "id": "concept_durable_memory_traces_knowledge_integration",
+        "name": "Durable Memory Traces",
+        "concept": "Knowledge Integration"
+      }
+    },
+    {
+      "label": "MemoryAccessibility",
+      "properties": {
+        "id": "concept_retrieval_processes_memory_accessibility",
+        "name": "Retrieval Processes",
+        "concept": "Memory Accessibility"
+      }
+    },
+    {
+      "label": "Creativity",
+      "properties": {
+        "id": "concept_divergent_thinking_creativity",
+        "name": "Divergent Thinking",
+        "concept": "Creativity"
+      }
+    },
+    {
+      "label": "IdeaGeneration",
+      "properties": {
+        "id": "concept_multiple_solutions_ideas_idea_generation",
+        "name": "Multiple Solutions / Ideas",
+        "concept": "Idea Generation"
+      }
+    },
+    {
+      "label": "Creativity",
+      "properties": {
+        "id": "concept_cognitive_flexibility_creativity",
+        "name": "Cognitive Flexibility",
+        "concept": "Creativity"
+      }
+    },
+    {
+      "label": "ExecutiveFunctions",
+      "properties": {
+        "id": "concept_novel_combinations_executive_functions",
+        "name": "Novel Combinations",
+        "concept": "Executive Functions"
+      }
+    },
+    {
+      "label": "Creativity",
+      "properties": {
+        "id": "concept_motivation_creativity",
+        "name": "Motivation",
+        "concept": "Creativity"
+      }
+    },
+    {
+      "label": "AffectiveProcesses",
+      "properties": {
+        "id": "concept_engagement_persistence_affective_processes",
+        "name": "Engagement & Persistence",
+        "concept": "Affective Processes"
+      }
+    },
+    {
+      "label": "Creativity",
+      "properties": {
+        "id": "concept_curiosity_creativity",
+        "name": "Curiosity",
+        "concept": "Creativity"
+      }
+    },
+    {
+      "label": "Creativity",
+      "properties": {
+        "id": "concept_risk_taking_creativity",
+        "name": "Risk-Taking",
+        "concept": "Creativity"
+      }
+    },
+    {
+      "label": "AffectiveProcesses",
+      "properties": {
+        "id": "concept_unconventional_solutions_affective_processes",
+        "name": "Unconventional Solutions",
+        "concept": "Affective Processes"
+      }
+    },
+    {
+      "label": "Creativity",
+      "properties": {
+        "id": "concept_mind_wandering_creativity",
+        "name": "Mind-Wandering",
+        "concept": "Creativity"
+      }
+    },
+    {
+      "label": "SpontaneousThoughtDynamics",
+      "properties": {
+        "id": "concept_insight_novel_associations_spontaneous_thought_dyn",
+        "name": "Insight & Novel Associations",
+        "concept": "Spontaneous Thought Dynamics"
+      }
+    },
+    {
+      "label": "Creativity",
+      "properties": {
+        "id": "concept_problem_solving_creativity",
+        "name": "Problem-Solving",
+        "concept": "Creativity"
+      }
+    },
+    {
+      "label": "AppliedCognition",
+      "properties": {
+        "id": "concept_innovation_application_applied_cognition",
+        "name": "Innovation & Application",
+        "concept": "Applied Cognition"
+      }
+    },
+    {
+      "label": "Creativity",
+      "properties": {
+        "id": "concept_attention_regulation_creativity",
+        "name": "Attention Regulation",
+        "concept": "Creativity"
+      }
+    },
+    {
+      "label": "AttentionalControl",
+      "properties": {
+        "id": "concept_focused_diffuse_attention_attentional_control",
+        "name": "Focused & Diffuse Attention",
+        "concept": "Attentional Control"
+      }
+    },
+    {
+      "label": "Communication",
+      "properties": {
+        "id": "concept_language_comprehension_communication",
+        "name": "Language Comprehension",
+        "concept": "Communication"
+      }
+    },
+    {
+      "label": "ResourceAllocation",
+      "properties": {
+        "id": "concept_working_memory_resource_allocation",
+        "name": "Working Memory",
+        "concept": "Resource Allocation"
+      }
+    },
+    {
+      "label": "AttentionalControl",
+      "properties": {
+        "id": "concept_selective_attention_attentional_control",
+        "name": "Selective attention",
+        "concept": "Attentional Control"
+      }
+    },
+    {
+      "label": "Communication",
+      "properties": {
+        "id": "concept_language_production_communication",
+        "name": "Language Production",
+        "concept": "Communication"
+      }
+    },
+    {
+      "label": "ExecutiveFunctions",
+      "properties": {
+        "id": "concept_planning_organization_executive_functions",
+        "name": "Planning & Organization",
+        "concept": "Executive Functions"
+      }
+    },
+    {
+      "label": "Communication",
+      "properties": {
+        "id": "concept_nonverbal_communication_communication",
+        "name": "Nonverbal Communication",
+        "concept": "Communication"
+      }
+    },
+    {
+      "label": "SocialCognition",
+      "properties": {
+        "id": "concept_social_understanding_social_cognition",
+        "name": "Social Understanding",
+        "concept": "Social Cognition"
+      }
+    },
+    {
+      "label": "Communication",
+      "properties": {
+        "id": "concept_reading_writing_communication",
+        "name": "Reading & writing",
+        "concept": "Communication"
+      }
+    },
+    {
+      "label": "MemorySystems",
+      "properties": {
+        "id": "concept_working_memory_capacity_memory_systems",
+        "name": "Working memory capacity",
+        "concept": "Memory Systems"
+      }
+    },
+    {
+      "label": "Communication",
+      "properties": {
+        "id": "concept_collaboration_communication",
+        "name": "Collaboration",
+        "concept": "Communication"
+      }
+    },
+    {
+      "label": "AppliedCognition",
+      "properties": {
+        "id": "concept_problem_solving_creativity_applied_cognition",
+        "name": "Problem-Solving & Creativity",
+        "concept": "Applied Cognition"
+      }
+    },
+    {
+      "label": "Mindset",
+      "properties": {
+        "id": "concept_growth_mindset",
+        "name": "Growth",
+        "concept": "Mindset"
+      }
+    },
+    {
+      "label": "BrainAdaptability",
+      "properties": {
+        "id": "concept_neuroplasticity_brain_adaptability",
+        "name": "Neuroplasticity",
+        "concept": "Brain Adaptability"
+      }
+    },
+    {
+      "label": "AffectiveMotivationalProcesses",
+      "properties": {
+        "id": "concept_intrinsic_motivation_affective_motivational_proces",
+        "name": "Intrinsic Motivation",
+        "concept": "Affective & Motivational Processes"
+      }
+    },
+    {
+      "label": "Metacognition",
+      "properties": {
+        "id": "concept_errors_as_opportunities_metacognition",
+        "name": "Errors as opportunities",
+        "concept": "Metacognition"
+      }
+    },
+    {
+      "label": "ExecutiveFunctions",
+      "properties": {
+        "id": "concept_resilience_executive_functions",
+        "name": "Resilience",
+        "concept": "Executive Functions"
+      }
+    },
+    {
+      "label": "CognitiveFlexibility",
+      "properties": {
+        "id": "concept_creativity_cognitive_flexibility",
+        "name": "Creativity",
+        "concept": "Cognitive Flexibility"
+      }
+    },
+    {
+      "label": "SocialLearning",
+      "properties": {
+        "id": "concept_feedback_integration_social_learning",
+        "name": "Feedback integration",
+        "concept": "Social Learning"
+      }
+    },
+    {
+      "label": "Adaptiveerrormonitoring",
+      "properties": {
+        "id": "concept_reward_system_adaptive_error_monitoring",
+        "name": "reward system",
+        "concept": "Adaptive error monitoring"
+      }
+    },
+    {
+      "label": "Mindset",
+      "properties": {
+        "id": "concept_fixed_mindset",
+        "name": "Fixed",
+        "concept": "Mindset"
+      }
+    },
+    {
+      "label": "Essentialism",
+      "properties": {
+        "id": "concept_deterministic_beliefs_essentialism",
+        "name": "Deterministic beliefs",
+        "concept": "Essentialism"
+      }
+    },
+    {
+      "label": "AffectiveMotivationalProcesses",
+      "properties": {
+        "id": "concept_motivation_to_practice_affective_motivational_proc",
+        "name": "Motivation to practice",
+        "concept": "Affective & Motivational Processes"
+      }
+    },
+    {
+      "label": "CognitiveMonitoring",
+      "properties": {
+        "id": "concept_metacognition_cognitive_monitoring",
+        "name": "Metacognition",
+        "concept": "Cognitive Monitoring"
+      }
+    },
+    {
+      "label": "LearnedHelplessness",
+      "properties": {
+        "id": "concept_effort_avoidance_learned_helplessness",
+        "name": "Effort avoidance",
+        "concept": "Learned Helplessness"
+      }
+    },
+    {
+      "label": "ProblemSolving",
+      "properties": {
+        "id": "concept_cognitive_flexibility_problem_solving",
+        "name": "Cognitive Flexibility",
+        "concept": "Problem Solving"
+      }
+    },
+    {
+      "label": "SocialLearning",
+      "properties": {
+        "id": "concept_feedback_use_social_learning",
+        "name": "Feedback use",
+        "concept": "Social Learning"
+      }
+    },
+    {
+      "label": "Survivalresponses",
+      "properties": {
+        "id": "concept_stress_threat_reactions_survival_responses",
+        "name": "stress-threat reactions",
+        "concept": "Survival responses"
+      }
+    },
+    {
+      "label": "LearningStyles",
+      "properties": {
+        "id": "concept_vark_preference_learning_styles",
+        "name": "VARK preference",
+        "concept": "Learning Styles"
+      }
+    },
+    {
+      "label": "EvidenceBasedInstruction",
+      "properties": {
+        "id": "concept_multimodal_teaching_improves_learning_for_all_evid",
+        "name": "Multimodal teaching improves learning for all",
+        "concept": "Evidence-Based Instruction"
+      }
+    },
+    {
+      "label": "HemisphericSpecialization",
+      "properties": {
+        "id": "concept_left_brain_vs_right_brain_learners_hemispheric_spe",
+        "name": "Left-brain vs. Right-brain learners",
+        "concept": "Hemispheric Specialization"
+      }
+    },
+    {
+      "label": "CognitiveNeuroscience",
+      "properties": {
+        "id": "concept_learning_processes_creativity_and_logic_require_di",
+        "name": "Learning processes, creativity and logic require distributed networks",
+        "concept": "Cognitive Neuroscience"
+      }
+    },
+    {
+      "label": "CriticalPeriodsAreAbsolute",
+      "properties": {
+        "id": "concept_learning_stops_after_childhood_critical_periods_ar",
+        "name": "Learning stops after childhood",
+        "concept": "Critical Periods Are Absolute"
+      }
+    },
+    {
+      "label": "Neuroplasticity",
+      "properties": {
+        "id": "concept_plasticity_persists_across_lifespan_neuroplasticit",
+        "name": "Plasticity persists across lifespan",
+        "concept": "Neuroplasticity"
+      }
+    },
+    {
+      "label": "Peopleareanalyticalorcreative",
+      "properties": {
+        "id": "concept_cognitive_traits_people_are_analytical_or_creative",
+        "name": "Cognitive Traits",
+        "concept": "People are analytical or creative"
+      }
+    },
+    {
+      "label": "neuralresources",
+      "properties": {
+        "id": "concept_creativity_and_logic_share_neural_resources_neural",
+        "name": "Creativity and logic share neural resources",
+        "concept": "neural resources"
+      }
+    },
+    {
+      "label": "MultipleIntelligences",
+      "properties": {
+        "id": "concept_gardner_s_theory_is_a_neuroscience_theory_multiple",
+        "name": "Gardner’s theory is a neuroscience theory",
+        "concept": "Multiple Intelligences"
+      }
+    },
+    {
+      "label": "EducationalTheory",
+      "properties": {
+        "id": "concept_gardner_proposed_a_pedagogical_framework_not_a_neu",
+        "name": "Gardner proposed a pedagogical framework, not a neurobiological one",
+        "concept": "Educational Theory"
+      }
+    },
+    {
+      "label": "SugarCausesHyperactivity",
+      "properties": {
+        "id": "concept_sugar_effect_sugar_causes_hyperactivity",
+        "name": "Sugar Effect",
+        "concept": "Sugar Causes Hyperactivity"
+      }
+    },
+    {
+      "label": "CognitivePsychology",
+      "properties": {
+        "id": "concept_behavioral_studies_cognitive_psychology",
+        "name": "Behavioral studies",
+        "concept": "Cognitive Psychology"
+      }
+    },
+    {
+      "label": "JudgmentBelief",
+      "properties": {
+        "id": "concept_confirmation_bias_judgment_belief",
+        "name": "Confirmation Bias",
+        "concept": "Judgment & Belief"
+      }
+    },
+    {
+      "label": "TeacherStudentReasoning",
+      "properties": {
+        "id": "concept_pre_existing_assumptions_teacher_student_reasoning",
+        "name": "Pre-existing assumptions",
+        "concept": "Teacher/Student Reasoning"
+      }
+    },
+    {
+      "label": "FirstImpressions",
+      "properties": {
+        "id": "concept_anchoring_bias_first_impressions",
+        "name": "Anchoring Bias",
+        "concept": "First Impressions"
+      }
+    },
+    {
+      "label": "Assessment",
+      "properties": {
+        "id": "concept_evaluation_of_performance_assessment",
+        "name": "Evaluation of performance",
+        "concept": "Assessment"
+      }
+    },
+    {
+      "label": "Attribution",
+      "properties": {
+        "id": "concept_halo_effect_attribution",
+        "name": "Halo Effect",
+        "concept": "Attribution"
+      }
+    },
+    {
+      "label": "StudentPerception",
+      "properties": {
+        "id": "concept_positive_traits_student_perception",
+        "name": "Positive traits",
+        "concept": "Student Perception"
+      }
+    },
+    {
+      "label": "Attribution",
+      "properties": {
+        "id": "concept_horns_effect_attribution",
+        "name": "Horns Effect",
+        "concept": "Attribution"
+      }
+    },
+    {
+      "label": "StudentPerception",
+      "properties": {
+        "id": "concept_negative_traits_student_perception",
+        "name": "Negative traits",
+        "concept": "Student Perception"
+      }
+    },
+    {
+      "label": "MemoryRecall",
+      "properties": {
+        "id": "concept_availability_heuristic_memory_recall",
+        "name": "Availability Heuristic",
+        "concept": "Memory & Recall"
+      }
+    },
+    {
+      "label": "DecisionMaking",
+      "properties": {
+        "id": "concept_judgments_based_on_recent_vivid_events_decision_ma",
+        "name": "Judgments based on recent/vivid events",
+        "concept": "Decision-Making"
+      }
+    },
+    {
+      "label": "SelfEvaluation",
+      "properties": {
+        "id": "concept_overconfidence_bias_self_evaluation",
+        "name": "Overconfidence Bias",
+        "concept": "Self-Evaluation"
+      }
+    },
+    {
+      "label": "Metacognition",
+      "properties": {
+        "id": "concept_perceived_mastery_metacognition",
+        "name": "Perceived mastery",
+        "concept": "Metacognition"
+      }
+    },
+    {
+      "label": "SelfEvaluation",
+      "properties": {
+        "id": "concept_dunning_kruger_effect_self_evaluation",
+        "name": "Dunning–Kruger Effect",
+        "concept": "Self-Evaluation"
+      }
+    },
+    {
+      "label": "LearningProgress",
+      "properties": {
+        "id": "concept_actual_ability_vs_perceived_ability_learning_progr",
+        "name": "Actual ability vs perceived ability",
+        "concept": "Learning Progress"
+      }
+    },
+    {
+      "label": "Expectations",
+      "properties": {
+        "id": "concept_self_fulfilling_prophecy_pygmalion_effect_expectat",
+        "name": "Self-Fulfilling Prophecy / Pygmalion Effect",
+        "concept": "Expectations"
+      }
+    },
+    {
+      "label": "MotivationPerformance",
+      "properties": {
+        "id": "concept_student_outcomes_motivation_performance",
+        "name": "Student outcomes",
+        "concept": "Motivation & Performance"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_analysis_critical_thinking",
+        "name": "Analysis",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "CognitiveProcessing",
+      "properties": {
+        "id": "concept_working_memory_cognitive_processing",
+        "name": "Working Memory",
+        "concept": "Cognitive Processing"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_selective_attention_attention",
+        "name": "Selective Attention",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_evaluation_critical_thinking",
+        "name": "Evaluation",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "CognitiveControl",
+      "properties": {
+        "id": "concept_executive_functions_monitoring_control_cognitive_c",
+        "name": "Executive Functions (Monitoring & Control)",
+        "concept": "Cognitive Control"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_inference_critical_thinking",
+        "name": "Inference",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "Reasoning",
+      "properties": {
+        "id": "concept_logical_reasoning_working_memory_reasoning",
+        "name": "Logical Reasoning & Working Memory",
+        "concept": "Reasoning"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_interpretation_critical_thinking",
+        "name": "Interpretation",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "MemoryLanguage",
+      "properties": {
+        "id": "concept_language_comprehension_contextual_memory_memory_la",
+        "name": "Language Comprehension & Contextual Memory",
+        "concept": "Memory / Language"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_explanation_critical_thinking",
+        "name": "Explanation",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "Communication",
+      "properties": {
+        "id": "concept_communication_skills_metacognition_communication",
+        "name": "Communication Skills & Metacognition",
+        "concept": "Communication"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_self_regulation_metacognition_critical_thinking",
+        "name": "Self-Regulation (Metacognition)",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "ExecutiveFunctionsMetacognition",
+      "properties": {
+        "id": "concept_attention_management_cognitive_flexibility_executi",
+        "name": "Attention Management & Cognitive Flexibility",
+        "concept": "Executive Functions / Metacognition"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_open_mindedness_critical_thinking",
+        "name": "Open-mindedness",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "SocialCognitionBiasControl",
+      "properties": {
+        "id": "concept_perspective_taking_bias_awareness_social_cognition",
+        "name": "Perspective Taking & Bias Awareness",
+        "concept": "Social Cognition / Bias Control"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_skepticism_healthy_critical_thinking",
+        "name": "Skepticism (healthy)",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "CognitiveBiases",
+      "properties": {
+        "id": "concept_cognitive_biases_interference_cognitive_biases",
+        "name": "Cognitive Biases interference",
+        "concept": "Cognitive Biases"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_problem_identification_critical_thinking",
+        "name": "Problem Identification",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "ProblemSolving",
+      "properties": {
+        "id": "concept_structured_problem_solving_working_memory_problem_",
+        "name": "Structured Problem Solving & Working Memory",
+        "concept": "Problem Solving"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_logical_reasoning_critical_thinking",
+        "name": "Logical Reasoning",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "Reasoning",
+      "properties": {
+        "id": "concept_executive_functions_inhibitory_control_reasoning",
+        "name": "Executive Functions & Inhibitory Control",
+        "concept": "Reasoning"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_creativity_critical_thinking",
+        "name": "Creativity",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "InnovationProblemSolving",
+      "properties": {
+        "id": "concept_cognitive_flexibility_divergent_thinking_innovatio",
+        "name": "Cognitive Flexibility & Divergent Thinking",
+        "concept": "Innovation / Problem Solving"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_reflection_critical_thinking",
+        "name": "Reflection",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "MemorySelfMonitoring",
+      "properties": {
+        "id": "concept_long_term_memory_consolidation_metacognition_memor",
+        "name": "Long-Term Memory Consolidation & Metacognition",
+        "concept": "Memory / Self-Monitoring"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_evidence_use_critical_thinking",
+        "name": "Evidence Use",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "InformationLiteracy",
+      "properties": {
+        "id": "concept_information_evaluation_memory_retrieval_informatio",
+        "name": "Information Evaluation & Memory Retrieval",
+        "concept": "Information Literacy"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_argumentation_critical_thinking",
+        "name": "Argumentation",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "ReasoningCommunication",
+      "properties": {
+        "id": "concept_logical_reasoning_communication_skills_reasoning_c",
+        "name": "Logical Reasoning & Communication Skills",
+        "concept": "Reasoning / Communication"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_curiosity_critical_thinking",
+        "name": "Curiosity",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "MotivationAttention",
+      "properties": {
+        "id": "concept_attention_allocation_motivational_modulation_motiv",
+        "name": "Attention Allocation & Motivational Modulation",
+        "concept": "Motivation / Attention"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_cognitive_flexibility_critical_thinking",
+        "name": "Cognitive Flexibility",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "AdaptationProblemSolving",
+      "properties": {
+        "id": "concept_executive_functions_working_memory_adaptation_prob",
+        "name": "Executive Functions & Working Memory",
+        "concept": "Adaptation / Problem Solving"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_emotional_regulation_critical_thinking",
+        "name": "Emotional Regulation",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "EmotionCognitionInteraction",
+      "properties": {
+        "id": "concept_affective_influence_on_decision_making_emotion_cog",
+        "name": "Affective Influence on Decision-Making",
+        "concept": "Emotion-Cognition Interaction"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_bias_awareness_critical_thinking",
+        "name": "Bias Awareness",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "CognitiveBiases",
+      "properties": {
+        "id": "concept_cognitive_bias_interference_cognitive_biases",
+        "name": "Cognitive Bias Interference",
+        "concept": "Cognitive Biases"
+      }
+    },
+    {
+      "label": "CriticalThinking",
+      "properties": {
+        "id": "concept_flow_of_inquiry_critical_thinking",
+        "name": "Flow of Inquiry",
+        "concept": "Critical Thinking"
+      }
+    },
+    {
+      "label": "KnowledgeConstructionAttention",
+      "properties": {
+        "id": "concept_engagement_motivation_working_memory_knowledge_con",
+        "name": "Engagement, Motivation, Working Memory",
+        "concept": "Knowledge Construction / Attention"
+      }
+    },
+    {
+      "label": "IntrinsicMotivation",
+      "properties": {
+        "id": "concept_engagement_driven_by_curiosity_personal_interest_e",
+        "name": "Engagement driven by curiosity, personal interest, enjoyment, mastery, meaning",
+        "concept": "Intrinsic Motivation"
+      }
+    },
+    {
+      "label": "LearningPerformance",
+      "properties": {
+        "id": "concept_persistence_deeper_learning_creativity_long_term_w",
+        "name": "Persistence, deeper learning, creativity, long-term well-being",
+        "concept": "Learning & Performance"
+      }
+    },
+    {
+      "label": "ExtrinsicMotivation",
+      "properties": {
+        "id": "concept_engagement_driven_by_external_rewards_grades_money",
+        "name": "Engagement driven by external rewards (grades, money, praise) or avoidance of punishment",
+        "concept": "Extrinsic Motivation"
+      }
+    },
+    {
+      "label": "LearningPerformance",
+      "properties": {
+        "id": "concept_goal_completion_short_term_effort_compliance_exter",
+        "name": "Goal completion, short-term effort, compliance, external achievement",
+        "concept": "Learning & Performance"
+      }
+    },
+    {
+      "label": "IntrinsicMotivation",
+      "properties": {
+        "id": "concept_flow_autonomy_self_determination_internal_satisfac",
+        "name": "Flow, autonomy, self-determination, internal satisfaction",
+        "concept": "Intrinsic Motivation"
+      }
+    },
+    {
+      "label": "ExtrinsicMotivation",
+      "properties": {
+        "id": "concept_external_control_conditional_incentives_social_pre",
+        "name": "External control, conditional incentives, social pressure",
+        "concept": "Extrinsic Motivation"
+      }
+    },
+    {
+      "label": "IntrinsicMotivation",
+      "properties": {
+        "id": "concept_autonomy_competence_relatedness_intrinsic_motivati",
+        "name": "Autonomy, competence, relatedness",
+        "concept": "Intrinsic Motivation"
+      }
+    },
+    {
+      "label": "HumanDevelopment",
+      "properties": {
+        "id": "concept_psychological_needs_that_when_satisfied_boost_grow",
+        "name": "Psychological needs that, when satisfied, boost growth and self-regulation",
+        "concept": "Human Development"
+      }
+    },
+    {
+      "label": "ExtrinsicMotivation",
+      "properties": {
+        "id": "concept_external_rewards_tangible_money_prizes_intangible_",
+        "name": "External rewards (tangible: money, prizes; intangible: approval, status)",
+        "concept": "Extrinsic Motivation"
+      }
+    },
+    {
+      "label": "IntrinsicMotivation",
+      "properties": {
+        "id": "concept_internal_satisfaction_and_autonomy_overjustificati",
+        "name": "Internal satisfaction and autonomy (overjustification effect)",
+        "concept": "Intrinsic Motivation"
+      }
+    },
+    {
+      "label": "ExtrinsicMotivation",
+      "properties": {
+        "id": "concept_grades_rewards_deadlines_punishments_extrinsic_mot",
+        "name": "Grades, rewards, deadlines, punishments",
+        "concept": "Extrinsic Motivation"
+      }
+    },
+    {
+      "label": "ShorttermOutcomes",
+      "properties": {
+        "id": "concept_performance_in_tasks_with_clear_simple_goals_short",
+        "name": "Performance in tasks with clear, simple goals",
+        "concept": "Short-term Outcomes"
+      }
+    },
+    {
+      "label": "IntrinsicMotivation",
+      "properties": {
+        "id": "concept_enjoyment_curiosity_mastery_intrinsic_motivation",
+        "name": "Enjoyment, curiosity, mastery",
+        "concept": "Intrinsic Motivation"
+      }
+    },
+    {
+      "label": "LongtermOutcomes",
+      "properties": {
+        "id": "concept_deep_processing_creativity_resilience_long_term_ou",
+        "name": "Deep processing, creativity, resilience",
+        "concept": "Long-term Outcomes"
+      }
+    },
+    {
+      "label": "ExtrinsicMotivation",
+      "properties": {
+        "id": "concept_social_recognition_competition_fear_of_failure_ext",
+        "name": "Social recognition, competition, fear of failure",
+        "concept": "Extrinsic Motivation"
+      }
+    },
+    {
+      "label": "EmotionalRegulation",
+      "properties": {
+        "id": "concept_anxiety_external_locus_of_control_fragile_self_wor",
+        "name": "Anxiety, external locus of control, fragile self-worth",
+        "concept": "Emotional Regulation"
+      }
+    },
+    {
+      "label": "IntrinsicMotivation",
+      "properties": {
+        "id": "concept_personal_challenge_self_expression_exploration_int",
+        "name": "Personal challenge, self-expression, exploration",
+        "concept": "Intrinsic Motivation"
+      }
+    },
+    {
+      "label": "PositivePsychology",
+      "properties": {
+        "id": "concept_flow_state_self_actualization_positive_psychology",
+        "name": "Flow state, self-actualization",
+        "concept": "Positive Psychology"
+      }
+    },
+    {
+      "label": "ExtrinsicMotivation",
+      "properties": {
+        "id": "concept_surveillance_strict_deadlines_excessive_control_ex",
+        "name": "Surveillance, strict deadlines, excessive control",
+        "concept": "Extrinsic Motivation"
+      }
+    },
+    {
+      "label": "LearningQuality",
+      "properties": {
+        "id": "concept_autonomy_intrinsic_drive_engagement_learning_quali",
+        "name": "Autonomy, intrinsic drive, engagement",
+        "concept": "Learning Quality"
+      }
+    },
+    {
+      "label": "PositiveStressEustress",
+      "properties": {
+        "id": "concept_moderate_levels_of_stress_that_enhance_alertness_m",
+        "name": "Moderate levels of stress that enhance alertness, motivation, focus, and performance",
+        "concept": "Positive Stress (Eustress)"
+      }
+    },
+    {
+      "label": "LearningDevelopment",
+      "properties": {
+        "id": "concept_adaptation_resilience_growth_mindset_effective_pro",
+        "name": "Adaptation, resilience, growth mindset, effective problem-solving",
+        "concept": "Learning & Development"
+      }
+    },
+    {
+      "label": "NegativeStressDistress",
+      "properties": {
+        "id": "concept_excessive_chronic_or_overwhelming_stress_that_impa",
+        "name": "Excessive, chronic, or overwhelming stress that impairs functioning",
+        "concept": "Negative Stress (Distress)"
+      }
+    },
+    {
+      "label": "LearningDevelopment",
+      "properties": {
+        "id": "concept_memory_concentration_health_motivation_well_being_",
+        "name": "Memory, concentration, health, motivation, well-being",
+        "concept": "Learning & Development"
+      }
+    },
+    {
+      "label": "PositiveStressEustress",
+      "properties": {
+        "id": "concept_short_term_manageable_arousal_of_body_and_mind_pos",
+        "name": "Short-term, manageable arousal of body and mind",
+        "concept": "Positive Stress (Eustress)"
+      }
+    },
+    {
+      "label": "NegativeStressDistress",
+      "properties": {
+        "id": "concept_chronic_activation_of_fight_or_flight_response_neg",
+        "name": "Chronic activation of fight-or-flight response",
+        "concept": "Negative Stress (Distress)"
+      }
+    },
+    {
+      "label": "PositiveStressEustress",
+      "properties": {
+        "id": "concept_challenge_appraisal_seeing_tasks_as_opportunities_",
+        "name": "Challenge appraisal (seeing tasks as opportunities for growth)",
+        "concept": "Positive Stress (Eustress)"
+      }
+    },
+    {
+      "label": "AdaptiveCoping",
+      "properties": {
+        "id": "concept_intrinsic_motivation_perseverance_engagement_adapt",
+        "name": "Intrinsic motivation, perseverance, engagement",
+        "concept": "Adaptive Coping"
+      }
+    },
+    {
+      "label": "NegativeStressDistress",
+      "properties": {
+        "id": "concept_threat_appraisal_seeing_tasks_as_dangers_risks_or_",
+        "name": "Threat appraisal (seeing tasks as dangers, risks, or failures)",
+        "concept": "Negative Stress (Distress)"
+      }
+    },
+    {
+      "label": "MaladaptiveCoping",
+      "properties": {
+        "id": "concept_anxiety_avoidance_self_doubt_burnout_maladaptive_c",
+        "name": "Anxiety, avoidance, self-doubt, burnout",
+        "concept": "Maladaptive Coping"
+      }
+    },
+    {
+      "label": "PositiveStressEustress",
+      "properties": {
+        "id": "concept_optimal_arousal_yerkes_dodson_law_positive_stress_",
+        "name": "Optimal arousal (Yerkes–Dodson law)",
+        "concept": "Positive Stress (Eustress)"
+      }
+    },
+    {
+      "label": "AcademicWorkOutcomes",
+      "properties": {
+        "id": "concept_performance_in_complex_engaging_tasks_academic_wor",
+        "name": "Performance in complex, engaging tasks",
+        "concept": "Academic/Work Outcomes"
+      }
+    },
+    {
+      "label": "NegativeStressDistress",
+      "properties": {
+        "id": "concept_over_arousal_too_much_stress_or_under_arousal_apat",
+        "name": "Over-arousal (too much stress) or under-arousal (apathy)",
+        "concept": "Negative Stress (Distress)"
+      }
+    },
+    {
+      "label": "AcademicWorkOutcomes",
+      "properties": {
+        "id": "concept_memory_recall_executive_function_emotional_regulat",
+        "name": "Memory recall, executive function, emotional regulation",
+        "concept": "Academic/Work Outcomes"
+      }
+    },
+    {
+      "label": "PositiveStressEustress",
+      "properties": {
+        "id": "concept_builds_tolerance_to_pressure_strengthens_coping_me",
+        "name": "Builds tolerance to pressure, strengthens coping mechanisms",
+        "concept": "Positive Stress (Eustress)"
+      }
+    },
+    {
+      "label": "LongtermGrowth",
+      "properties": {
+        "id": "concept_resilience_confidence_proactive_behavior_long_term",
+        "name": "Resilience, confidence, proactive behavior",
+        "concept": "Long-term Growth"
+      }
+    },
+    {
+      "label": "NegativeStressDistress",
+      "properties": {
+        "id": "concept_cortisol_dysregulation_sleep_disturbance_somatic_s",
+        "name": "Cortisol dysregulation, sleep disturbance, somatic symptoms",
+        "concept": "Negative Stress (Distress)"
+      }
+    },
+    {
+      "label": "LongtermDecline",
+      "properties": {
+        "id": "concept_fatigue_reduced_learning_capacity_health_risks_lon",
+        "name": "Fatigue, reduced learning capacity, health risks",
+        "concept": "Long-term Decline"
+      }
+    },
+    {
+      "label": "StressResponse",
+      "properties": {
+        "id": "concept_activation_of_hpa_axis_adrenaline_cortisol_stress_",
+        "name": "Activation of HPA axis, adrenaline, cortisol",
+        "concept": "Stress Response"
+      }
+    },
+    {
+      "label": "BodyBrainSystems",
+      "properties": {
+        "id": "concept_adaptive_short_bursts_eustress_or_maladaptive_chro",
+        "name": "Adaptive (short bursts, eustress) or maladaptive (chronic, distress)",
+        "concept": "Body & Brain Systems"
+      }
+    },
+    {
+      "label": "GrowthMindset",
+      "properties": {
+        "id": "concept_belief_that_abilities_and_intelligence_can_be_deve",
+        "name": "Belief that abilities and intelligence can be developed through effort, learning, and persistence",
+        "concept": "Growth Mindset"
+      }
+    },
+    {
+      "label": "LearningDevelopment",
+      "properties": {
+        "id": "concept_resilience_neuroplasticity_motivation_curiosity_ef",
+        "name": "Resilience, neuroplasticity, motivation, curiosity, effective learning strategies",
+        "concept": "Learning & Development"
+      }
+    },
+    {
+      "label": "FixedMindset",
+      "properties": {
+        "id": "concept_belief_that_abilities_and_intelligence_are_innate_",
+        "name": "Belief that abilities and intelligence are innate and unchangeable",
+        "concept": "Fixed Mindset"
+      }
+    },
+    {
+      "label": "LearningDevelopment",
+      "properties": {
+        "id": "concept_effort_persistence_openness_to_feedback_adaptive_c",
+        "name": "Effort, persistence, openness to feedback, adaptive coping",
+        "concept": "Learning & Development"
+      }
+    },
+    {
+      "label": "GrowthMindset",
+      "properties": {
+        "id": "concept_effort_seen_as_a_path_to_mastery_growth_mindset",
+        "name": "Effort seen as a path to mastery",
+        "concept": "Growth Mindset"
+      }
+    },
+    {
+      "label": "FixedMindset",
+      "properties": {
+        "id": "concept_effort_seen_as_pointless_if_i_m_not_naturally_good",
+        "name": "Effort seen as pointless (“If I’m not naturally good, I’ll never succeed”)",
+        "concept": "Fixed Mindset"
+      }
+    },
+    {
+      "label": "GrowthMindset",
+      "properties": {
+        "id": "concept_challenges_are_opportunities_to_improve_growth_min",
+        "name": "Challenges are opportunities to improve",
+        "concept": "Growth Mindset"
+      }
+    },
+    {
+      "label": "PositiveOutcomes",
+      "properties": {
+        "id": "concept_higher_achievement_persistence_adaptive_motivation",
+        "name": "Higher achievement, persistence, adaptive motivation",
+        "concept": "Positive Outcomes"
+      }
+    },
+    {
+      "label": "FixedMindset",
+      "properties": {
+        "id": "concept_challenges_are_threats_that_expose_limits_fixed_mi",
+        "name": "Challenges are threats that expose limits",
+        "concept": "Fixed Mindset"
+      }
+    },
+    {
+      "label": "NegativeOutcomes",
+      "properties": {
+        "id": "concept_avoidance_performance_anxiety_defensive_behavior_n",
+        "name": "Avoidance, performance anxiety, defensive behavior",
+        "concept": "Negative Outcomes"
+      }
+    },
+    {
+      "label": "GrowthMindset",
+      "properties": {
+        "id": "concept_failure_is_feedback_and_a_chance_to_learn_growth_m",
+        "name": "Failure is feedback and a chance to learn",
+        "concept": "Growth Mindset"
+      }
+    },
+    {
+      "label": "Resilience",
+      "properties": {
+        "id": "concept_mistakes_as_stepping_stones_for_improvement_resili",
+        "name": "Mistakes as stepping stones for improvement",
+        "concept": "Resilience"
+      }
+    },
+    {
+      "label": "FixedMindset",
+      "properties": {
+        "id": "concept_failure_is_proof_of_lack_of_ability_fixed_mindset",
+        "name": "Failure is proof of lack of ability",
+        "concept": "Fixed Mindset"
+      }
+    },
+    {
+      "label": "Vulnerability",
+      "properties": {
+        "id": "concept_learned_helplessness_disengagement_perfectionism_v",
+        "name": "Learned helplessness, disengagement, perfectionism",
+        "concept": "Vulnerability"
+      }
+    },
+    {
+      "label": "GrowthMindset",
+      "properties": {
+        "id": "concept_encourages_intrinsic_motivation_curiosity_persiste",
+        "name": "Encourages intrinsic motivation, curiosity, persistence",
+        "concept": "Growth Mindset"
+      }
+    },
+    {
+      "label": "PersonalGrowth",
+      "properties": {
+        "id": "concept_lifelong_learning_and_adaptability_personal_growth",
+        "name": "Lifelong learning and adaptability",
+        "concept": "Personal Growth"
+      }
+    },
+    {
+      "label": "FixedMindset",
+      "properties": {
+        "id": "concept_encourages_external_validation_and_fear_of_judgmen",
+        "name": "Encourages external validation and fear of judgment",
+        "concept": "Fixed Mindset"
+      }
+    },
+    {
+      "label": "PersonalGrowth",
+      "properties": {
+        "id": "concept_creativity_risk_taking_authentic_engagement_person",
+        "name": "Creativity, risk-taking, authentic engagement",
+        "concept": "Personal Growth"
+      }
+    },
+    {
+      "label": "MindsetShift",
+      "properties": {
+        "id": "concept_reflection_feedback_supportive_environment_mindset",
+        "name": "Reflection, feedback, supportive environment",
+        "concept": "Mindset Shift"
+      }
+    },
+    {
+      "label": "MindsetFlexibility",
+      "properties": {
+        "id": "concept_fixed_mindset_tendencies_into_growth_oriented_atti",
+        "name": "Fixed mindset tendencies into growth-oriented attitudes",
+        "concept": "Mindset Flexibility"
+      }
+    },
+    {
+      "label": "PositiveEmotions",
+      "properties": {
+        "id": "concept_joy_curiosity_interest_hope_enthusiasm_positive_em",
+        "name": "Joy, curiosity, interest, hope, enthusiasm",
+        "concept": "Positive Emotions"
+      }
+    },
+    {
+      "label": "CognitiveProcesses",
+      "properties": {
+        "id": "concept_attention_memory_encoding_creativity_openness_to_l",
+        "name": "Attention, memory encoding, creativity, openness to learning",
+        "concept": "Cognitive Processes"
+      }
+    },
+    {
+      "label": "NegativeEmotions",
+      "properties": {
+        "id": "concept_fear_anxiety_sadness_anger_shame_negative_emotions",
+        "name": "Fear, anxiety, sadness, anger, shame",
+        "concept": "Negative Emotions"
+      }
+    },
+    {
+      "label": "CognitiveProcesses",
+      "properties": {
+        "id": "concept_working_memory_concentration_motivation_cognitive_",
+        "name": "Working memory, concentration, motivation",
+        "concept": "Cognitive Processes"
+      }
+    },
+    {
+      "label": "PositiveEmotions",
+      "properties": {
+        "id": "concept_build_approach_oriented_behaviors_exploration_coll",
+        "name": "Build approach-oriented behaviors (exploration, collaboration)",
+        "concept": "Positive Emotions"
+      }
+    },
+    {
+      "label": "LearningOutcomes",
+      "properties": {
+        "id": "concept_engagement_resilience_persistence_learning_outcome",
+        "name": "Engagement, resilience, persistence",
+        "concept": "Learning Outcomes"
+      }
+    },
+    {
+      "label": "NegativeEmotions",
+      "properties": {
+        "id": "concept_trigger_avoidance_oriented_behaviors_withdrawal_pr",
+        "name": "Trigger avoidance-oriented behaviors (withdrawal, procrastination)",
+        "concept": "Negative Emotions"
+      }
+    },
+    {
+      "label": "LearningOutcomes",
+      "properties": {
+        "id": "concept_participation_risk_taking_confidence_learning_outc",
+        "name": "Participation, risk-taking, confidence",
+        "concept": "Learning Outcomes"
+      }
+    },
+    {
+      "label": "PositiveEmotions",
+      "properties": {
+        "id": "concept_broaden_perspective_and_flexible_thinking_positive",
+        "name": "Broaden perspective and flexible thinking",
+        "concept": "Positive Emotions"
+      }
+    },
+    {
+      "label": "HigherOrderThinking",
+      "properties": {
+        "id": "concept_problem_solving_creativity_empathy_higher_order_th",
+        "name": "Problem-solving, creativity, empathy",
+        "concept": "Higher-Order Thinking"
+      }
+    },
+    {
+      "label": "NegativeEmotions",
+      "properties": {
+        "id": "concept_narrow_focus_to_perceived_threat_negative_emotions",
+        "name": "Narrow focus to perceived threat",
+        "concept": "Negative Emotions"
+      }
+    },
+    {
+      "label": "LowerOrderThinking",
+      "properties": {
+        "id": "concept_survival_oriented_responses_defensive_thinking_rig",
+        "name": "Survival-oriented responses, defensive thinking, rigidity",
+        "concept": "Lower-Order Thinking"
+      }
+    },
+    {
+      "label": "PositiveEmotions",
+      "properties": {
+        "id": "concept_promote_intrinsic_motivation_positive_emotions",
+        "name": "Promote intrinsic motivation",
+        "concept": "Positive Emotions"
+      }
+    },
+    {
+      "label": "MotivationMindset",
+      "properties": {
+        "id": "concept_growth_mindset_curiosity_long_term_learning_motiva",
+        "name": "Growth mindset, curiosity, long-term learning",
+        "concept": "Motivation & Mindset"
+      }
+    },
+    {
+      "label": "NegativeEmotions",
+      "properties": {
+        "id": "concept_increase_extrinsic_control_and_fear_based_motivati",
+        "name": "Increase extrinsic control and fear-based motivation",
+        "concept": "Negative Emotions"
+      }
+    },
+    {
+      "label": "MotivationMindset",
+      "properties": {
+        "id": "concept_fixed_mindset_avoidance_of_challenges_motivation_m",
+        "name": "Fixed mindset, avoidance of challenges",
+        "concept": "Motivation & Mindset"
+      }
+    },
+    {
+      "label": "EmotionalRegulation",
+      "properties": {
+        "id": "concept_awareness_and_management_of_emotions_emotional_reg",
+        "name": "Awareness and management of emotions",
+        "concept": "Emotional Regulation"
+      }
+    },
+    {
+      "label": "SelfRegulation",
+      "properties": {
+        "id": "concept_negative_emotions_into_productive_focus_positive_e",
+        "name": "Negative emotions into productive focus, positive emotions into sustained drive",
+        "concept": "Self-Regulation"
+      }
+    },
+    {
+      "label": "SocialEmotions",
+      "properties": {
+        "id": "concept_empathy_gratitude_compassion_social_emotions",
+        "name": "Empathy, gratitude, compassion",
+        "concept": "Social Emotions"
+      }
+    },
+    {
+      "label": "SocialCognition",
+      "properties": {
+        "id": "concept_cooperation_perspective_taking_prosocial_learning_",
+        "name": "Cooperation, perspective-taking, prosocial learning",
+        "concept": "Social Cognition"
+      }
+    },
+    {
+      "label": "KnowledgeofCognition",
+      "properties": {
+        "id": "concept_awareness_of_one_s_own_cognitive_strengths_and_lim",
+        "name": "Awareness of one’s own cognitive strengths and limits",
+        "concept": "Knowledge of Cognition"
+      }
+    },
+    {
+      "label": "SelfRegulatedLearning",
+      "properties": {
+        "id": "concept_strategic_use_of_learning_methods_self_regulated_l",
+        "name": "Strategic use of learning methods",
+        "concept": "Self-Regulated Learning"
+      }
+    },
+    {
+      "label": "RegulationofCognition",
+      "properties": {
+        "id": "concept_planning_monitoring_and_evaluating_cognitive_strat",
+        "name": "Planning, monitoring, and evaluating cognitive strategies",
+        "concept": "Regulation of Cognition"
+      }
+    },
+    {
+      "label": "ExecutiveFunctions",
+      "properties": {
+        "id": "concept_adaptation_of_strategies_to_improve_task_performan",
+        "name": "Adaptation of strategies to improve task performance",
+        "concept": "Executive Functions"
+      }
+    },
+    {
+      "label": "MetacognitiveMonitoring",
+      "properties": {
+        "id": "concept_self_checking_understanding_during_tasks_metacogni",
+        "name": "Self-checking understanding during tasks",
+        "concept": "Metacognitive Monitoring"
+      }
+    },
+    {
+      "label": "ProblemSolving",
+      "properties": {
+        "id": "concept_error_detection_correction_persistence_problem_sol",
+        "name": "Error detection, correction, persistence",
+        "concept": "Problem Solving"
+      }
+    },
+    {
+      "label": "MetacognitiveControl",
+      "properties": {
+        "id": "concept_adjusting_effort_focus_and_strategies_in_real_time",
+        "name": "Adjusting effort, focus, and strategies in real time",
+        "concept": "Metacognitive Control"
+      }
+    },
+    {
+      "label": "CognitiveProcesses",
+      "properties": {
+        "id": "concept_working_memory_use_attentional_allocation_cognitiv",
+        "name": "Working memory use, attentional allocation",
+        "concept": "Cognitive Processes"
+      }
+    },
+    {
+      "label": "ReflectiveThinking",
+      "properties": {
+        "id": "concept_thinking_about_one_s_own_thought_processes_reflect",
+        "name": "Thinking about one’s own thought processes",
+        "concept": "Reflective Thinking"
+      }
+    },
+    {
+      "label": "HigherOrderThinking",
+      "properties": {
+        "id": "concept_critical_thinking_transfer_of_knowledge_higher_ord",
+        "name": "Critical thinking, transfer of knowledge",
+        "concept": "Higher-Order Thinking"
+      }
+    },
+    {
+      "label": "Planning",
+      "properties": {
+        "id": "concept_goal_setting_and_strategy_selection_before_a_task_",
+        "name": "Goal setting and strategy selection before a task",
+        "concept": "Planning"
+      }
+    },
+    {
+      "label": "LearningOutcomes",
+      "properties": {
+        "id": "concept_organization_prioritization_time_management_learni",
+        "name": "Organization, prioritization, time management",
+        "concept": "Learning Outcomes"
+      }
+    },
+    {
+      "label": "Monitoring",
+      "properties": {
+        "id": "concept_checking_progress_toward_goals_monitoring",
+        "name": "Checking progress toward goals",
+        "concept": "Monitoring"
+      }
+    },
+    {
+      "label": "SelfRegulation",
+      "properties": {
+        "id": "concept_motivation_persistence_adaptive_responses_self_reg",
+        "name": "Motivation, persistence, adaptive responses",
+        "concept": "Self-Regulation"
+      }
+    },
+    {
+      "label": "Evaluation",
+      "properties": {
+        "id": "concept_assessing_strategy_effectiveness_after_a_task_eval",
+        "name": "Assessing strategy effectiveness after a task",
+        "concept": "Evaluation"
+      }
+    },
+    {
+      "label": "LongTermLearning",
+      "properties": {
+        "id": "concept_future_learning_efficiency_error_reduction_long_te",
+        "name": "Future learning efficiency, error reduction",
+        "concept": "Long-Term Learning"
+      }
+    },
+    {
+      "label": "SelfAwareness",
+      "properties": {
+        "id": "concept_recognizing_biases_knowledge_gaps_and_strengths_se",
+        "name": "Recognizing biases, knowledge gaps, and strengths",
+        "concept": "Self-Awareness"
+      }
+    },
+    {
+      "label": "MindsetAttitudes",
+      "properties": {
+        "id": "concept_growth_mindset_intellectual_humility_mindset_attit",
+        "name": "Growth mindset, intellectual humility",
+        "concept": "Mindset & Attitudes"
+      }
+    },
+    {
+      "label": "InstructionalScaffolding",
+      "properties": {
+        "id": "concept_teachers_modeling_thinking_aloud_strategies_instru",
+        "name": "Teachers modeling “thinking aloud” strategies",
+        "concept": "Instructional Scaffolding"
+      }
+    },
+    {
+      "label": "TeachingPractices",
+      "properties": {
+        "id": "concept_students_independent_metacognitive_development_tea",
+        "name": "Students’ independent metacognitive development",
+        "concept": "Teaching Practices"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_difficulty_sustaining_focus_attention",
+        "name": "Difficulty sustaining focus",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "LearningOutcomes",
+      "properties": {
+        "id": "concept_task_completion_academic_performance_learning_outc",
+        "name": "Task completion, academic performance",
+        "concept": "Learning Outcomes"
+      }
+    },
+    {
+      "label": "ExecutiveFunctions",
+      "properties": {
+        "id": "concept_impaired_inhibitory_control_executive_functions",
+        "name": "Impaired inhibitory control",
+        "concept": "Executive Functions"
+      }
+    },
+    {
+      "label": "BehavioralRegulation",
+      "properties": {
+        "id": "concept_impulsivity_distractibility_behavioral_regulation",
+        "name": "Impulsivity, distractibility",
+        "concept": "Behavioral Regulation"
+      }
+    },
+    {
+      "label": "ExecutiveFunctions",
+      "properties": {
+        "id": "concept_reduced_working_memory_capacity_executive_function",
+        "name": "Reduced working memory capacity",
+        "concept": "Executive Functions"
+      }
+    },
+    {
+      "label": "CognitiveControl",
+      "properties": {
+        "id": "concept_planning_sequencing_and_mental_flexibility_cogniti",
+        "name": "Planning, sequencing, and mental flexibility",
+        "concept": "Cognitive Control"
+      }
+    },
+    {
+      "label": "Motivation",
+      "properties": {
+        "id": "concept_altered_reward_sensitivity_motivation",
+        "name": "Altered reward sensitivity",
+        "concept": "Motivation"
+      }
+    },
+    {
+      "label": "LearningEngagement",
+      "properties": {
+        "id": "concept_preference_for_immediate_rewards_over_delayed_ones",
+        "name": "Preference for immediate rewards over delayed ones",
+        "concept": "Learning Engagement"
+      }
+    },
+    {
+      "label": "EmotionalRegulation",
+      "properties": {
+        "id": "concept_difficulty_managing_frustration_or_stress_emotiona",
+        "name": "Difficulty managing frustration or stress",
+        "concept": "Emotional Regulation"
+      }
+    },
+    {
+      "label": "EmotionalWellbeing",
+      "properties": {
+        "id": "concept_mood_swings_anxiety_social_conflict_emotional_well",
+        "name": "Mood swings, anxiety, social conflict",
+        "concept": "Emotional Well-being"
+      }
+    },
+    {
+      "label": "SelfRegulation",
+      "properties": {
+        "id": "concept_limited_metacognitive_monitoring_self_regulation",
+        "name": "Limited metacognitive monitoring",
+        "concept": "Self-Regulation"
+      }
+    },
+    {
+      "label": "Metacognition",
+      "properties": {
+        "id": "concept_awareness_of_errors_ability_to_adjust_strategies_m",
+        "name": "Awareness of errors, ability to adjust strategies",
+        "concept": "Metacognition"
+      }
+    },
+    {
+      "label": "LearningStrategies",
+      "properties": {
+        "id": "concept_inefficient_rehearsal_or_organization_learning_str",
+        "name": "Inefficient rehearsal or organization",
+        "concept": "Learning Strategies"
+      }
+    },
+    {
+      "label": "MemoryProcesses",
+      "properties": {
+        "id": "concept_encoding_and_transfer_of_knowledge_memory_processe",
+        "name": "Encoding and transfer of knowledge",
+        "concept": "Memory Processes"
+      }
+    },
+    {
+      "label": "SocialCognition",
+      "properties": {
+        "id": "concept_challenges_in_joint_attention_and_perspective_taki",
+        "name": "Challenges in joint attention and perspective-taking",
+        "concept": "Social Cognition"
+      }
+    },
+    {
+      "label": "SocialLearning",
+      "properties": {
+        "id": "concept_collaboration_peer_relationships_social_learning",
+        "name": "Collaboration, peer relationships",
+        "concept": "Social Learning"
+      }
+    },
+    {
+      "label": "EducationalEnvironment",
+      "properties": {
+        "id": "concept_need_for_structure_and_scaffolding_educational_env",
+        "name": "Need for structure and scaffolding",
+        "concept": "Educational Environment"
+      }
+    },
+    {
+      "label": "TeachingPractices",
+      "properties": {
+        "id": "concept_adaptive_strategies_sustained_engagement_teaching_",
+        "name": "Adaptive strategies, sustained engagement",
+        "concept": "Teaching Practices"
+      }
+    },
+    {
+      "label": "Strengths",
+      "properties": {
+        "id": "concept_high_creativity_divergent_thinking_strengths",
+        "name": "High creativity, divergent thinking",
+        "concept": "Strengths"
+      }
+    },
+    {
+      "label": "CreativityInnovation",
+      "properties": {
+        "id": "concept_innovative_problem_solving_flexible_idea_generatio",
+        "name": "Innovative problem-solving, flexible idea generation",
+        "concept": "Creativity & Innovation"
+      }
+    },
+    {
+      "label": "SocialCognition",
+      "properties": {
+        "id": "concept_difficulty_with_theory_of_mind_social_cognition",
+        "name": "Difficulty with theory of mind",
+        "concept": "Social Cognition"
+      }
+    },
+    {
+      "label": "SocialUnderstanding",
+      "properties": {
+        "id": "concept_perspective_taking_empathy_social_understanding",
+        "name": "Perspective-taking, empathy",
+        "concept": "Social Understanding"
+      }
+    },
+    {
+      "label": "Communication",
+      "properties": {
+        "id": "concept_pragmatic_language_challenges_communication",
+        "name": "Pragmatic language challenges",
+        "concept": "Communication"
+      }
+    },
+    {
+      "label": "LanguageDevelopment",
+      "properties": {
+        "id": "concept_social_interaction_classroom_participation_languag",
+        "name": "Social interaction, classroom participation",
+        "concept": "Language Development"
+      }
+    },
+    {
+      "label": "SensoryProcessing",
+      "properties": {
+        "id": "concept_hyper_or_hypo_sensitivity_sensory_processing",
+        "name": "Hyper- or hypo-sensitivity",
+        "concept": "Sensory Processing"
+      }
+    },
+    {
+      "label": "SensoryIntegration",
+      "properties": {
+        "id": "concept_attention_emotional_regulation_sensory_integration",
+        "name": "Attention, emotional regulation",
+        "concept": "Sensory Integration"
+      }
+    },
+    {
+      "label": "ExecutiveFunctions",
+      "properties": {
+        "id": "concept_rigidity_reduced_cognitive_flexibility_executive_f",
+        "name": "Rigidity, reduced cognitive flexibility",
+        "concept": "Executive Functions"
+      }
+    },
+    {
+      "label": "CognitiveControl",
+      "properties": {
+        "id": "concept_problem_solving_adapting_to_change_cognitive_contr",
+        "name": "Problem-solving, adapting to change",
+        "concept": "Cognitive Control"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_strong_focus_on_restricted_interests_attention",
+        "name": "Strong focus on restricted interests",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "LearningDepth",
+      "properties": {
+        "id": "concept_deep_knowledge_expertise_in_specific_areas_learnin",
+        "name": "Deep knowledge, expertise in specific areas",
+        "concept": "Learning Depth"
+      }
+    },
+    {
+      "label": "Motivation",
+      "properties": {
+        "id": "concept_preference_for_intrinsic_interest_driven_tasks_mot",
+        "name": "Preference for intrinsic, interest-driven tasks",
+        "concept": "Motivation"
+      }
+    },
+    {
+      "label": "LearningOutcomes",
+      "properties": {
+        "id": "concept_engagement_and_persistence_learning_outcomes",
+        "name": "Engagement and persistence",
+        "concept": "Learning Outcomes"
+      }
+    },
+    {
+      "label": "EmotionalRegulation",
+      "properties": {
+        "id": "concept_heightened_anxiety_in_unpredictable_contexts_emoti",
+        "name": "Heightened anxiety in unpredictable contexts",
+        "concept": "Emotional Regulation"
+      }
+    },
+    {
+      "label": "EmotionalWellbeing",
+      "properties": {
+        "id": "concept_stress_responses_withdrawal_emotional_well_being",
+        "name": "Stress responses, withdrawal",
+        "concept": "Emotional Well-being"
+      }
+    },
+    {
+      "label": "SocialLearning",
+      "properties": {
+        "id": "concept_challenges_in_joint_attention_social_learning",
+        "name": "Challenges in joint attention",
+        "concept": "Social Learning"
+      }
+    },
+    {
+      "label": "SocialDevelopment",
+      "properties": {
+        "id": "concept_collaborative_learning_peer_interaction_social_dev",
+        "name": "Collaborative learning, peer interaction",
+        "concept": "Social Development"
+      }
+    },
+    {
+      "label": "Strengths",
+      "properties": {
+        "id": "concept_pattern_recognition_and_detail_orientation_strengt",
+        "name": "Pattern recognition and detail orientation",
+        "concept": "Strengths"
+      }
+    },
+    {
+      "label": "CognitiveStrengths",
+      "properties": {
+        "id": "concept_analytical_thinking_stem_related_skills_cognitive_",
+        "name": "Analytical thinking, STEM-related skills",
+        "concept": "Cognitive Strengths"
+      }
+    },
+    {
+      "label": "EducationalSupport",
+      "properties": {
+        "id": "concept_structured_routines_visual_aids_educational_suppor",
+        "name": "Structured routines, visual aids",
+        "concept": "Educational Support"
+      }
+    },
+    {
+      "label": "TeachingPractices",
+      "properties": {
+        "id": "concept_predictability_reduced_anxiety_learning_gains_teac",
+        "name": "Predictability, reduced anxiety, learning gains",
+        "concept": "Teaching Practices"
+      }
+    },
+    {
+      "label": "Creativity",
+      "properties": {
+        "id": "concept_unique_perspectives_and_divergent_thinking_creativ",
+        "name": "Unique perspectives and divergent thinking",
+        "concept": "Creativity"
+      }
+    },
+    {
+      "label": "CreativeOutcomes",
+      "properties": {
+        "id": "concept_innovative_solutions_original_approaches_creative_",
+        "name": "Innovative solutions, original approaches",
+        "concept": "Creative Outcomes"
+      }
+    },
+    {
+      "label": "LanguageProcessing",
+      "properties": {
+        "id": "concept_phonological_awareness_deficits_language_processin",
+        "name": "Phonological awareness deficits",
+        "concept": "Language Processing"
+      }
+    },
+    {
+      "label": "ReadingAcquisition",
+      "properties": {
+        "id": "concept_decoding_word_recognition_reading_acquisition",
+        "name": "Decoding, word recognition",
+        "concept": "Reading Acquisition"
+      }
+    },
+    {
+      "label": "WorkingMemory",
+      "properties": {
+        "id": "concept_limited_verbal_working_memory_working_memory",
+        "name": "Limited verbal working memory",
+        "concept": "Working Memory"
+      }
+    },
+    {
+      "label": "ReadingFluency",
+      "properties": {
+        "id": "concept_retention_of_letter_sound_sequences_reading_fluenc",
+        "name": "Retention of letter-sound sequences",
+        "concept": "Reading Fluency"
+      }
+    },
+    {
+      "label": "ProcessingSpeed",
+      "properties": {
+        "id": "concept_slower_automatization_of_word_retrieval_processing",
+        "name": "Slower automatization of word retrieval",
+        "concept": "Processing Speed"
+      }
+    },
+    {
+      "label": "LearningOutcomes",
+      "properties": {
+        "id": "concept_reading_fluency_comprehension_pace_learning_outcom",
+        "name": "Reading fluency, comprehension pace",
+        "concept": "Learning Outcomes"
+      }
+    },
+    {
+      "label": "OrthographicMapping",
+      "properties": {
+        "id": "concept_difficulty_linking_sounds_to_written_symbols_ortho",
+        "name": "Difficulty linking sounds to written symbols",
+        "concept": "Orthographic Mapping"
+      }
+    },
+    {
+      "label": "LiteracySkills",
+      "properties": {
+        "id": "concept_spelling_accuracy_literacy_skills",
+        "name": "Spelling accuracy",
+        "concept": "Literacy Skills"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_increased_cognitive_load_during_reading_tasks_atte",
+        "name": "Increased cognitive load during reading tasks",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "LearningEngagement",
+      "properties": {
+        "id": "concept_fatigue_reduced_concentration_learning_engagement",
+        "name": "Fatigue, reduced concentration",
+        "concept": "Learning Engagement"
+      }
+    },
+    {
+      "label": "ExecutiveFunctions",
+      "properties": {
+        "id": "concept_need_for_higher_effort_in_self_monitoring_executiv",
+        "name": "Need for higher effort in self-monitoring",
+        "concept": "Executive Functions"
+      }
+    },
+    {
+      "label": "CognitiveControl",
+      "properties": {
+        "id": "concept_extra_use_of_cognitive_resources_cognitive_control",
+        "name": "Extra use of cognitive resources",
+        "concept": "Cognitive Control"
+      }
+    },
+    {
+      "label": "Motivation",
+      "properties": {
+        "id": "concept_risk_of_reduced_self_efficacy_in_academics_motivat",
+        "name": "Risk of reduced self-efficacy in academics",
+        "concept": "Motivation"
+      }
+    },
+    {
+      "label": "LearningMotivation",
+      "properties": {
+        "id": "concept_avoidance_of_reading_tasks_learning_motivation",
+        "name": "Avoidance of reading tasks",
+        "concept": "Learning Motivation"
+      }
+    },
+    {
+      "label": "EmotionalRegulation",
+      "properties": {
+        "id": "concept_frustration_and_stress_during_reading_emotional_re",
+        "name": "Frustration and stress during reading",
+        "concept": "Emotional Regulation"
+      }
+    },
+    {
+      "label": "EmotionalWellbeing",
+      "properties": {
+        "id": "concept_anxiety_disengagement_emotional_well_being",
+        "name": "Anxiety, disengagement",
+        "concept": "Emotional Well-being"
+      }
+    },
+    {
+      "label": "Strengths",
+      "properties": {
+        "id": "concept_visual_spatial_reasoning_and_creativity_strengths",
+        "name": "Visual-spatial reasoning and creativity",
+        "concept": "Strengths"
+      }
+    },
+    {
+      "label": "CognitiveStrengths",
+      "properties": {
+        "id": "concept_problem_solving_innovation_cognitive_strengths",
+        "name": "Problem-solving, innovation",
+        "concept": "Cognitive Strengths"
+      }
+    },
+    {
+      "label": "EducationalSupport",
+      "properties": {
+        "id": "concept_multisensory_structured_literacy_instruction_educa",
+        "name": "Multisensory structured literacy instruction",
+        "concept": "Educational Support"
+      }
+    },
+    {
+      "label": "TeachingPractices",
+      "properties": {
+        "id": "concept_reading_accuracy_and_confidence_teaching_practices",
+        "name": "Reading accuracy and confidence",
+        "concept": "Teaching Practices"
+      }
+    },
+    {
+      "label": "SocialDimension",
+      "properties": {
+        "id": "concept_risk_of_stigma_and_misunderstanding_social_dimensi",
+        "name": "Risk of stigma and misunderstanding",
+        "concept": "Social Dimension"
+      }
+    },
+    {
+      "label": "SocialLearning",
+      "properties": {
+        "id": "concept_peer_relationships_self_esteem_social_learning",
+        "name": "Peer relationships, self-esteem",
+        "concept": "Social Learning"
+      }
+    },
+    {
+      "label": "NumberSense",
+      "properties": {
+        "id": "concept_difficulty_understanding_magnitude_and_quantity_nu",
+        "name": "Difficulty understanding magnitude and quantity",
+        "concept": "Number Sense"
+      }
+    },
+    {
+      "label": "NumericalCognition",
+      "properties": {
+        "id": "concept_basic_arithmetic_numerical_cognition",
+        "name": "Basic arithmetic",
+        "concept": "Numerical Cognition"
+      }
+    },
+    {
+      "label": "WorkingMemory",
+      "properties": {
+        "id": "concept_reduced_ability_to_hold_numerical_information_work",
+        "name": "Reduced ability to hold numerical information",
+        "concept": "Working Memory"
+      }
+    },
+    {
+      "label": "CognitiveProcessing",
+      "properties": {
+        "id": "concept_multi_step_calculations_problem_solving_cognitive_",
+        "name": "Multi-step calculations, problem solving",
+        "concept": "Cognitive Processing"
+      }
+    },
+    {
+      "label": "ProcessingSpeed",
+      "properties": {
+        "id": "concept_slow_retrieval_of_math_facts_processing_speed",
+        "name": "Slow retrieval of math facts",
+        "concept": "Processing Speed"
+      }
+    },
+    {
+      "label": "LearningOutcomes",
+      "properties": {
+        "id": "concept_fluency_in_calculation_learning_outcomes",
+        "name": "Fluency in calculation",
+        "concept": "Learning Outcomes"
+      }
+    },
+    {
+      "label": "SymbolicProcessing",
+      "properties": {
+        "id": "concept_difficulty_linking_numbers_to_symbols_symbolic_pro",
+        "name": "Difficulty linking numbers to symbols",
+        "concept": "Symbolic Processing"
+      }
+    },
+    {
+      "label": "MathematicalLiteracy",
+      "properties": {
+        "id": "concept_place_value_written_arithmetic_mathematical_litera",
+        "name": "Place value, written arithmetic",
+        "concept": "Mathematical Literacy"
+      }
+    },
+    {
+      "label": "SpatialProcessing",
+      "properties": {
+        "id": "concept_challenges_with_spatial_reasoning_spatial_processi",
+        "name": "Challenges with spatial reasoning",
+        "concept": "Spatial Processing"
+      }
+    },
+    {
+      "label": "SpatialCognition",
+      "properties": {
+        "id": "concept_geometry_alignment_in_written_problems_spatial_cog",
+        "name": "Geometry, alignment in written problems",
+        "concept": "Spatial Cognition"
+      }
+    },
+    {
+      "label": "ExecutiveFunctions",
+      "properties": {
+        "id": "concept_weak_planning_and_sequencing_in_math_tasks_executi",
+        "name": "Weak planning and sequencing in math tasks",
+        "concept": "Executive Functions"
+      }
+    },
+    {
+      "label": "CognitiveControl",
+      "properties": {
+        "id": "concept_problem_solving_strategies_cognitive_control",
+        "name": "Problem-solving strategies",
+        "concept": "Cognitive Control"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_high_cognitive_load_in_math_tasks_attention",
+        "name": "High cognitive load in math tasks",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "LearningEngagement",
+      "properties": {
+        "id": "concept_fatigue_avoidance_learning_engagement",
+        "name": "Fatigue, avoidance",
+        "concept": "Learning Engagement"
+      }
+    },
+    {
+      "label": "Motivation",
+      "properties": {
+        "id": "concept_risk_of_math_anxiety_and_low_self_confidence_motiv",
+        "name": "Risk of math anxiety and low self-confidence",
+        "concept": "Motivation"
+      }
+    },
+    {
+      "label": "AcademicMotivation",
+      "properties": {
+        "id": "concept_avoidance_of_math_related_learning_academic_motiva",
+        "name": "Avoidance of math-related learning",
+        "concept": "Academic Motivation"
+      }
+    },
+    {
+      "label": "EmotionalRegulation",
+      "properties": {
+        "id": "concept_frustration_in_learning_numbers_emotional_regulati",
+        "name": "Frustration in learning numbers",
+        "concept": "Emotional Regulation"
+      }
+    },
+    {
+      "label": "EmotionalWellbeing",
+      "properties": {
+        "id": "concept_stress_negative_self_image_emotional_well_being",
+        "name": "Stress, negative self-image",
+        "concept": "Emotional Well-being"
+      }
+    },
+    {
+      "label": "Strengths",
+      "properties": {
+        "id": "concept_creativity_verbal_reasoning_visual_arts_strengths",
+        "name": "Creativity, verbal reasoning, visual arts",
+        "concept": "Strengths"
+      }
+    },
+    {
+      "label": "CognitiveStrengths",
+      "properties": {
+        "id": "concept_alternative_problem_solving_approaches_cognitive_s",
+        "name": "Alternative problem-solving approaches",
+        "concept": "Cognitive Strengths"
+      }
+    },
+    {
+      "label": "EducationalSupport",
+      "properties": {
+        "id": "concept_concrete_manipulatives_visual_aids_step_by_step_in",
+        "name": "Concrete manipulatives, visual aids, step-by-step instruction",
+        "concept": "Educational Support"
+      }
+    },
+    {
+      "label": "TeachingPractices",
+      "properties": {
+        "id": "concept_conceptual_understanding_confidence_teaching_pract",
+        "name": "Conceptual understanding, confidence",
+        "concept": "Teaching Practices"
+      }
+    },
+    {
+      "label": "MotorControl",
+      "properties": {
+        "id": "concept_presence_of_motor_tics_sudden_repetitive_movements",
+        "name": "Presence of motor tics (sudden, repetitive movements)",
+        "concept": "Motor Control"
+      }
+    },
+    {
+      "label": "MotorFunction",
+      "properties": {
+        "id": "concept_classroom_focus_handwriting_coordination_motor_fun",
+        "name": "Classroom focus, handwriting, coordination",
+        "concept": "Motor Function"
+      }
+    },
+    {
+      "label": "VocalControl",
+      "properties": {
+        "id": "concept_vocal_tics_sounds_words_throat_clearing_vocal_cont",
+        "name": "Vocal tics (sounds, words, throat clearing)",
+        "concept": "Vocal Control"
+      }
+    },
+    {
+      "label": "LanguageSocialSkills",
+      "properties": {
+        "id": "concept_communication_peer_interaction_language_social_ski",
+        "name": "Communication, peer interaction",
+        "concept": "Language & Social Skills"
+      }
+    },
+    {
+      "label": "Attention",
+      "properties": {
+        "id": "concept_cognitive_interference_from_premonitory_urges_atte",
+        "name": "Cognitive interference from premonitory urges",
+        "concept": "Attention"
+      }
+    },
+    {
+      "label": "LearningEngagement",
+      "properties": {
+        "id": "concept_concentration_during_tasks_learning_engagement",
+        "name": "Concentration during tasks",
+        "concept": "Learning Engagement"
+      }
+    },
+    {
+      "label": "ExecutiveFunctions",
+      "properties": {
+        "id": "concept_impulse_control_difficulties_executive_functions",
+        "name": "Impulse control difficulties",
+        "concept": "Executive Functions"
+      }
+    },
+    {
+      "label": "CognitiveRegulation",
+      "properties": {
+        "id": "concept_disinhibition_distractibility_cognitive_regulation",
+        "name": "Disinhibition, distractibility",
+        "concept": "Cognitive Regulation"
+      }
+    },
+    {
+      "label": "EmotionalRegulation",
+      "properties": {
+        "id": "concept_stress_and_anxiety_exacerbate_tics_emotional_regul",
+        "name": "Stress and anxiety exacerbate tics",
+        "concept": "Emotional Regulation"
+      }
+    },
+    {
+      "label": "EmotionalWellbeing",
+      "properties": {
+        "id": "concept_tic_frequency_and_intensity_emotional_well_being",
+        "name": "Tic frequency and intensity",
+        "concept": "Emotional Well-being"
+      }
+    },
+    {
+      "label": "SocialCognition",
+      "properties": {
+        "id": "concept_stigma_and_peer_misunderstanding_social_cognition",
+        "name": "Stigma and peer misunderstanding",
+        "concept": "Social Cognition"
+      }
+    },
+    {
+      "label": "SocialLearning",
+      "properties": {
+        "id": "concept_social_integration_self_esteem_social_learning",
+        "name": "Social integration, self-esteem",
+        "concept": "Social Learning"
+      }
+    },
+    {
+      "label": "Comorbidities",
+      "properties": {
+        "id": "concept_often_co_occurs_with_adhd_or_ocd_comorbidities",
+        "name": "Often co-occurs with ADHD or OCD",
+        "concept": "Comorbidities"
+      }
+    },
+    {
+      "label": "NeurodevelopmentalLinks",
+      "properties": {
+        "id": "concept_cognitive_load_learning_difficulties_neurodevelopm",
+        "name": "Cognitive load, learning difficulties",
+        "concept": "Neurodevelopmental Links"
+      }
+    },
+    {
+      "label": "Motivation",
+      "properties": {
+        "id": "concept_desire_to_suppress_tics_motivation",
+        "name": "Desire to suppress tics",
+        "concept": "Motivation"
+      }
+    },
+    {
+      "label": "AcademicMotivation",
+      "properties": {
+        "id": "concept_fatigue_reduced_task_persistence_academic_motivati",
+        "name": "Fatigue, reduced task persistence",
+        "concept": "Academic Motivation"
+      }
+    },
+    {
+      "label": "Strengths",
+      "properties": {
+        "id": "concept_creativity_resilience_heightened_awareness_strengt",
+        "name": "Creativity, resilience, heightened awareness",
+        "concept": "Strengths"
+      }
+    },
+    {
+      "label": "PersonalGrowth",
+      "properties": {
+        "id": "concept_adaptive_problem_solving_empathy_personal_growth",
+        "name": "Adaptive problem-solving, empathy",
+        "concept": "Personal Growth"
+      }
+    },
+    {
+      "label": "EducationalSupport",
+      "properties": {
+        "id": "concept_psychoeducation_supportive_classroom_environment_e",
+        "name": "Psychoeducation, supportive classroom environment",
+        "concept": "Educational Support"
+      }
+    },
+    {
+      "label": "TeachingPractices",
+      "properties": {
+        "id": "concept_reduced_stigma_improved_engagement_teaching_practi",
+        "name": "Reduced stigma, improved engagement",
+        "concept": "Teaching Practices"
+      }
+    },
+    {
+      "label": "EstimatedPrevalenceglobalaverages",
+      "properties": {
+        "id": "concept_gender_ratio_estimated_prevalence_global_averages_",
+        "name": "Gender Ratio",
+        "concept": "Estimated Prevalence (global averages)"
+      }
+    },
+    {
+      "label": "Concept",
+      "properties": {
+        "id": "concept_notes_concept",
+        "name": "Notes",
+        "concept": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_sensory_filtering_modulation_of_bottom_up_salience",
+      "type": "SUPPORTS",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "Sensory Filtering"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_sensory_input_perceptual_processing",
+      "type": "IS_GUIDED_BY",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "Sensory Input"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_prefrontal_cortex_attentional_control",
+      "type": "IS_GOVERNED_BY",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "prefrontal cortex"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_stress_positive_or_negative_emotions",
+      "type": "IS_MODULATED_BY",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "stress (positive or negative)"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_intrinsic_motivational_modulation",
+      "type": "IS_INFLUENCED_BY",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "Intrinsic"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_extrinsic_motivational_modulation",
+      "type": "IS_INFLUENCED_BY",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "Extrinsic"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_self_regulation_executive_control",
+      "type": "IS_DEPENDENT_ON",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "Self-regulation"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_short_term_working_memory_memory",
+      "type": "FACILITATES",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "short-term / working memory"
+      }
+    },
+    {
+      "from": "concept_divided_attention",
+      "to": "concept_intrinsec_cognitive_load",
+      "type": "DOES_NOT_AFFECT",
+      "properties": {
+        "from_name": "divided",
+        "to_name": "Intrinsec"
+      }
+    },
+    {
+      "from": "concept_divided_attention",
+      "to": "concept_extraneous_cognitive_load",
+      "type": "INCREASES",
+      "properties": {
+        "from_name": "divided",
+        "to_name": "Extraneous"
+      }
+    },
+    {
+      "from": "concept_divided_attention",
+      "to": "concept_germane_cognitive_load",
+      "type": "DECREASES",
+      "properties": {
+        "from_name": "divided",
+        "to_name": "Germane"
+      }
+    },
+    {
+      "from": "concept_divided_attention",
+      "to": "concept_deep_processing_memory_encoding",
+      "type": "REDUCES",
+      "properties": {
+        "from_name": "divided",
+        "to_name": "deep processing"
+      }
+    },
+    {
+      "from": "concept_divided_attention",
+      "to": "concept_long_term_memory_memory_system",
+      "type": "IMPAIRS",
+      "properties": {
+        "from_name": "divided",
+        "to_name": "long-term memory"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_sleep_deprivation_psycho_biological_factor",
+      "type": "IS_IMPAIRED_BY",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "sleep deprivation"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_anxiety_affective_processes",
+      "type": "IS_LIMITED_BY",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "anxiety"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_excessive_use_of_technology_environmental_factors",
+      "type": "IS_IMPAIRED_BY",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "excessive use of technology"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_multitasking_cognitive_load",
+      "type": "IS_IMPAIRED_BY",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "multitasking"
+      }
+    },
+    {
+      "from": "concept_all_types_attention",
+      "to": "concept_mind_wandering_default_mode_network_activity",
+      "type": "IS_DISRUPTED_BY",
+      "properties": {
+        "from_name": "All types",
+        "to_name": "mind-wandering"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_breaks_restoration_of_executive_resources",
+      "type": "IS_FACILITATED_BY",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "Breaks"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_memory_encoding_memory_systems",
+      "type": "ENABLES",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "Memory Encoding"
+      }
+    },
+    {
+      "from": "concept_sustained_attention",
+      "to": "concept_cognitive_fatigue_attentional_control",
+      "type": "IS_IMPAIRED_BY",
+      "properties": {
+        "from_name": "Sustained",
+        "to_name": "cognitive fatigue"
+      }
+    },
+    {
+      "from": "concept_divided_attention",
+      "to": "concept_working_memory_capacity_resource_allocation",
+      "type": "DEPENDS_ON",
+      "properties": {
+        "from_name": "Divided",
+        "to_name": "working memory capacity"
+      }
+    },
+    {
+      "from": "concept_focused_attention",
+      "to": "concept_external_distractions_bottom_up_salience",
+      "type": "IS_DISRUPTED_BY",
+      "properties": {
+        "from_name": "Focused",
+        "to_name": "external distractions"
+      }
+    },
+    {
+      "from": "concept_vigilance_attention",
+      "to": "concept_arousal_regulation_attentional_state",
+      "type": "IS_MAINTAINED_BY",
+      "properties": {
+        "from_name": "Vigilance",
+        "to_name": "arousal regulation"
+      }
+    },
+    {
+      "from": "concept_top_down_attention",
+      "to": "concept_goals_and_expectations_affective_motivational_modu",
+      "type": "IS_DRIVEN_BY",
+      "properties": {
+        "from_name": "Top-down",
+        "to_name": "goals and expectations"
+      }
+    },
+    {
+      "from": "concept_bottom_up_attention",
+      "to": "concept_salient_stimuli_sensory_processing",
+      "type": "IS_TRIGGERED_BY",
+      "properties": {
+        "from_name": "Bottom-up",
+        "to_name": "Salient Stimuli"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_multimodal_sensory_input_cross_modal_sensory_proce",
+      "type": "IS_ENHANCED_BY",
+      "properties": {
+        "from_name": "Selective",
+        "to_name": "Multimodal Sensory Input"
+      }
+    },
+    {
+      "from": "concept_sustained_attention",
+      "to": "concept_task_chunking_temporal_attention_structuring",
+      "type": "IS_FACILITATED_BY",
+      "properties": {
+        "from_name": "Sustained",
+        "to_name": "task chunking"
+      }
+    },
+    {
+      "from": "concept_all_types_attention",
+      "to": "concept_mindfulness_based_practices_attentional_control_re",
+      "type": "ARE_STRENGTHENED_THROUGH",
+      "properties": {
+        "from_name": "All types",
+        "to_name": "mindfulness-based practices"
+      }
+    },
+    {
+      "from": "concept_focused_attention",
+      "to": "concept_active_retrieval_long_term_memory_consolidation",
+      "type": "IS_ENHANCED_THROUGH",
+      "properties": {
+        "from_name": "Focused",
+        "to_name": "Active Retrieval"
+      }
+    },
+    {
+      "from": "concept_joint_attention_attention",
+      "to": "concept_language_development_social_cognitive_development",
+      "type": "IS_FOUNDATIONAL_FOR",
+      "properties": {
+        "from_name": "Joint Attention",
+        "to_name": "language development"
+      }
+    },
+    {
+      "from": "concept_visual_spatial_attention",
+      "to": "concept_interactive_game_based_tasks_spatial_attention_sys",
+      "type": "IS_TRAINED_THROUGH",
+      "properties": {
+        "from_name": "Visual-Spatial",
+        "to_name": "Interactive Game-Based Tasks"
+      }
+    },
+    {
+      "from": "concept_focused_attention",
+      "to": "concept_adhd_prefrontal_executive_control_networks",
+      "type": "IS_IMPAIRED_IN",
+      "properties": {
+        "from_name": "Focused",
+        "to_name": "adhd"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_deep_processing_long_term_memory_formation",
+      "type": "IS_ESSENTIAL_FOR",
+      "properties": {
+        "from_name": "Selective",
+        "to_name": "Deep Processing"
+      }
+    },
+    {
+      "from": "concept_bottom_up_attention",
+      "to": "concept_top_down_control_attentional_filtering",
+      "type": "CAN_OVERRIDE",
+      "properties": {
+        "from_name": "Bottom-up",
+        "to_name": "top-down control"
+      }
+    },
+    {
+      "from": "concept_top_down_attention",
+      "to": "concept_irrelevant_stimuli_attentional_control",
+      "type": "CAN_SUPPRESS",
+      "properties": {
+        "from_name": "Top-down",
+        "to_name": "irrelevant stimuli"
+      }
+    },
+    {
+      "from": "concept_divided_attention",
+      "to": "concept_multitask_practice_executive_control_limitations",
+      "type": "CANNOT_BE_TRAINED_THROUGH",
+      "properties": {
+        "from_name": "Divided",
+        "to_name": "Multitask Practice"
+      }
+    },
+    {
+      "from": "concept_selective_attention",
+      "to": "concept_flow_state_optimal_attentional_network_activation",
+      "type": "SUPPORTS",
+      "properties": {
+        "from_name": "selective",
+        "to_name": "flow state"
+      }
+    },
+    {
+      "from": "concept_focused_attention",
+      "to": "concept_flow_state_optimal_attentional_network_activation",
+      "type": "IS_LINKED_TOSUPPORTS",
+      "properties": {
+        "from_name": "Focused",
+        "to_name": "flow state"
+      }
+    },
+    {
+      "from": "concept_sustained_attention",
+      "to": "concept_flow_state_coordinated_activation_of_executive_and",
+      "type": "SUPPORTS",
+      "properties": {
+        "from_name": "sustained",
+        "to_name": "flow state"
+      }
+    },
+    {
+      "from": "concept_chunking_organization_working_memory",
+      "to": "concept_encoding_long_term_memory",
+      "type": "FALICITATES",
+      "properties": {
+        "from_name": "Chunking / Organization",
+        "to_name": "Encoding"
+      }
+    },
+    {
+      "from": "concept_visualization_mental_imagery_working_memory",
+      "to": "concept_deep_processing_consolidation",
+      "type": "ENHANCES",
+      "properties": {
+        "from_name": "Visualization / Mental Imagery",
+        "to_name": "Deep processing"
+      }
+    },
+    {
+      "from": "concept_rehearsal_working_memory",
+      "to": "concept_retrieval_strength_consolidation",
+      "type": "ENHANCES",
+      "properties": {
+        "from_name": "Rehearsal",
+        "to_name": "Retrieval Strength"
+      }
+    },
+    {
+      "from": "concept_capacity_working_memory",
+      "to": "concept_information_processing_cognitive_load",
+      "type": "LIMITS",
+      "properties": {
+        "from_name": "Capacity",
+        "to_name": "information processing"
+      }
+    },
+    {
+      "from": "concept_capacity_working_memory",
+      "to": "concept_elaboration_speed_deep_understanding",
+      "type": "AFFECTS",
+      "properties": {
+        "from_name": "Capacity",
+        "to_name": "Elaboration speed"
+      }
+    },
+    {
+      "from": "concept_capacity_working_memory",
+      "to": "concept_deep_processing_multimodal_information_integration",
+      "type": "AFFECTS",
+      "properties": {
+        "from_name": "Capacity",
+        "to_name": "Deep processing"
+      }
+    },
+    {
+      "from": "concept_capacity_working_memory",
+      "to": "concept_retrieval_strength_long_term_memory",
+      "type": "AFFECTS",
+      "properties": {
+        "from_name": "Capacity",
+        "to_name": "Retrieval Strength"
+      }
+    },
+    {
+      "from": "concept_planning_executive_functions",
+      "to": "concept_cognitive_flexibility_adaptive_thinking",
+      "type": "DEPENDS_ON",
+      "properties": {
+        "from_name": "Planning",
+        "to_name": "Cognitive flexibility"
+      }
+    },
+    {
+      "from": "concept_planning_executive_functions",
+      "to": "concept_inhibitory_control_prefrontal_cortex_activation",
+      "type": "IS_SUPPORTED_BY",
+      "properties": {
+        "from_name": "Planning",
+        "to_name": "Inhibitory Control"
+      }
+    },
+    {
+      "from": "concept_planning_executive_functions",
+      "to": "concept_stress_and_fatigue_affective_constraint",
+      "type": "IS_IMPAIRED_BY",
+      "properties": {
+        "from_name": "Planning",
+        "to_name": "Stress and Fatigue"
+      }
+    },
+    {
+      "from": "concept_metacognition_executive_functions",
+      "to": "concept_self_regulation_cognitive_control",
+      "type": "INCLUDES",
+      "properties": {
+        "from_name": "Metacognition",
+        "to_name": "Self-regulation"
+      }
+    },
+    {
+      "from": "concept_metacognition_executive_functions",
+      "to": "concept_error_detection_correction_cognitive_control",
+      "type": "FACILITATES",
+      "properties": {
+        "from_name": "Metacognition",
+        "to_name": "Error Detection & Correction"
+      }
+    },
+    {
+      "from": "concept_metacognition_executive_functions",
+      "to": "concept_learning_strategies_adaptive_behavior",
+      "type": "SUPPORTS",
+      "properties": {
+        "from_name": "Metacognition",
+        "to_name": "Learning Strategies"
+      }
+    },
+    {
+      "from": "concept_metacognition_executive_functions",
+      "to": "concept_transfer_of_learning_deep_learning",
+      "type": "ENHANCES",
+      "properties": {
+        "from_name": "Metacognition",
+        "to_name": "Transfer of Learning"
+      }
+    },
+    {
+      "from": "concept_metacognition_executive_functions",
+      "to": "concept_overconfidence_bias_cognitive_bias",
+      "type": "IS_IMPAIRED_BY",
+      "properties": {
+        "from_name": "Metacognition",
+        "to_name": "Overconfidence bias"
+      }
+    },
+    {
+      "from": "concept_inhibitory_control_executive_functions",
+      "to": "concept_response_inhibition_motor_control",
+      "type": "INCLUDES",
+      "properties": {
+        "from_name": "Inhibitory Control",
+        "to_name": "Response Inhibition"
+      }
+    },
+    {
+      "from": "concept_inhibitory_control_executive_functions",
+      "to": "concept_interference_control_cognitive_filtering",
+      "type": "INCLUDES",
+      "properties": {
+        "from_name": "Inhibitory Control",
+        "to_name": "Interference Control"
+      }
+    },
+    {
+      "from": "concept_inhibitory_control_executive_functions",
+      "to": "concept_cognitive_control_prefrontal_cortex_activation",
+      "type": "REQUIRES",
+      "properties": {
+        "from_name": "Inhibitory Control",
+        "to_name": "Cognitive control"
+      }
+    },
+    {
+      "from": "concept_inhibitory_control_executive_functions",
+      "to": "concept_planning_problem_solving_adaptive_thinking",
+      "type": "ESSENTIAL_FOR",
+      "properties": {
+        "from_name": "Inhibitory Control",
+        "to_name": "Planning & Problem Solving"
+      }
+    },
+    {
+      "from": "concept_inhibitory_control_executive_functions",
+      "to": "concept_excessive_stress_affective_biological_constraints",
+      "type": "IMPAIRED_BY",
+      "properties": {
+        "from_name": "Inhibitory Control",
+        "to_name": "Excessive stress"
+      }
+    },
+    {
+      "from": "concept_inhibitory_control_executive_functions",
+      "to": "concept_fatigue_affective_biological_constraints",
+      "type": "IMPAIRED_BY",
+      "properties": {
+        "from_name": "Inhibitory Control",
+        "to_name": "Fatigue"
+      }
+    },
+    {
+      "from": "concept_inhibitory_control_executive_functions",
+      "to": "concept_adhd_affective_biological_constraints",
+      "type": "IMPAIRED_BY",
+      "properties": {
+        "from_name": "Inhibitory Control",
+        "to_name": "ADHD"
+      }
+    },
+    {
+      "from": "concept_inhibitory_control_executive_functions",
+      "to": "concept_sleep_deprivation_affective_biological_constraints",
+      "type": "IMPAIRED_BY",
+      "properties": {
+        "from_name": "Inhibitory Control",
+        "to_name": "Sleep deprivation"
+      }
+    },
+    {
+      "from": "concept_inhibitory_control_executive_functions",
+      "to": "concept_mindfulness_educational_clinical_interventions",
+      "type": "TRAINED_BY",
+      "properties": {
+        "from_name": "Inhibitory Control",
+        "to_name": "Mindfulness"
+      }
+    },
+    {
+      "from": "concept_inhibitory_control_executive_functions",
+      "to": "concept_cognitive_training_educational_clinical_interventi",
+      "type": "TRAINED_BY",
+      "properties": {
+        "from_name": "Inhibitory Control",
+        "to_name": "Cognitive Training"
+      }
+    },
+    {
+      "from": "concept_inhibitory_control_executive_functions",
+      "to": "concept_delay_of_gratification_tasks_educational_clinical_",
+      "type": "TRAINED_BY",
+      "properties": {
+        "from_name": "Inhibitory Control",
+        "to_name": "Delay-of-Gratification Tasks"
+      }
+    },
+    {
+      "from": "concept_consolidation_long_term_memory",
+      "to": "concept_sleep_neuroplasticity",
+      "type": "SUPPORTED_BY",
+      "properties": {
+        "from_name": "Consolidation",
+        "to_name": "Sleep"
+      }
+    },
+    {
+      "from": "concept_consolidation_long_term_memory",
+      "to": "concept_rehearsal_memory_stabilization",
+      "type": "REQUIRES",
+      "properties": {
+        "from_name": "Consolidation",
+        "to_name": "Rehearsal"
+      }
+    },
+    {
+      "from": "concept_consolidation_long_term_memory",
+      "to": "concept_reactivation_memory_stabilization",
+      "type": "REQUIRES",
+      "properties": {
+        "from_name": "Consolidation",
+        "to_name": "Reactivation"
+      }
+    },
+    {
+      "from": "concept_consolidation_long_term_memory",
+      "to": "concept_emotional_arousal_amygdala_hippocampus_interaction",
+      "type": "STRENGTHENED_THROUGH",
+      "properties": {
+        "from_name": "Consolidation",
+        "to_name": "Emotional Arousal"
+      }
+    },
+    {
+      "from": "concept_consolidation_long_term_memory",
+      "to": "concept_spaced_repetition_distributed_practice_effect",
+      "type": "ENHANCED_BY",
+      "properties": {
+        "from_name": "Consolidation",
+        "to_name": "Spaced Repetition"
+      }
+    },
+    {
+      "from": "concept_consolidation_long_term_memory",
+      "to": "concept_schema_integration_prior_knowledge_scaffolding",
+      "type": "FACILITATED_BY",
+      "properties": {
+        "from_name": "Consolidation",
+        "to_name": "Schema Integration"
+      }
+    },
+    {
+      "from": "concept_consolidation_long_term_memory",
+      "to": "concept_negative_stress_affective_biological_constraints",
+      "type": "DISRUPTED_BY",
+      "properties": {
+        "from_name": "Consolidation",
+        "to_name": "Negative Stress"
+      }
+    },
+    {
+      "from": "concept_consolidation_long_term_memory",
+      "to": "concept_durable_memory_traces_knowledge_integration",
+      "type": "LEADS_TO",
+      "properties": {
+        "from_name": "Consolidation",
+        "to_name": "Durable Memory Traces"
+      }
+    },
+    {
+      "from": "concept_consolidation_long_term_memory",
+      "to": "concept_retrieval_processes_memory_accessibility",
+      "type": "FEEDS_INTO",
+      "properties": {
+        "from_name": "Consolidation",
+        "to_name": "Retrieval Processes"
+      }
+    },
+    {
+      "from": "concept_divergent_thinking_creativity",
+      "to": "concept_multiple_solutions_ideas_idea_generation",
+      "type": "GENERATES",
+      "properties": {
+        "from_name": "Divergent Thinking",
+        "to_name": "Multiple Solutions / Ideas"
+      }
+    },
+    {
+      "from": "concept_cognitive_flexibility_creativity",
+      "to": "concept_novel_combinations_executive_functions",
+      "type": "ENABLES",
+      "properties": {
+        "from_name": "Cognitive Flexibility",
+        "to_name": "Novel Combinations"
+      }
+    },
+    {
+      "from": "concept_motivation_creativity",
+      "to": "concept_engagement_persistence_affective_processes",
+      "type": "DRIVES",
+      "properties": {
+        "from_name": "Motivation",
+        "to_name": "Engagement & Persistence"
+      }
+    },
+    {
+      "from": "concept_curiosity_creativity",
+      "to": "concept_engagement_persistence_affective_processes",
+      "type": "DRIVES",
+      "properties": {
+        "from_name": "Curiosity",
+        "to_name": "Engagement & Persistence"
+      }
+    },
+    {
+      "from": "concept_risk_taking_creativity",
+      "to": "concept_unconventional_solutions_affective_processes",
+      "type": "PROMOTES",
+      "properties": {
+        "from_name": "Risk-Taking",
+        "to_name": "Unconventional Solutions"
+      }
+    },
+    {
+      "from": "concept_mind_wandering_creativity",
+      "to": "concept_insight_novel_associations_spontaneous_thought_dyn",
+      "type": "ENHANCES",
+      "properties": {
+        "from_name": "Mind-Wandering",
+        "to_name": "Insight & Novel Associations"
+      }
+    },
+    {
+      "from": "concept_problem_solving_creativity",
+      "to": "concept_innovation_application_applied_cognition",
+      "type": "RESULTS_IN",
+      "properties": {
+        "from_name": "Problem-Solving",
+        "to_name": "Innovation & Application"
+      }
+    },
+    {
+      "from": "concept_attention_regulation_creativity",
+      "to": "concept_focused_diffuse_attention_attentional_control",
+      "type": "FACILITATES",
+      "properties": {
+        "from_name": "Attention Regulation",
+        "to_name": "Focused & Diffuse Attention"
+      }
+    },
+    {
+      "from": "concept_language_comprehension_communication",
+      "to": "concept_working_memory_resource_allocation",
+      "type": "REQUIRES",
+      "properties": {
+        "from_name": "Language Comprehension",
+        "to_name": "Working Memory"
+      }
+    },
+    {
+      "from": "concept_language_comprehension_communication",
+      "to": "concept_selective_attention_attentional_control",
+      "type": "DEPENDS_ON",
+      "properties": {
+        "from_name": "Language Comprehension",
+        "to_name": "Selective attention"
+      }
+    },
+    {
+      "from": "concept_language_production_communication",
+      "to": "concept_planning_organization_executive_functions",
+      "type": "REQUIRES",
+      "properties": {
+        "from_name": "Language Production",
+        "to_name": "Planning & Organization"
+      }
+    },
+    {
+      "from": "concept_language_production_communication",
+      "to": "concept_inhibitory_control_executive_functions",
+      "type": "IS_SUPPORTED_BY",
+      "properties": {
+        "from_name": "Language Production",
+        "to_name": "Inhibitory Control"
+      }
+    },
+    {
+      "from": "concept_nonverbal_communication_communication",
+      "to": "concept_social_understanding_social_cognition",
+      "type": "FACILITATES",
+      "properties": {
+        "from_name": "Nonverbal Communication",
+        "to_name": "Social Understanding"
+      }
+    },
+    {
+      "from": "concept_reading_writing_communication",
+      "to": "concept_working_memory_capacity_memory_systems",
+      "type": "ENHANCES",
+      "properties": {
+        "from_name": "Reading & writing",
+        "to_name": "Working memory capacity"
+      }
+    },
+    {
+      "from": "concept_collaboration_communication",
+      "to": "concept_problem_solving_creativity_applied_cognition",
+      "type": "PROMOTES",
+      "properties": {
+        "from_name": "Collaboration",
+        "to_name": "Problem-Solving & Creativity"
+      }
+    },
+    {
+      "from": "concept_growth_mindset",
+      "to": "concept_neuroplasticity_brain_adaptability",
+      "type": "IS_SUPPORTED_BY",
+      "properties": {
+        "from_name": "Growth",
+        "to_name": "Neuroplasticity"
+      }
+    },
+    {
+      "from": "concept_growth_mindset",
+      "to": "concept_intrinsic_motivation_affective_motivational_proces",
+      "type": "ENHANCES",
+      "properties": {
+        "from_name": "Growth",
+        "to_name": "Intrinsic Motivation"
+      }
+    },
+    {
+      "from": "concept_growth_mindset",
+      "to": "concept_errors_as_opportunities_metacognition",
+      "type": "REFRAMES",
+      "properties": {
+        "from_name": "Growth",
+        "to_name": "Errors as opportunities"
+      }
+    },
+    {
+      "from": "concept_growth_mindset",
+      "to": "concept_resilience_executive_functions",
+      "type": "PROMOTES",
+      "properties": {
+        "from_name": "Growth",
+        "to_name": "Resilience"
+      }
+    },
+    {
+      "from": "concept_growth_mindset",
+      "to": "concept_creativity_cognitive_flexibility",
+      "type": "FOSTERS",
+      "properties": {
+        "from_name": "Growth",
+        "to_name": "Creativity"
+      }
+    },
+    {
+      "from": "concept_growth_mindset",
+      "to": "concept_feedback_integration_social_learning",
+      "type": "FACILITATES",
+      "properties": {
+        "from_name": "Growth",
+        "to_name": "Feedback integration"
+      }
+    },
+    {
+      "from": "concept_growth_mindset",
+      "to": "concept_reward_system_adaptive_error_monitoring",
+      "type": "SUPPORTS",
+      "properties": {
+        "from_name": "Growth",
+        "to_name": "reward system"
+      }
+    },
+    {
+      "from": "concept_fixed_mindset",
+      "to": "concept_deterministic_beliefs_essentialism",
+      "type": "IS_LINKED_TO",
+      "properties": {
+        "from_name": "Fixed",
+        "to_name": "Deterministic beliefs"
+      }
+    },
+    {
+      "from": "concept_fixed_mindset",
+      "to": "concept_motivation_to_practice_affective_motivational_proc",
+      "type": "REDUCES",
+      "properties": {
+        "from_name": "Fixed",
+        "to_name": "Motivation to practice"
+      }
+    },
+    {
+      "from": "concept_fixed_mindset",
+      "to": "concept_metacognition_cognitive_monitoring",
+      "type": "INHIBITS",
+      "properties": {
+        "from_name": "Fixed",
+        "to_name": "Metacognition"
+      }
+    },
+    {
+      "from": "concept_fixed_mindset",
+      "to": "concept_effort_avoidance_learned_helplessness",
+      "type": "LEADS_TO",
+      "properties": {
+        "from_name": "Fixed",
+        "to_name": "Effort avoidance"
+      }
+    },
+    {
+      "from": "concept_fixed_mindset",
+      "to": "concept_cognitive_flexibility_problem_solving",
+      "type": "LIMITS",
+      "properties": {
+        "from_name": "Fixed",
+        "to_name": "Cognitive Flexibility"
+      }
+    },
+    {
+      "from": "concept_fixed_mindset",
+      "to": "concept_feedback_use_social_learning",
+      "type": "BLOCKS",
+      "properties": {
+        "from_name": "Fixed",
+        "to_name": "Feedback use"
+      }
+    },
+    {
+      "from": "concept_fixed_mindset",
+      "to": "concept_stress_threat_reactions_survival_responses",
+      "type": "ENHANCES",
+      "properties": {
+        "from_name": "Fixed",
+        "to_name": "stress-threat reactions"
+      }
+    },
+    {
+      "from": "concept_vark_preference_learning_styles",
+      "to": "concept_multimodal_teaching_improves_learning_for_all_evid",
+      "type": "IS_NOT_SUPPORTED_BY",
+      "properties": {
+        "from_name": "VARK preference",
+        "to_name": "Multimodal teaching improves learning for all"
+      }
+    },
+    {
+      "from": "concept_left_brain_vs_right_brain_learners_hemispheric_spe",
+      "to": "concept_learning_processes_creativity_and_logic_require_di",
+      "type": "IS_NOT_VALID_FOR",
+      "properties": {
+        "from_name": "Left-brain vs. Right-brain learners",
+        "to_name": "Learning processes, creativity and logic require distributed networks"
+      }
+    },
+    {
+      "from": "concept_learning_stops_after_childhood_critical_periods_ar",
+      "to": "concept_plasticity_persists_across_lifespan_neuroplasticit",
+      "type": "IS_NOT_ABSOLUTE",
+      "properties": {
+        "from_name": "Learning stops after childhood",
+        "to_name": "Plasticity persists across lifespan"
+      }
+    },
+    {
+      "from": "concept_cognitive_traits_people_are_analytical_or_creative",
+      "to": "concept_creativity_and_logic_share_neural_resources_neural",
+      "type": "IS_NOT_DICHOTOMOUS",
+      "properties": {
+        "from_name": "Cognitive Traits",
+        "to_name": "Creativity and logic share neural resources"
+      }
+    },
+    {
+      "from": "concept_gardner_s_theory_is_a_neuroscience_theory_multiple",
+      "to": "concept_gardner_proposed_a_pedagogical_framework_not_a_neu",
+      "type": "MISINTERPRETS",
+      "properties": {
+        "from_name": "Gardner’s theory is a neuroscience theory",
+        "to_name": "Gardner proposed a pedagogical framework, not a neurobiological one"
+      }
+    },
+    {
+      "from": "concept_sugar_effect_sugar_causes_hyperactivity",
+      "to": "concept_behavioral_studies_cognitive_psychology",
+      "type": "IS_NOT_CONFIRMED_BY",
+      "properties": {
+        "from_name": "Sugar Effect",
+        "to_name": "Behavioral studies"
+      }
+    },
+    {
+      "from": "concept_confirmation_bias_judgment_belief",
+      "to": "concept_pre_existing_assumptions_teacher_student_reasoning",
+      "type": "REINFORCES",
+      "properties": {
+        "from_name": "Confirmation Bias",
+        "to_name": "Pre-existing assumptions"
+      }
+    },
+    {
+      "from": "concept_anchoring_bias_first_impressions",
+      "to": "concept_evaluation_of_performance_assessment",
+      "type": "INFLUENCES",
+      "properties": {
+        "from_name": "Anchoring Bias",
+        "to_name": "Evaluation of performance"
+      }
+    },
+    {
+      "from": "concept_halo_effect_attribution",
+      "to": "concept_positive_traits_student_perception",
+      "type": "GENERALIZES",
+      "properties": {
+        "from_name": "Halo Effect",
+        "to_name": "Positive traits"
+      }
+    },
+    {
+      "from": "concept_horns_effect_attribution",
+      "to": "concept_negative_traits_student_perception",
+      "type": "GENERALIZES",
+      "properties": {
+        "from_name": "Horns Effect",
+        "to_name": "Negative traits"
+      }
+    },
+    {
+      "from": "concept_availability_heuristic_memory_recall",
+      "to": "concept_judgments_based_on_recent_vivid_events_decision_ma",
+      "type": "SKEWS",
+      "properties": {
+        "from_name": "Availability Heuristic",
+        "to_name": "Judgments based on recent/vivid events"
+      }
+    },
+    {
+      "from": "concept_overconfidence_bias_self_evaluation",
+      "to": "concept_perceived_mastery_metacognition",
+      "type": "DISTORTS",
+      "properties": {
+        "from_name": "Overconfidence Bias",
+        "to_name": "Perceived mastery"
+      }
+    },
+    {
+      "from": "concept_dunning_kruger_effect_self_evaluation",
+      "to": "concept_actual_ability_vs_perceived_ability_learning_progr",
+      "type": "MISALIGNS",
+      "properties": {
+        "from_name": "Dunning–Kruger Effect",
+        "to_name": "Actual ability vs perceived ability"
+      }
+    },
+    {
+      "from": "concept_self_fulfilling_prophecy_pygmalion_effect_expectat",
+      "to": "concept_student_outcomes_motivation_performance",
+      "type": "SHAPES",
+      "properties": {
+        "from_name": "Self-Fulfilling Prophecy / Pygmalion Effect",
+        "to_name": "Student outcomes"
+      }
+    },
+    {
+      "from": "concept_analysis_critical_thinking",
+      "to": "concept_working_memory_cognitive_processing",
+      "type": "RELIES_ON",
+      "properties": {
+        "from_name": "Analysis",
+        "to_name": "Working Memory"
+      }
+    },
+    {
+      "from": "concept_analysis_critical_thinking",
+      "to": "concept_selective_attention_attention",
+      "type": "MODULATED_BY",
+      "properties": {
+        "from_name": "Analysis",
+        "to_name": "Selective Attention"
+      }
+    },
+    {
+      "from": "concept_evaluation_critical_thinking",
+      "to": "concept_executive_functions_monitoring_control_cognitive_c",
+      "type": "REQUIRES",
+      "properties": {
+        "from_name": "Evaluation",
+        "to_name": "Executive Functions (Monitoring & Control)"
+      }
+    },
+    {
+      "from": "concept_inference_critical_thinking",
+      "to": "concept_logical_reasoning_working_memory_reasoning",
+      "type": "DEPENDS_ON",
+      "properties": {
+        "from_name": "Inference",
+        "to_name": "Logical Reasoning & Working Memory"
+      }
+    },
+    {
+      "from": "concept_interpretation_critical_thinking",
+      "to": "concept_language_comprehension_contextual_memory_memory_la",
+      "type": "INTERACTS_WITH",
+      "properties": {
+        "from_name": "Interpretation",
+        "to_name": "Language Comprehension & Contextual Memory"
+      }
+    },
+    {
+      "from": "concept_explanation_critical_thinking",
+      "to": "concept_communication_skills_metacognition_communication",
+      "type": "IMPROVES_VIA",
+      "properties": {
+        "from_name": "Explanation",
+        "to_name": "Communication Skills & Metacognition"
+      }
+    },
+    {
+      "from": "concept_self_regulation_metacognition_critical_thinking",
+      "to": "concept_attention_management_cognitive_flexibility_executi",
+      "type": "GUIDES",
+      "properties": {
+        "from_name": "Self-Regulation (Metacognition)",
+        "to_name": "Attention Management & Cognitive Flexibility"
+      }
+    },
+    {
+      "from": "concept_open_mindedness_critical_thinking",
+      "to": "concept_perspective_taking_bias_awareness_social_cognition",
+      "type": "SUPPORTS",
+      "properties": {
+        "from_name": "Open-mindedness",
+        "to_name": "Perspective Taking & Bias Awareness"
+      }
+    },
+    {
+      "from": "concept_skepticism_healthy_critical_thinking",
+      "to": "concept_cognitive_biases_interference_cognitive_biases",
+      "type": "PREVENTS",
+      "properties": {
+        "from_name": "Skepticism (healthy)",
+        "to_name": "Cognitive Biases interference"
+      }
+    },
+    {
+      "from": "concept_problem_identification_critical_thinking",
+      "to": "concept_structured_problem_solving_working_memory_problem_",
+      "type": "INITIATES",
+      "properties": {
+        "from_name": "Problem Identification",
+        "to_name": "Structured Problem Solving & Working Memory"
+      }
+    },
+    {
+      "from": "concept_logical_reasoning_critical_thinking",
+      "to": "concept_executive_functions_inhibitory_control_reasoning",
+      "type": "REQUIRES",
+      "properties": {
+        "from_name": "Logical Reasoning",
+        "to_name": "Executive Functions & Inhibitory Control"
+      }
+    },
+    {
+      "from": "concept_creativity_critical_thinking",
+      "to": "concept_cognitive_flexibility_divergent_thinking_innovatio",
+      "type": "BUILDS_ON",
+      "properties": {
+        "from_name": "Creativity",
+        "to_name": "Cognitive Flexibility & Divergent Thinking"
+      }
+    },
+    {
+      "from": "concept_reflection_critical_thinking",
+      "to": "concept_long_term_memory_consolidation_metacognition_memor",
+      "type": "STRENGTHENS",
+      "properties": {
+        "from_name": "Reflection",
+        "to_name": "Long-Term Memory Consolidation & Metacognition"
+      }
+    },
+    {
+      "from": "concept_evidence_use_critical_thinking",
+      "to": "concept_information_evaluation_memory_retrieval_informatio",
+      "type": "DEPENDS_ON",
+      "properties": {
+        "from_name": "Evidence Use",
+        "to_name": "Information Evaluation & Memory Retrieval"
+      }
+    },
+    {
+      "from": "concept_argumentation_critical_thinking",
+      "to": "concept_logical_reasoning_communication_skills_reasoning_c",
+      "type": "SUPPORTED_BY",
+      "properties": {
+        "from_name": "Argumentation",
+        "to_name": "Logical Reasoning & Communication Skills"
+      }
+    },
+    {
+      "from": "concept_curiosity_critical_thinking",
+      "to": "concept_attention_allocation_motivational_modulation_motiv",
+      "type": "DRIVES",
+      "properties": {
+        "from_name": "Curiosity",
+        "to_name": "Attention Allocation & Motivational Modulation"
+      }
+    },
+    {
+      "from": "concept_cognitive_flexibility_critical_thinking",
+      "to": "concept_executive_functions_working_memory_adaptation_prob",
+      "type": "SUPPORTS",
+      "properties": {
+        "from_name": "Cognitive Flexibility",
+        "to_name": "Executive Functions & Working Memory"
+      }
+    },
+    {
+      "from": "concept_emotional_regulation_critical_thinking",
+      "to": "concept_affective_influence_on_decision_making_emotion_cog",
+      "type": "MODULATES",
+      "properties": {
+        "from_name": "Emotional Regulation",
+        "to_name": "Affective Influence on Decision-Making"
+      }
+    },
+    {
+      "from": "concept_bias_awareness_critical_thinking",
+      "to": "concept_cognitive_bias_interference_cognitive_biases",
+      "type": "REDUCES",
+      "properties": {
+        "from_name": "Bias Awareness",
+        "to_name": "Cognitive Bias Interference"
+      }
+    },
+    {
+      "from": "concept_flow_of_inquiry_critical_thinking",
+      "to": "concept_engagement_motivation_working_memory_knowledge_con",
+      "type": "SUSTAINS",
+      "properties": {
+        "from_name": "Flow of Inquiry",
+        "to_name": "Engagement, Motivation, Working Memory"
+      }
+    },
+    {
+      "from": "concept_engagement_driven_by_curiosity_personal_interest_e",
+      "to": "concept_persistence_deeper_learning_creativity_long_term_w",
+      "type": "DRIVES",
+      "properties": {
+        "from_name": "Engagement driven by curiosity, personal interest, enjoyment, mastery, meaning",
+        "to_name": "Persistence, deeper learning, creativity, long-term well-being"
+      }
+    },
+    {
+      "from": "concept_engagement_driven_by_external_rewards_grades_money",
+      "to": "concept_goal_completion_short_term_effort_compliance_exter",
+      "type": "SUPPORTS",
+      "properties": {
+        "from_name": "Engagement driven by external rewards (grades, money, praise) or avoidance of punishment",
+        "to_name": "Goal completion, short-term effort, compliance, external achievement"
+      }
+    },
+    {
+      "from": "concept_flow_autonomy_self_determination_internal_satisfac",
+      "to": "concept_external_control_conditional_incentives_social_pre",
+      "type": "IS_CONTRASTED_WITH",
+      "properties": {
+        "from_name": "Flow, autonomy, self-determination, internal satisfaction",
+        "to_name": "External control, conditional incentives, social pressure"
+      }
+    },
+    {
+      "from": "concept_autonomy_competence_relatedness_intrinsic_motivati",
+      "to": "concept_psychological_needs_that_when_satisfied_boost_grow",
+      "type": "IS_GROUNDED_IN",
+      "properties": {
+        "from_name": "Autonomy, competence, relatedness",
+        "to_name": "Psychological needs that, when satisfied, boost growth and self-regulation"
+      }
+    },
+    {
+      "from": "concept_external_rewards_tangible_money_prizes_intangible_",
+      "to": "concept_internal_satisfaction_and_autonomy_overjustificati",
+      "type": "MAY_UNDERMINE",
+      "properties": {
+        "from_name": "External rewards (tangible: money, prizes; intangible: approval, status)",
+        "to_name": "Internal satisfaction and autonomy (overjustification effect)"
+      }
+    },
+    {
+      "from": "concept_grades_rewards_deadlines_punishments_extrinsic_mot",
+      "to": "concept_performance_in_tasks_with_clear_simple_goals_short",
+      "type": "ENHANCES",
+      "properties": {
+        "from_name": "Grades, rewards, deadlines, punishments",
+        "to_name": "Performance in tasks with clear, simple goals"
+      }
+    },
+    {
+      "from": "concept_enjoyment_curiosity_mastery_intrinsic_motivation",
+      "to": "concept_deep_processing_creativity_resilience_long_term_ou",
+      "type": "ENHANCES",
+      "properties": {
+        "from_name": "Enjoyment, curiosity, mastery",
+        "to_name": "Deep processing, creativity, resilience"
+      }
+    },
+    {
+      "from": "concept_social_recognition_competition_fear_of_failure_ext",
+      "to": "concept_anxiety_external_locus_of_control_fragile_self_wor",
+      "type": "IS_LINKED_WITH",
+      "properties": {
+        "from_name": "Social recognition, competition, fear of failure",
+        "to_name": "Anxiety, external locus of control, fragile self-worth"
+      }
+    },
+    {
+      "from": "concept_personal_challenge_self_expression_exploration_int",
+      "to": "concept_flow_state_self_actualization_positive_psychology",
+      "type": "IS_CONNECTED_TO",
+      "properties": {
+        "from_name": "Personal challenge, self-expression, exploration",
+        "to_name": "Flow state, self-actualization"
+      }
+    },
+    {
+      "from": "concept_surveillance_strict_deadlines_excessive_control_ex",
+      "to": "concept_autonomy_intrinsic_drive_engagement_learning_quali",
+      "type": "REDUCES",
+      "properties": {
+        "from_name": "Surveillance, strict deadlines, excessive control",
+        "to_name": "Autonomy, intrinsic drive, engagement"
+      }
+    },
+    {
+      "from": "concept_moderate_levels_of_stress_that_enhance_alertness_m",
+      "to": "concept_adaptation_resilience_growth_mindset_effective_pro",
+      "type": "SUPPORTS",
+      "properties": {
+        "from_name": "Moderate levels of stress that enhance alertness, motivation, focus, and performance",
+        "to_name": "Adaptation, resilience, growth mindset, effective problem-solving"
+      }
+    },
+    {
+      "from": "concept_excessive_chronic_or_overwhelming_stress_that_impa",
+      "to": "concept_memory_concentration_health_motivation_well_being_",
+      "type": "UNDERMINES",
+      "properties": {
+        "from_name": "Excessive, chronic, or overwhelming stress that impairs functioning",
+        "to_name": "Memory, concentration, health, motivation, well-being"
+      }
+    },
+    {
+      "from": "concept_short_term_manageable_arousal_of_body_and_mind_pos",
+      "to": "concept_chronic_activation_of_fight_or_flight_response_neg",
+      "type": "IS_CONTRASTED_WITH",
+      "properties": {
+        "from_name": "Short-term, manageable arousal of body and mind",
+        "to_name": "Chronic activation of fight-or-flight response"
+      }
+    },
+    {
+      "from": "concept_challenge_appraisal_seeing_tasks_as_opportunities_",
+      "to": "concept_intrinsic_motivation_perseverance_engagement_adapt",
+      "type": "IS_LINKED_WITH",
+      "properties": {
+        "from_name": "Challenge appraisal (seeing tasks as opportunities for growth)",
+        "to_name": "Intrinsic motivation, perseverance, engagement"
+      }
+    },
+    {
+      "from": "concept_threat_appraisal_seeing_tasks_as_dangers_risks_or_",
+      "to": "concept_anxiety_avoidance_self_doubt_burnout_maladaptive_c",
+      "type": "IS_LINKED_WITH",
+      "properties": {
+        "from_name": "Threat appraisal (seeing tasks as dangers, risks, or failures)",
+        "to_name": "Anxiety, avoidance, self-doubt, burnout"
+      }
+    },
+    {
+      "from": "concept_optimal_arousal_yerkes_dodson_law_positive_stress_",
+      "to": "concept_performance_in_complex_engaging_tasks_academic_wor",
+      "type": "ENHANCES",
+      "properties": {
+        "from_name": "Optimal arousal (Yerkes–Dodson law)",
+        "to_name": "Performance in complex, engaging tasks"
+      }
+    },
+    {
+      "from": "concept_over_arousal_too_much_stress_or_under_arousal_apat",
+      "to": "concept_memory_recall_executive_function_emotional_regulat",
+      "type": "REDUCES",
+      "properties": {
+        "from_name": "Over-arousal (too much stress) or under-arousal (apathy)",
+        "to_name": "Memory recall, executive function, emotional regulation"
+      }
+    },
+    {
+      "from": "concept_builds_tolerance_to_pressure_strengthens_coping_me",
+      "to": "concept_resilience_confidence_proactive_behavior_long_term",
+      "type": "CONTRIBUTES_TO",
+      "properties": {
+        "from_name": "Builds tolerance to pressure, strengthens coping mechanisms",
+        "to_name": "Resilience, confidence, proactive behavior"
+      }
+    },
+    {
+      "from": "concept_cortisol_dysregulation_sleep_disturbance_somatic_s",
+      "to": "concept_fatigue_reduced_learning_capacity_health_risks_lon",
+      "type": "LEADS_TO",
+      "properties": {
+        "from_name": "Cortisol dysregulation, sleep disturbance, somatic symptoms",
+        "to_name": "Fatigue, reduced learning capacity, health risks"
+      }
+    },
+    {
+      "from": "concept_activation_of_hpa_axis_adrenaline_cortisol_stress_",
+      "to": "concept_adaptive_short_bursts_eustress_or_maladaptive_chro",
+      "type": "CAN_BE",
+      "properties": {
+        "from_name": "Activation of HPA axis, adrenaline, cortisol",
+        "to_name": "Adaptive (short bursts, eustress) or maladaptive (chronic, distress)"
+      }
+    },
+    {
+      "from": "concept_belief_that_abilities_and_intelligence_can_be_deve",
+      "to": "concept_resilience_neuroplasticity_motivation_curiosity_ef",
+      "type": "SUPPORTS",
+      "properties": {
+        "from_name": "Belief that abilities and intelligence can be developed through effort, learning, and persistence",
+        "to_name": "Resilience, neuroplasticity, motivation, curiosity, effective learning strategies"
+      }
+    },
+    {
+      "from": "concept_belief_that_abilities_and_intelligence_are_innate_",
+      "to": "concept_effort_persistence_openness_to_feedback_adaptive_c",
+      "type": "UNDERMINES",
+      "properties": {
+        "from_name": "Belief that abilities and intelligence are innate and unchangeable",
+        "to_name": "Effort, persistence, openness to feedback, adaptive coping"
+      }
+    },
+    {
+      "from": "concept_effort_seen_as_a_path_to_mastery_growth_mindset",
+      "to": "concept_effort_seen_as_pointless_if_i_m_not_naturally_good",
+      "type": "IS_CONTRASTED_WITH",
+      "properties": {
+        "from_name": "Effort seen as a path to mastery",
+        "to_name": "Effort seen as pointless (“If I’m not naturally good, I’ll never succeed”)"
+      }
+    },
+    {
+      "from": "concept_challenges_are_opportunities_to_improve_growth_min",
+      "to": "concept_higher_achievement_persistence_adaptive_motivation",
+      "type": "IS_LINKED_WITH",
+      "properties": {
+        "from_name": "Challenges are opportunities to improve",
+        "to_name": "Higher achievement, persistence, adaptive motivation"
+      }
+    },
+    {
+      "from": "concept_challenges_are_threats_that_expose_limits_fixed_mi",
+      "to": "concept_avoidance_performance_anxiety_defensive_behavior_n",
+      "type": "IS_LINKED_WITH",
+      "properties": {
+        "from_name": "Challenges are threats that expose limits",
+        "to_name": "Avoidance, performance anxiety, defensive behavior"
+      }
+    },
+    {
+      "from": "concept_failure_is_feedback_and_a_chance_to_learn_growth_m",
+      "to": "concept_mistakes_as_stepping_stones_for_improvement_resili",
+      "type": "REFRAMES",
+      "properties": {
+        "from_name": "Failure is feedback and a chance to learn",
+        "to_name": "Mistakes as stepping stones for improvement"
+      }
+    },
+    {
+      "from": "concept_failure_is_proof_of_lack_of_ability_fixed_mindset",
+      "to": "concept_learned_helplessness_disengagement_perfectionism_v",
+      "type": "LEADS_TO",
+      "properties": {
+        "from_name": "Failure is proof of lack of ability",
+        "to_name": "Learned helplessness, disengagement, perfectionism"
+      }
+    },
+    {
+      "from": "concept_encourages_intrinsic_motivation_curiosity_persiste",
+      "to": "concept_lifelong_learning_and_adaptability_personal_growth",
+      "type": "ENHANCES",
+      "properties": {
+        "from_name": "Encourages intrinsic motivation, curiosity, persistence",
+        "to_name": "Lifelong learning and adaptability"
+      }
+    },
+    {
+      "from": "concept_encourages_external_validation_and_fear_of_judgmen",
+      "to": "concept_creativity_risk_taking_authentic_engagement_person",
+      "type": "LIMITS",
+      "properties": {
+        "from_name": "Encourages external validation and fear of judgment",
+        "to_name": "Creativity, risk-taking, authentic engagement"
+      }
+    },
+    {
+      "from": "concept_reflection_feedback_supportive_environment_mindset",
+      "to": "concept_fixed_mindset_tendencies_into_growth_oriented_atti",
+      "type": "CAN_TRANSFORM",
+      "properties": {
+        "from_name": "Reflection, feedback, supportive environment",
+        "to_name": "Fixed mindset tendencies into growth-oriented attitudes"
+      }
+    },
+    {
+      "from": "concept_joy_curiosity_interest_hope_enthusiasm_positive_em",
+      "to": "concept_attention_memory_encoding_creativity_openness_to_l",
+      "type": "ENHANCE",
+      "properties": {
+        "from_name": "Joy, curiosity, interest, hope, enthusiasm",
+        "to_name": "Attention, memory encoding, creativity, openness to learning"
+      }
+    },
+    {
+      "from": "concept_fear_anxiety_sadness_anger_shame_negative_emotions",
+      "to": "concept_working_memory_concentration_motivation_cognitive_",
+      "type": "INTERFERE_WITH",
+      "properties": {
+        "from_name": "Fear, anxiety, sadness, anger, shame",
+        "to_name": "Working memory, concentration, motivation"
+      }
+    },
+    {
+      "from": "concept_build_approach_oriented_behaviors_exploration_coll",
+      "to": "concept_engagement_resilience_persistence_learning_outcome",
+      "type": "SUPPORT",
+      "properties": {
+        "from_name": "Build approach-oriented behaviors (exploration, collaboration)",
+        "to_name": "Engagement, resilience, persistence"
+      }
+    },
+    {
+      "from": "concept_trigger_avoidance_oriented_behaviors_withdrawal_pr",
+      "to": "concept_participation_risk_taking_confidence_learning_outc",
+      "type": "UNDERMINE",
+      "properties": {
+        "from_name": "Trigger avoidance-oriented behaviors (withdrawal, procrastination)",
+        "to_name": "Participation, risk-taking, confidence"
+      }
+    },
+    {
+      "from": "concept_broaden_perspective_and_flexible_thinking_positive",
+      "to": "concept_problem_solving_creativity_empathy_higher_order_th",
+      "type": "ARE_LINKED_WITH",
+      "properties": {
+        "from_name": "Broaden perspective and flexible thinking",
+        "to_name": "Problem-solving, creativity, empathy"
+      }
+    },
+    {
+      "from": "concept_narrow_focus_to_perceived_threat_negative_emotions",
+      "to": "concept_survival_oriented_responses_defensive_thinking_rig",
+      "type": "ARE_LINKED_WITH",
+      "properties": {
+        "from_name": "Narrow focus to perceived threat",
+        "to_name": "Survival-oriented responses, defensive thinking, rigidity"
+      }
+    },
+    {
+      "from": "concept_promote_intrinsic_motivation_positive_emotions",
+      "to": "concept_growth_mindset_curiosity_long_term_learning_motiva",
+      "type": "REINFORCE",
+      "properties": {
+        "from_name": "Promote intrinsic motivation",
+        "to_name": "Growth mindset, curiosity, long-term learning"
+      }
+    },
+    {
+      "from": "concept_increase_extrinsic_control_and_fear_based_motivati",
+      "to": "concept_fixed_mindset_avoidance_of_challenges_motivation_m",
+      "type": "REINFORCE",
+      "properties": {
+        "from_name": "Increase extrinsic control and fear-based motivation",
+        "to_name": "Fixed mindset, avoidance of challenges"
+      }
+    },
+    {
+      "from": "concept_awareness_and_management_of_emotions_emotional_reg",
+      "to": "concept_negative_emotions_into_productive_focus_positive_e",
+      "type": "TRANSFORMS",
+      "properties": {
+        "from_name": "Awareness and management of emotions",
+        "to_name": "Negative emotions into productive focus, positive emotions into sustained drive"
+      }
+    },
+    {
+      "from": "concept_empathy_gratitude_compassion_social_emotions",
+      "to": "concept_cooperation_perspective_taking_prosocial_learning_",
+      "type": "ENHANCE",
+      "properties": {
+        "from_name": "Empathy, gratitude, compassion",
+        "to_name": "Cooperation, perspective-taking, prosocial learning"
+      }
+    },
+    {
+      "from": "concept_awareness_of_one_s_own_cognitive_strengths_and_lim",
+      "to": "concept_strategic_use_of_learning_methods_self_regulated_l",
+      "type": "ENABLES",
+      "properties": {
+        "from_name": "Awareness of one’s own cognitive strengths and limits",
+        "to_name": "Strategic use of learning methods"
+      }
+    },
+    {
+      "from": "concept_planning_monitoring_and_evaluating_cognitive_strat",
+      "to": "concept_adaptation_of_strategies_to_improve_task_performan",
+      "type": "GUIDES",
+      "properties": {
+        "from_name": "Planning, monitoring, and evaluating cognitive strategies",
+        "to_name": "Adaptation of strategies to improve task performance"
+      }
+    },
+    {
+      "from": "concept_self_checking_understanding_during_tasks_metacogni",
+      "to": "concept_error_detection_correction_persistence_problem_sol",
+      "type": "SUPPORTS",
+      "properties": {
+        "from_name": "Self-checking understanding during tasks",
+        "to_name": "Error detection, correction, persistence"
+      }
+    },
+    {
+      "from": "concept_adjusting_effort_focus_and_strategies_in_real_time",
+      "to": "concept_working_memory_use_attentional_allocation_cognitiv",
+      "type": "OPTIMIZES",
+      "properties": {
+        "from_name": "Adjusting effort, focus, and strategies in real time",
+        "to_name": "Working memory use, attentional allocation"
+      }
+    },
+    {
+      "from": "concept_thinking_about_one_s_own_thought_processes_reflect",
+      "to": "concept_critical_thinking_transfer_of_knowledge_higher_ord",
+      "type": "STRENGTHENS",
+      "properties": {
+        "from_name": "Thinking about one’s own thought processes",
+        "to_name": "Critical thinking, transfer of knowledge"
+      }
+    },
+    {
+      "from": "concept_goal_setting_and_strategy_selection_before_a_task_",
+      "to": "concept_organization_prioritization_time_management_learni",
+      "type": "SHAPES",
+      "properties": {
+        "from_name": "Goal setting and strategy selection before a task",
+        "to_name": "Organization, prioritization, time management"
+      }
+    },
+    {
+      "from": "concept_checking_progress_toward_goals_monitoring",
+      "to": "concept_motivation_persistence_adaptive_responses_self_reg",
+      "type": "REGULATES",
+      "properties": {
+        "from_name": "Checking progress toward goals",
+        "to_name": "Motivation, persistence, adaptive responses"
+      }
+    },
+    {
+      "from": "concept_assessing_strategy_effectiveness_after_a_task_eval",
+      "to": "concept_future_learning_efficiency_error_reduction_long_te",
+      "type": "IMPROVES",
+      "properties": {
+        "from_name": "Assessing strategy effectiveness after a task",
+        "to_name": "Future learning efficiency, error reduction"
+      }
+    },
+    {
+      "from": "concept_recognizing_biases_knowledge_gaps_and_strengths_se",
+      "to": "concept_growth_mindset_intellectual_humility_mindset_attit",
+      "type": "ENHANCES",
+      "properties": {
+        "from_name": "Recognizing biases, knowledge gaps, and strengths",
+        "to_name": "Growth mindset, intellectual humility"
+      }
+    },
+    {
+      "from": "concept_teachers_modeling_thinking_aloud_strategies_instru",
+      "to": "concept_students_independent_metacognitive_development_tea",
+      "type": "PROMOTES",
+      "properties": {
+        "from_name": "Teachers modeling “thinking aloud” strategies",
+        "to_name": "Students’ independent metacognitive development"
+      }
+    },
+    {
+      "from": "concept_difficulty_sustaining_focus_attention",
+      "to": "concept_task_completion_academic_performance_learning_outc",
+      "type": "DISRUPTS",
+      "properties": {
+        "from_name": "Difficulty sustaining focus",
+        "to_name": "Task completion, academic performance"
+      }
+    },
+    {
+      "from": "concept_impaired_inhibitory_control_executive_functions",
+      "to": "concept_impulsivity_distractibility_behavioral_regulation",
+      "type": "LEADS_TO",
+      "properties": {
+        "from_name": "Impaired inhibitory control",
+        "to_name": "Impulsivity, distractibility"
+      }
+    },
+    {
+      "from": "concept_reduced_working_memory_capacity_executive_function",
+      "to": "concept_planning_sequencing_and_mental_flexibility_cogniti",
+      "type": "LIMITS",
+      "properties": {
+        "from_name": "Reduced working memory capacity",
+        "to_name": "Planning, sequencing, and mental flexibility"
+      }
+    },
+    {
+      "from": "concept_altered_reward_sensitivity_motivation",
+      "to": "concept_preference_for_immediate_rewards_over_delayed_ones",
+      "type": "AFFECTS",
+      "properties": {
+        "from_name": "Altered reward sensitivity",
+        "to_name": "Preference for immediate rewards over delayed ones"
+      }
+    },
+    {
+      "from": "concept_difficulty_managing_frustration_or_stress_emotiona",
+      "to": "concept_mood_swings_anxiety_social_conflict_emotional_well",
+      "type": "TRIGGERS",
+      "properties": {
+        "from_name": "Difficulty managing frustration or stress",
+        "to_name": "Mood swings, anxiety, social conflict"
+      }
+    },
+    {
+      "from": "concept_limited_metacognitive_monitoring_self_regulation",
+      "to": "concept_awareness_of_errors_ability_to_adjust_strategies_m",
+      "type": "REDUCES",
+      "properties": {
+        "from_name": "Limited metacognitive monitoring",
+        "to_name": "Awareness of errors, ability to adjust strategies"
+      }
+    },
+    {
+      "from": "concept_inefficient_rehearsal_or_organization_learning_str",
+      "to": "concept_encoding_and_transfer_of_knowledge_memory_processe",
+      "type": "IMPAIRS",
+      "properties": {
+        "from_name": "Inefficient rehearsal or organization",
+        "to_name": "Encoding and transfer of knowledge"
+      }
+    },
+    {
+      "from": "concept_challenges_in_joint_attention_and_perspective_taki",
+      "to": "concept_collaboration_peer_relationships_social_learning",
+      "type": "INTERFERES_WITH",
+      "properties": {
+        "from_name": "Challenges in joint attention and perspective-taking",
+        "to_name": "Collaboration, peer relationships"
+      }
+    },
+    {
+      "from": "concept_need_for_structure_and_scaffolding_educational_env",
+      "to": "concept_adaptive_strategies_sustained_engagement_teaching_",
+      "type": "SUPPORTS",
+      "properties": {
+        "from_name": "Need for structure and scaffolding",
+        "to_name": "Adaptive strategies, sustained engagement"
+      }
+    },
+    {
+      "from": "concept_high_creativity_divergent_thinking_strengths",
+      "to": "concept_innovative_problem_solving_flexible_idea_generatio",
+      "type": "FACILITATES",
+      "properties": {
+        "from_name": "High creativity, divergent thinking",
+        "to_name": "Innovative problem-solving, flexible idea generation"
+      }
+    },
+    {
+      "from": "concept_difficulty_with_theory_of_mind_social_cognition",
+      "to": "concept_perspective_taking_empathy_social_understanding",
+      "type": "IMPAIRS",
+      "properties": {
+        "from_name": "Difficulty with theory of mind",
+        "to_name": "Perspective-taking, empathy"
+      }
+    },
+    {
+      "from": "concept_pragmatic_language_challenges_communication",
+      "to": "concept_social_interaction_classroom_participation_languag",
+      "type": "LIMITS",
+      "properties": {
+        "from_name": "Pragmatic language challenges",
+        "to_name": "Social interaction, classroom participation"
+      }
+    },
+    {
+      "from": "concept_hyper_or_hypo_sensitivity_sensory_processing",
+      "to": "concept_attention_emotional_regulation_sensory_integration",
+      "type": "MODULATES",
+      "properties": {
+        "from_name": "Hyper- or hypo-sensitivity",
+        "to_name": "Attention, emotional regulation"
+      }
+    },
+    {
+      "from": "concept_rigidity_reduced_cognitive_flexibility_executive_f",
+      "to": "concept_problem_solving_adapting_to_change_cognitive_contr",
+      "type": "AFFECTS",
+      "properties": {
+        "from_name": "Rigidity, reduced cognitive flexibility",
+        "to_name": "Problem-solving, adapting to change"
+      }
+    },
+    {
+      "from": "concept_strong_focus_on_restricted_interests_attention",
+      "to": "concept_deep_knowledge_expertise_in_specific_areas_learnin",
+      "type": "FACILITATES",
+      "properties": {
+        "from_name": "Strong focus on restricted interests",
+        "to_name": "Deep knowledge, expertise in specific areas"
+      }
+    },
+    {
+      "from": "concept_preference_for_intrinsic_interest_driven_tasks_mot",
+      "to": "concept_engagement_and_persistence_learning_outcomes",
+      "type": "ENHANCES",
+      "properties": {
+        "from_name": "Preference for intrinsic, interest-driven tasks",
+        "to_name": "Engagement and persistence"
+      }
+    },
+    {
+      "from": "concept_heightened_anxiety_in_unpredictable_contexts_emoti",
+      "to": "concept_stress_responses_withdrawal_emotional_well_being",
+      "type": "TRIGGERS",
+      "properties": {
+        "from_name": "Heightened anxiety in unpredictable contexts",
+        "to_name": "Stress responses, withdrawal"
+      }
+    },
+    {
+      "from": "concept_challenges_in_joint_attention_social_learning",
+      "to": "concept_collaborative_learning_peer_interaction_social_dev",
+      "type": "HINDERS",
+      "properties": {
+        "from_name": "Challenges in joint attention",
+        "to_name": "Collaborative learning, peer interaction"
+      }
+    },
+    {
+      "from": "concept_pattern_recognition_and_detail_orientation_strengt",
+      "to": "concept_analytical_thinking_stem_related_skills_cognitive_",
+      "type": "SUPPORTS",
+      "properties": {
+        "from_name": "Pattern recognition and detail orientation",
+        "to_name": "Analytical thinking, STEM-related skills"
+      }
+    },
+    {
+      "from": "concept_structured_routines_visual_aids_educational_suppor",
+      "to": "concept_predictability_reduced_anxiety_learning_gains_teac",
+      "type": "FACILITATE",
+      "properties": {
+        "from_name": "Structured routines, visual aids",
+        "to_name": "Predictability, reduced anxiety, learning gains"
+      }
+    },
+    {
+      "from": "concept_unique_perspectives_and_divergent_thinking_creativ",
+      "to": "concept_innovative_solutions_original_approaches_creative_",
+      "type": "CONTRIBUTE_TO",
+      "properties": {
+        "from_name": "Unique perspectives and divergent thinking",
+        "to_name": "Innovative solutions, original approaches"
+      }
+    },
+    {
+      "from": "concept_phonological_awareness_deficits_language_processin",
+      "to": "concept_decoding_word_recognition_reading_acquisition",
+      "type": "IMPAIR",
+      "properties": {
+        "from_name": "Phonological awareness deficits",
+        "to_name": "Decoding, word recognition"
+      }
+    },
+    {
+      "from": "concept_limited_verbal_working_memory_working_memory",
+      "to": "concept_retention_of_letter_sound_sequences_reading_fluenc",
+      "type": "AFFECTS",
+      "properties": {
+        "from_name": "Limited verbal working memory",
+        "to_name": "Retention of letter-sound sequences"
+      }
+    },
+    {
+      "from": "concept_slower_automatization_of_word_retrieval_processing",
+      "to": "concept_reading_fluency_comprehension_pace_learning_outcom",
+      "type": "REDUCES",
+      "properties": {
+        "from_name": "Slower automatization of word retrieval",
+        "to_name": "Reading fluency, comprehension pace"
+      }
+    },
+    {
+      "from": "concept_difficulty_linking_sounds_to_written_symbols_ortho",
+      "to": "concept_spelling_accuracy_literacy_skills",
+      "type": "HINDERS",
+      "properties": {
+        "from_name": "Difficulty linking sounds to written symbols",
+        "to_name": "Spelling accuracy"
+      }
+    },
+    {
+      "from": "concept_increased_cognitive_load_during_reading_tasks_atte",
+      "to": "concept_fatigue_reduced_concentration_learning_engagement",
+      "type": "LEADS_TO",
+      "properties": {
+        "from_name": "Increased cognitive load during reading tasks",
+        "to_name": "Fatigue, reduced concentration"
+      }
+    },
+    {
+      "from": "concept_need_for_higher_effort_in_self_monitoring_executiv",
+      "to": "concept_extra_use_of_cognitive_resources_cognitive_control",
+      "type": "DEMANDS",
+      "properties": {
+        "from_name": "Need for higher effort in self-monitoring",
+        "to_name": "Extra use of cognitive resources"
+      }
+    },
+    {
+      "from": "concept_risk_of_reduced_self_efficacy_in_academics_motivat",
+      "to": "concept_avoidance_of_reading_tasks_learning_motivation",
+      "type": "TRIGGERS",
+      "properties": {
+        "from_name": "Risk of reduced self-efficacy in academics",
+        "to_name": "Avoidance of reading tasks"
+      }
+    },
+    {
+      "from": "concept_frustration_and_stress_during_reading_emotional_re",
+      "to": "concept_anxiety_disengagement_emotional_well_being",
+      "type": "INCREASE",
+      "properties": {
+        "from_name": "Frustration and stress during reading",
+        "to_name": "Anxiety, disengagement"
+      }
+    },
+    {
+      "from": "concept_visual_spatial_reasoning_and_creativity_strengths",
+      "to": "concept_problem_solving_innovation_cognitive_strengths",
+      "type": "SUPPORT",
+      "properties": {
+        "from_name": "Visual-spatial reasoning and creativity",
+        "to_name": "Problem-solving, innovation"
+      }
+    },
+    {
+      "from": "concept_multisensory_structured_literacy_instruction_educa",
+      "to": "concept_reading_accuracy_and_confidence_teaching_practices",
+      "type": "FACILITATES",
+      "properties": {
+        "from_name": "Multisensory structured literacy instruction",
+        "to_name": "Reading accuracy and confidence"
+      }
+    },
+    {
+      "from": "concept_risk_of_stigma_and_misunderstanding_social_dimensi",
+      "to": "concept_peer_relationships_self_esteem_social_learning",
+      "type": "AFFECTS",
+      "properties": {
+        "from_name": "Risk of stigma and misunderstanding",
+        "to_name": "Peer relationships, self-esteem"
+      }
+    },
+    {
+      "from": "concept_difficulty_understanding_magnitude_and_quantity_nu",
+      "to": "concept_basic_arithmetic_numerical_cognition",
+      "type": "IMPAIRS",
+      "properties": {
+        "from_name": "Difficulty understanding magnitude and quantity",
+        "to_name": "Basic arithmetic"
+      }
+    },
+    {
+      "from": "concept_reduced_ability_to_hold_numerical_information_work",
+      "to": "concept_multi_step_calculations_problem_solving_cognitive_",
+      "type": "AFFECTS",
+      "properties": {
+        "from_name": "Reduced ability to hold numerical information",
+        "to_name": "Multi-step calculations, problem solving"
+      }
+    },
+    {
+      "from": "concept_slow_retrieval_of_math_facts_processing_speed",
+      "to": "concept_fluency_in_calculation_learning_outcomes",
+      "type": "REDUCES",
+      "properties": {
+        "from_name": "Slow retrieval of math facts",
+        "to_name": "Fluency in calculation"
+      }
+    },
+    {
+      "from": "concept_difficulty_linking_numbers_to_symbols_symbolic_pro",
+      "to": "concept_place_value_written_arithmetic_mathematical_litera",
+      "type": "HINDERS",
+      "properties": {
+        "from_name": "Difficulty linking numbers to symbols",
+        "to_name": "Place value, written arithmetic"
+      }
+    },
+    {
+      "from": "concept_challenges_with_spatial_reasoning_spatial_processi",
+      "to": "concept_geometry_alignment_in_written_problems_spatial_cog",
+      "type": "AFFECTS",
+      "properties": {
+        "from_name": "Challenges with spatial reasoning",
+        "to_name": "Geometry, alignment in written problems"
+      }
+    },
+    {
+      "from": "concept_weak_planning_and_sequencing_in_math_tasks_executi",
+      "to": "concept_problem_solving_strategies_cognitive_control",
+      "type": "DISRUPTS",
+      "properties": {
+        "from_name": "Weak planning and sequencing in math tasks",
+        "to_name": "Problem-solving strategies"
+      }
+    },
+    {
+      "from": "concept_high_cognitive_load_in_math_tasks_attention",
+      "to": "concept_fatigue_avoidance_learning_engagement",
+      "type": "LEADS_TO",
+      "properties": {
+        "from_name": "High cognitive load in math tasks",
+        "to_name": "Fatigue, avoidance"
+      }
+    },
+    {
+      "from": "concept_risk_of_math_anxiety_and_low_self_confidence_motiv",
+      "to": "concept_avoidance_of_math_related_learning_academic_motiva",
+      "type": "TRIGGERS",
+      "properties": {
+        "from_name": "Risk of math anxiety and low self-confidence",
+        "to_name": "Avoidance of math-related learning"
+      }
+    },
+    {
+      "from": "concept_frustration_in_learning_numbers_emotional_regulati",
+      "to": "concept_stress_negative_self_image_emotional_well_being",
+      "type": "INCREASES",
+      "properties": {
+        "from_name": "Frustration in learning numbers",
+        "to_name": "Stress, negative self-image"
+      }
+    },
+    {
+      "from": "concept_creativity_verbal_reasoning_visual_arts_strengths",
+      "to": "concept_alternative_problem_solving_approaches_cognitive_s",
+      "type": "SUPPORT",
+      "properties": {
+        "from_name": "Creativity, verbal reasoning, visual arts",
+        "to_name": "Alternative problem-solving approaches"
+      }
+    },
+    {
+      "from": "concept_concrete_manipulatives_visual_aids_step_by_step_in",
+      "to": "concept_conceptual_understanding_confidence_teaching_pract",
+      "type": "FACILITATE",
+      "properties": {
+        "from_name": "Concrete manipulatives, visual aids, step-by-step instruction",
+        "to_name": "Conceptual understanding, confidence"
+      }
+    },
+    {
+      "from": "concept_presence_of_motor_tics_sudden_repetitive_movements",
+      "to": "concept_classroom_focus_handwriting_coordination_motor_fun",
+      "type": "DISRUPTS",
+      "properties": {
+        "from_name": "Presence of motor tics (sudden, repetitive movements)",
+        "to_name": "Classroom focus, handwriting, coordination"
+      }
+    },
+    {
+      "from": "concept_vocal_tics_sounds_words_throat_clearing_vocal_cont",
+      "to": "concept_communication_peer_interaction_language_social_ski",
+      "type": "AFFECTS",
+      "properties": {
+        "from_name": "Vocal tics (sounds, words, throat clearing)",
+        "to_name": "Communication, peer interaction"
+      }
+    },
+    {
+      "from": "concept_cognitive_interference_from_premonitory_urges_atte",
+      "to": "concept_concentration_during_tasks_learning_engagement",
+      "type": "REDUCES",
+      "properties": {
+        "from_name": "Cognitive interference from premonitory urges",
+        "to_name": "Concentration during tasks"
+      }
+    },
+    {
+      "from": "concept_impulse_control_difficulties_executive_functions",
+      "to": "concept_disinhibition_distractibility_cognitive_regulation",
+      "type": "LEAD_TO",
+      "properties": {
+        "from_name": "Impulse control difficulties",
+        "to_name": "Disinhibition, distractibility"
+      }
+    },
+    {
+      "from": "concept_stress_and_anxiety_exacerbate_tics_emotional_regul",
+      "to": "concept_tic_frequency_and_intensity_emotional_well_being",
+      "type": "INCREASE",
+      "properties": {
+        "from_name": "Stress and anxiety exacerbate tics",
+        "to_name": "Tic frequency and intensity"
+      }
+    },
+    {
+      "from": "concept_stigma_and_peer_misunderstanding_social_cognition",
+      "to": "concept_social_integration_self_esteem_social_learning",
+      "type": "IMPAIR",
+      "properties": {
+        "from_name": "Stigma and peer misunderstanding",
+        "to_name": "Social integration, self-esteem"
+      }
+    },
+    {
+      "from": "concept_often_co_occurs_with_adhd_or_ocd_comorbidities",
+      "to": "concept_cognitive_load_learning_difficulties_neurodevelopm",
+      "type": "COMPOUNDS",
+      "properties": {
+        "from_name": "Often co-occurs with ADHD or OCD",
+        "to_name": "Cognitive load, learning difficulties"
+      }
+    },
+    {
+      "from": "concept_desire_to_suppress_tics_motivation",
+      "to": "concept_fatigue_reduced_task_persistence_academic_motivati",
+      "type": "LEADS_TO",
+      "properties": {
+        "from_name": "Desire to suppress tics",
+        "to_name": "Fatigue, reduced task persistence"
+      }
+    },
+    {
+      "from": "concept_creativity_resilience_heightened_awareness_strengt",
+      "to": "concept_adaptive_problem_solving_empathy_personal_growth",
+      "type": "SUPPORT",
+      "properties": {
+        "from_name": "Creativity, resilience, heightened awareness",
+        "to_name": "Adaptive problem-solving, empathy"
+      }
+    },
+    {
+      "from": "concept_psychoeducation_supportive_classroom_environment_e",
+      "to": "concept_reduced_stigma_improved_engagement_teaching_practi",
+      "type": "FACILITATES",
+      "properties": {
+        "from_name": "Psychoeducation, supportive classroom environment",
+        "to_name": "Reduced stigma, improved engagement"
+      }
+    },
+    {
+      "from": "concept_gender_ratio_estimated_prevalence_global_averages_",
+      "to": "concept_notes_concept",
+      "type": "TYPICAL_ONSET_/_DETECTION",
+      "properties": {
+        "from_name": "Gender Ratio",
+        "to_name": "Notes"
+      }
+    }
+  ]
+}

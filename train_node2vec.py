@@ -38,20 +38,29 @@ class EducationalNode2VecTrainer:
             'batch_words': self.config.get('batch_words', 10000) # Batch size
         }
         
-        # Educational domain weights (higher = more important for walks)
+        # Neuroscience domain weights (higher = more important for walks)
         self.domain_weights = {
-            'StudentWithSpecialNeeds': 3.0,
-            'PedagogicalMethodology': 3.0,
-            'StudentCharacteristic': 2.5,
-            'Context': 2.0,
-            'LearningResource': 2.0,
-            'Lighting': 1.5,
-            'Colour': 1.5,
-            'Furniture': 1.5,
-            'Acoustic': 1.5,
-            'InteractiveBoard': 1.8,
-            'EnvironmentalBarrier': 1.2,
-            'EnvironmentalSupport': 1.2
+            'IntrinsicMotivation': 3.0,
+            'ExtrinsicMotivation': 3.0,
+            'GrowthMindset': 3.0,
+            'FixedMindset': 3.0,
+            'Metacognition': 2.8,
+            'MetacognitiveMonitoring': 2.8,
+            'Attention': 2.5,
+            'WorkingMemory': 2.5,
+            'LongTermMemory': 2.5,
+            'ExecutiveFunctions': 2.5,
+            'CriticalThinking': 2.5,
+            'PositiveEmotions': 2.0,
+            'NegativeEmotions': 2.0,
+            'PositiveStressEustress': 2.0,
+            'NegativeStressDistress': 2.0,
+            'SelfRegulation': 2.2,
+            'Creativity': 2.0,
+            'CognitiveProcesses': 2.3,
+            'LearningDevelopment': 2.5,
+            'CognitiveFlexibility': 2.0,
+            'ProblemSolving': 2.0
         }
         
         self.model = None
@@ -264,16 +273,16 @@ class EducationalNode2VecTrainer:
         return self.model
 
 def test_node2vec_similarities(trainer: EducationalNode2VecTrainer):
-    """Test Node2Vec with educational concept similarities"""
+    """Test Node2Vec with neuroscience concept similarities"""
     test_concepts = [
-        "Adhd",
-        "Autism spectrum disorder", 
-        "Cooperative Learning",
-        "Blind",
-        "Cognitive disability [mild, moderate, severe]",
-        "Physical disability",
-        "Deaf",
-        "Visual impairment"
+        "IntrinsicMotivation",
+        "GrowthMindset",
+        "Metacognition",
+        "Attention",
+        "PositiveStressEustress",
+        "WorkingMemory",
+        "ExecutiveFunctions",
+        "CriticalThinking"
     ]
     
     print("\n🔍 Node2Vec Similarity Test Results:")

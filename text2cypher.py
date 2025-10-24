@@ -9,8 +9,8 @@ import re
 from typing import List, Dict, Optional, Tuple
 from dataclasses import dataclass
 from neo4j import GraphDatabase
-from langchain_openai import OpenAI
-from langchain_core.prompts import PromptTemplate
+from langchain_openai import ChatOpenAI
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.callbacks.manager import get_openai_callback
 import logging
@@ -81,9 +81,10 @@ class Text2CypherConverter:
         self.schema_extractor = Neo4jSchemaExtractor(neo4j_uri, neo4j_user, neo4j_password)
         self.schema_info = self.schema_extractor.extract_schema()
         
-        # Initialize OpenAI LLM
-        self.llm = OpenAI(
+        # Initialize OpenAI LLM with GPT-4o-mini (128K context)
+        self.llm = ChatOpenAI(
             openai_api_key=openai_api_key,
+            model="gpt-4o-mini",
             temperature=0.1,  # Low temperature for more consistent outputs
             max_tokens=500
         )
@@ -93,7 +94,7 @@ class Text2CypherConverter:
         self.output_parser = StrOutputParser()
         self.chain = self.prompt_template | self.llm | self.output_parser
     
-    def _create_prompt_template(self) -> PromptTemplate:
+    def _create_prompt_template(self) -> ChatPromptTemplate:
         """Create a comprehensive prompt template for text2cypher conversion"""
         
         # Build schema description
@@ -121,23 +122,25 @@ EXAMPLES:
 """ + examples + """
 
 QUERY PATTERNS:
-- Student needs: MATCH (s:StudentWithSpecialNeeds)-[r:SUGGESTS]->(m:PedagogicalMethodology)
-- Student characteristics: MATCH (s:StudentCharacteristic)-[r:SUGGESTS]->(p:PedagogicalApproach)
-- Learning methods: MATCH (m:PedagogicalMethodology) WHERE toLower(m.name) CONTAINS toLower("keyword")
-- Technology integration: MATCH (i:InteractiveBoard)-[r:SUPPORTS]->(p:PedagogicalApproach)
-- Environmental factors: MATCH (e:LearningEnvironment)-[r:SUPPORTS]->(l:LearningProcess)
-- Inclusion strategies: MATCH (p:PedagogicalStrategy)-[r:PROMOTES]->(i:InclusionStrategy)
-- Learning barriers: MATCH (b:EnvironmentalBarrier)-[r:HINDERS]->(o:LearningOutcome)
+- Motivation concepts: MATCH (m:IntrinsicMotivation|ExtrinsicMotivation)-[r]->(o) RETURN m.name, type(r), o.name
+- Stress and learning: MATCH (s:PositiveStressEustress|NegativeStressDistress)-[r]->(l:LearningDevelopment) 
+- Mindset patterns: MATCH (m:GrowthMindset|FixedMindset)-[r]->(o) RETURN m.name, type(r), o.name
+- Emotions and cognition: MATCH (e:PositiveEmotions|NegativeEmotions)-[r]->(c:CognitiveProcesses)
+- Metacognition: MATCH (m:Metacognition)-[r]->(s:SelfRegulation) RETURN m.name, type(r), s.name
+- Attention processes: MATCH (a:Attention)-[r:IS_MODULATED_BY|SUPPORTS]->(o) RETURN a.name, type(r), o.name
+- Memory systems: MATCH (m:WorkingMemory|LongTermMemory)-[r]->(o) RETURN m.name, type(r), o.name
+- Executive functions: MATCH (e:ExecutiveFunctions)-[r]->(o) RETURN e.name, type(r), o.name
+- Critical thinking: MATCH (c:CriticalThinking)-[r]->(o) RETURN c.name, type(r), o.name
 
 Convert this natural language question to a Cypher query:
 Question: {question}
 
 Cypher Query:"""
 
-        return PromptTemplate(
-            input_variables=["question"],
-            template=template
-        )
+        return ChatPromptTemplate.from_messages([
+            ("system", "You are a Neo4j Cypher query expert for a neuroscience knowledge graph system."),
+            ("human", template)
+        ])
     
     def _build_schema_description(self) -> str:
         """Build a comprehensive schema description"""
@@ -166,43 +169,52 @@ Cypher Query:"""
         return desc
     
     def _create_few_shot_examples(self) -> str:
-        """Create few-shot examples based on the actual schema"""
+        """Create few-shot examples based on neuroscience knowledge graph"""
         examples = """
-Question: "What teaching methods help students with ADHD?"
-Cypher: MATCH (s:StudentWithSpecialNeeds)-[r:SUGGESTS]->(m:PedagogicalMethodology) WHERE s.name = "Adhd" OR s.name = "Attention Deficit" RETURN m.name, m.category LIMIT 10
+Question: "What is the difference between intrinsic and extrinsic motivation?"
+Cypher: MATCH (i:IntrinsicMotivation)-[r]-(o) RETURN i.name, type(r) as relationship, o.name, labels(o) as target_type LIMIT 15
 
-Question: "What pedagogical approaches should be avoided for students with no personal motivation?"
-Cypher: MATCH (s:StudentWithSpecialNeeds)-[r:NO_SUGGESTS]->(m:PedagogicalMethodology) WHERE s.name = "NoPersonalMotivation" RETURN m.name, m.category LIMIT 10
+Question: "Can stress sometimes be positive for learning?"
+Cypher: MATCH (p:PositiveStressEustress)-[r:SUPPORTS|ENHANCES]->(l:LearningDevelopment) RETURN p.name, type(r), l.name LIMIT 10
 
-Question: "How many pedagogical methodologies are in the database?"
-Cypher: MATCH (m:PedagogicalMethodology) RETURN COUNT(m) as methodology_count
+Question: "What does growth mindset mean?"
+Cypher: MATCH (g:GrowthMindset)-[r]->(o) RETURN g.name, type(r), o.name, labels(o) LIMIT 15
 
-Question: "What lighting conditions support learning focus?"
-Cypher: MATCH (l:Lighting)-[r:SUPPORTS]->(p:LearningProcess) WHERE p.name = "focus" RETURN l.name, p.name LIMIT 10
+Question: "How do emotions affect student learning?"
+Cypher: MATCH (e:PositiveEmotions)-[r]->(c:CognitiveProcesses) RETURN e.name, type(r), c.name LIMIT 10
 
-Question: "What colors facilitate attention and relaxation?"
-Cypher: MATCH (c:Colour)-[r:FACILITATES]->(r:LearnerResponse) WHERE toLower(r.name) CONTAINS "attention" RETURN c.name, r.name LIMIT 10
+Question: "What is metacognition and why is it important?"
+Cypher: MATCH (m:Metacognition)-[r]->(o) RETURN m.name, type(r), o.name, labels(o) LIMIT 15
 
-Question: "What does interactive board enable for learning?"
-Cypher: MATCH (i:InteractiveBoard)-[r:ENABLES]->(l:LearningModality) RETURN i.name, l.name LIMIT 10
+Question: "How can I encourage intrinsic motivation in students?"
+Cypher: MATCH (i:IntrinsicMotivation)-[r:ENHANCES|SUPPORTS]->(l:LearningOutcomes) RETURN i.name, type(r), l.name LIMIT 10
 
-Question: "What methodologies help students with excellence in subjects?"
-Cypher: MATCH (s:StudentCharacteristic)-[r:SUGGESTS]->(m:PedagogicalMethodology) WHERE s.name = "Excellence in some or all subjects" RETURN m.name, m.category LIMIT 10
+Question: "How does stress influence motivation?"
+Cypher: MATCH (s:PositiveStressEustress)-[r]-(m:IntrinsicMotivation) RETURN s.name, type(r), m.name LIMIT 10
 
-Question: "What furniture causes discomfort and reduced focus?"
-Cypher: MATCH (f:Furniture)-[r:CAUSES]->(e:EnvironmentalBarrier) WHERE toLower(e.name) CONTAINS "discomfort" RETURN f.name, e.name LIMIT 10
+Question: "What's the link between emotions and mindset?"
+Cypher: MATCH (e:PositiveEmotions)-[r]-(g:GrowthMindset) RETURN e.name, type(r), g.name LIMIT 10
 
-Question: "What methodologies work for cohesive classes?"
-Cypher: MATCH (c:Context)-[r:SUGGESTS]->(m:PedagogicalMethodology) WHERE c.name = "Cohesive" RETURN m.name, m.category LIMIT 10
+Question: "What cognitive processes support memory encoding?"
+Cypher: MATCH (p)-[r:FACILITATES|ENHANCES]->(m:Memoryencoding) RETURN p.name, labels(p), type(r), m.name LIMIT 10
 
-Question: "What colors support cognitive regulation strategies?"
-Cypher: MATCH (c:Colour)-[r:SUGGESTS]->(p:PedagogicalStrategy) WHERE toLower(p.name) CONTAINS "cognitive" RETURN c.name, p.name LIMIT 10
+Question: "How does attention modulate learning?"
+Cypher: MATCH (a:Attention)-[r:IS_MODULATED_BY|SUPPORTS]->(l) RETURN a.name, type(r), l.name, labels(l) LIMIT 15
 
-Question: "What environmental factors support learning environment?"
-Cypher: MATCH (f:Furniture)-[r:SUPPORTS]->(e:LearningEnvironment) RETURN f.name, e.name LIMIT 10
+Question: "What factors impair executive functions?"
+Cypher: MATCH (f)-[r:IMPAIRS|REDUCES]->(e:ExecutiveFunctions) RETURN f.name, labels(f), type(r), e.name LIMIT 10
 
-Question: "What acoustic conditions increase cognitive load?"
-Cypher: MATCH (a:Acoustic)-[r:INCREASES]->(c:CognitiveConstraint) RETURN a.name, c.name LIMIT 10
+Question: "How does working memory affect learning?"
+Cypher: MATCH (w:WorkingMemory)-[r]->(o) WHERE type(r) IN ['ENHANCES', 'SUPPORTS', 'AFFECTS', 'LIMITS'] RETURN w.name, type(r), o.name, labels(o) LIMIT 15
+
+Question: "What enhances critical thinking?"
+Cypher: MATCH (n)-[r:ENHANCES|SUPPORTS|STRENGTHENS]->(c:CriticalThinking) RETURN n.name, labels(n), type(r), c.name LIMIT 10
+
+Question: "How many types of attention are in the database?"
+Cypher: MATCH (a:Attention) RETURN COUNT(DISTINCT a.name) as attention_types
+
+Question: "What is the relationship between creativity and cognitive flexibility?"
+Cypher: MATCH (c:Creativity)-[r]-(cf:CognitiveFlexibility) RETURN c.name, type(r), cf.name LIMIT 10
 """
         return examples.strip()
     
@@ -238,8 +250,21 @@ Cypher: MATCH (a:Acoustic)-[r:INCREASES]->(c:CognitiveConstraint) RETURN a.name,
     
     def _clean_cypher_query(self, raw_query: str) -> str:
         """Clean and format the generated Cypher query"""
+        query = raw_query.strip()
+        
+        # Remove markdown code blocks (```cypher ... ``` or ``` ... ```)
+        # Pattern 1: ```cypher\nMATCH...\n```
+        if query.startswith('```cypher'):
+            query = query[9:].strip()  # Remove ```cypher
+        elif query.startswith('```'):
+            query = query[3:].strip()  # Remove ```
+        
+        # Remove closing ```
+        if query.endswith('```'):
+            query = query[:-3].strip()
+        
         # Remove any explanatory text before/after the query
-        lines = raw_query.strip().split('\n')
+        lines = query.split('\n')
         cypher_lines = []
         
         for line in lines:
@@ -249,7 +274,8 @@ Cypher: MATCH (a:Acoustic)-[r:INCREASES]->(c:CognitiveConstraint) RETURN a.name,
                 not line.startswith('Question:') and 
                 not line.startswith('Answer:') and
                 not line.startswith('Explanation:') and
-                not line.startswith('Note:')):
+                not line.startswith('Note:') and
+                not line.startswith('```')):  # Skip any remaining code fence markers
                 cypher_lines.append(line)
         
         query = ' '.join(cypher_lines)
@@ -260,7 +286,8 @@ Cypher: MATCH (a:Acoustic)-[r:INCREASES]->(c:CognitiveConstraint) RETURN a.name,
             "Cypher:",
             "Query:",
             "The Cypher query is:",
-            "Here's the Cypher query:"
+            "Here's the Cypher query:",
+            "Here is the Cypher query:"
         ]
         
         for prefix in prefixes_to_remove:
@@ -398,37 +425,83 @@ Cypher: MATCH (a:Acoustic)-[r:INCREASES]->(c:CognitiveConstraint) RETURN a.name,
         return query
     
     def _expand_sen_synonyms(self, query: str) -> str:
-        """Expand critical SEN terms with synonyms based on audit data"""
+        """Expand neuroscience terms with synonyms for better matching (Italian + English)"""
         import re
         
-        # Synonym mappings based on actual node names in your data
-        SEN_SYNONYMS = {
-            "adhd": ["Adhd", "Attention Deficit", "Hyperactivity Disorder"],
-            "attention deficit": ["Attention Deficit", "Adhd", "Hyperactivity Disorder"], 
-            "autism spectrum disorder": ["Autism spectrum disorder"],
-            "autism": ["Autism spectrum disorder"],
-            "no personal motivation": ["NoPersonalMotivation", "Lack of motivation"],
-            "nopersonalmotivation": ["NoPersonalMotivation", "Lack of motivation"],
-            "cognitive disability": ["Cognitive disability [mild, moderate, severe]"],
-            "physical disability": ["Physical disability"],
-            "language difficulties": ["Language difficulties due to foreign origin"]
+        # Comprehensive Italian-English synonym mappings for neuroscience knowledge graph
+        NEUROSCIENCE_SYNONYMS = {
+            # Motivation (Italian + English)
+            "motivazione intrinseca": ["Intrinsic", "intrinsic motivation", "internal motivation"],
+            "motivazione estrinseca": ["Extrinsic", "extrinsic motivation", "external motivation"],
+            "intrinsic motivation": ["Intrinsic", "internal motivation", "autonomous motivation"],
+            "extrinsic motivation": ["Extrinsic", "external motivation", "reward-based motivation"],
+            "motivazione": ["Intrinsic", "Extrinsic", "motivation"],
+            
+            # Stress (Italian + English)
+            "stress positivo": ["stress (positive or negative)", "positive stress", "eustress"],
+            "stress negativo": ["stress (positive or negative)", "negative stress", "distress"],
+            "eustress": ["stress (positive or negative)", "beneficial stress"],
+            "distress": ["stress (positive or negative)", "harmful stress"],
+            "stress": ["stress (positive or negative)"],
+            
+            # Mindset (Italian + English)
+            "mentalità di crescita": ["Growth", "growth mindset", "malleable mindset"],
+            "mentalità fissa": ["Fixed", "fixed mindset", "entity mindset"],
+            "mindset crescita": ["Growth", "growth mindset"],
+            "mindset fisso": ["Fixed", "fixed mindset"],
+            "growth mindset": ["Growth", "malleable mindset", "incremental mindset"],
+            "fixed mindset": ["Fixed", "entity mindset", "static mindset"],
+            
+            # Metacognition (Italian + English)
+            "metacognizione": ["Metacognition", "self-awareness", "thinking about thinking"],
+            "metacognition": ["Metacognition", "MetacognitiveMonitoring", "self-awareness"],
+            
+            # Memory (Italian + English)
+            "memoria di lavoro": ["short-term / working memory", "working memory", "WM"],
+            "memoria a lungo termine": ["long-term memory", "LTM"],
+            "working memory": ["short-term / working memory", "WM"],
+            "memoria": ["short-term / working memory", "long-term memory"],
+            "memory": ["Memory", "WorkingMemory", "LongTermMemory"],
+            
+            # Executive Functions (Italian + English)
+            "funzioni esecutive": ["Self-regulation", "Planning", "executive functions", "cognitive control"],
+            "executive function": ["ExecutiveFunctions", "cognitive control", "EF"],
+            
+            # Attention (Italian + English)
+            "attenzione": ["selective", "divided", "Sustained", "Focused", "attention", "focus"],
+            "attenzione selettiva": ["selective", "selective attention"],
+            "attention": ["Attention", "focus", "concentration", "selective attention"],
+            
+            # Emotions (Italian + English)
+            "emozioni": ["stress (positive or negative)", "emotions"],
+            "emozioni positive": ["stress (positive or negative)", "positive emotions"],
+            "emozioni negative": ["stress (positive or negative)", "negative emotions"],
+            "emotions": ["PositiveEmotions", "NegativeEmotions"],
+            
+            # Creativity (Italian + English)
+            "creatività": ["Creativity", "divergent thinking", "innovative thinking"],
+            "creativity": ["Creativity", "divergent thinking"],
+            
+            # Critical Thinking (Italian + English)
+            "pensiero critico": ["Critical thinking", "analytical thinking"],
+            "critical thinking": ["CriticalThinking"]
         }
         
         # Look for WHERE clauses with single term matching
-        pattern = r'WHERE\s+toLower\(s\.name\)\s*=\s*toLower\("([^"]+)"\)'
+        pattern = r'WHERE\s+toLower\((?:s|n|m|e|a)\.name\)\s*=\s*toLower\("([^"]+)"\)'
         
         def expand_synonyms(match):
             term = match.group(1).lower()
             
             # Check if this term has synonyms
-            for key, synonyms in SEN_SYNONYMS.items():
+            for key, synonyms in NEUROSCIENCE_SYNONYMS.items():
                 if key in term or any(term in syn.lower() for syn in synonyms):
-                    # Create IN clause with all synonyms
+                    # Create IN clause with all synonyms for broad matching
                     synonym_list = '", "'.join(synonyms)
-                    return f'WHERE s.name IN ["{synonym_list}"]'
+                    return f'WHERE toLower(n.name) IN [toLower("{s}") for s in ["{synonym_list}"]]'
             
             # If no synonyms found, use tolerant CONTAINS matching
-            return f'WHERE toLower(s.name) CONTAINS toLower("{match.group(1)}")'
+            return f'WHERE toLower(n.name) CONTAINS toLower("{match.group(1)}")'
         
         return re.sub(pattern, expand_synonyms, query)
     
@@ -567,4 +640,4 @@ def main():
         pipeline.close()
 
 if __name__ == "__main__":
-    main() 
+    main()

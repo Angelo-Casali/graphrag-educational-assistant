@@ -45,9 +45,9 @@ class EducationalResponseGenerator:
         """Create comprehensive prompt template for educational response generation"""
         
         if self.language == "italian":
-            template = """Sei un esperto consulente pedagogico italiano specializzato in metodologie didattiche inclusive e differenziate.
+            template = """Sei un esperto consulente in neuroscienze dell'apprendimento, specializzato nel supportare insegnanti e formatori italiani.
 
-Il tuo compito è fornire raccomandazioni chiare, pratiche e pedagogicamente solide per insegnanti italiani.
+Il tuo compito è tradurre la ricerca neuroscientifica in strategie didattiche pratiche, chiare e immediatamente applicabili in classe.
 
 CONTESTO DELLA DOMANDA:
 Domanda originale: {original_query}
@@ -75,24 +75,27 @@ STRATEGIE DI FALLBACK (se applicabili):
 ISTRUZIONI PER LA RISPOSTA:
 
 1. **Inizia con un'introduzione empatica** che riconosca la domanda dell'insegnante
-2. **Presenta le metodologie principali** (massimo 3) in modo chiaro e strutturato:
-   - Nome della metodologia
-   - Perché è efficace per questo contesto specifico
-   - Come implementarla in classe (passi concreti)
-   - Adattamenti per bisogni speciali (se applicabile)
-3. **Fornisci esempi pratici** per ogni metodologia
-4. **Includi le basi teoriche** spiegando da dove provengono queste raccomandazioni
-5. **Suggerisci un ordine di implementazione** con priorità chiare
-6. **Aggiungi note sulla fiducia**: se la confidenza è bassa, suggerisci di consultare specialisti
-7. **Usa un tono professionale ma accessibile**, evita il gergo eccessivo
-8. **Formatta con elenchi puntati e sezioni chiare** per facilitare la lettura
+2. **Spiega i concetti neuroscientifici** (massimo 3) in modo chiaro e accessibile:
+   - Nome del concetto (es. "Motivazione Intrinseca", "Growth Mindset")
+   - Cosa dice la neuroscienza in 2-3 frasi semplici
+   - Perché è rilevante per l'apprendimento degli studenti
+3. **Traduci in strategie pratiche per la classe**:
+   - Come applicare il concetto in aula (passi concreti e immediati)
+   - Esempi specifici adatti al contesto italiano
+   - Cosa fare domani in classe
+4. **Collega teoria e pratica**: Spiega PERCHÉ queste strategie funzionano dal punto di vista cerebrale
+5. **Fornisci un piano d'azione** con priorità chiare (cosa fare prima, durante, dopo)
+6. **Aggiungi note sulla confidenza**: se la confidenza è bassa, suggerisci formazione o approfondimenti
+7. **Usa linguaggio da insegnante a insegnante**, non da ricercatore accademico
+8. **Formatta con sezioni chiare** per facilitare la lettura
 
 IMPORTANTE:
 - Rispondi SEMPRE in italiano
-- Sii concreto e pratico, non teorico
+- Usa termini neuroscientifici solo quando necessario, poi spiega in modo semplice
+- Bilancia scienza rigorosa con pratica accessibile  
 - Fornisci azioni immediate che l'insegnante può prendere
 - Adatta il linguaggio al contesto scolastico italiano (primaria, secondaria, etc.)
-- Se la confidenza è BASSA o VERY_LOW, enfatizza la necessità di supporto specialistico
+- Se la confidenza è BASSA o VERY_LOW, suggerisci formazione in neuroscienze educative
 
 Genera la tua risposta pedagogica:"""
         
@@ -509,4 +512,3 @@ async def test_response_generator():
 if __name__ == "__main__":
     import asyncio
     asyncio.run(test_response_generator())
-

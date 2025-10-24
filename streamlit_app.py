@@ -25,8 +25,8 @@ logger = logging.getLogger(__name__)
 
 # Page configuration
 st.set_page_config(
-    page_title="🎓 GraphRAG Educational Assistant - UDL",
-    page_icon="🎓",
+    page_title="🧠 Neuroscience Knowledge Graph - Assistente per Insegnanti",
+    page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -207,11 +207,11 @@ def main():
     """Main Streamlit app"""
     
     # Title and description
-    st.title("🎓 GraphRAG Educational Assistant - UDL")
+    st.title("🧠 Neuroscience Knowledge Graph - Assistente per Insegnanti")
     st.markdown("""
-    **Sistema di supporto pedagogico per insegnanti italiani basato su Knowledge Graph**
+    **Sistema di supporto basato su neuroscienze per insegnanti e formatori italiani**
     
-    Fai domande in italiano su strategie didattiche per studenti con bisogni educativi speciali.
+    Fai domande su motivazione, stress, mindset, emozioni e metacognizione per ricevere risposte scientificamente fondate con strategie pratiche.
     """)
     
     # Sidebar
@@ -227,10 +227,31 @@ def main():
         
         ### 💡 Esempi di domande
         
-        - "Ci sono strategie per studenti ipovedenti?"
-        - "Il mio studente ha l'ADHD, cosa posso fare?"
-        - "Metodologie per disturbi dello spettro autistico?"
-        - "Come aiutare studenti senza motivazione?"
+        **Livello 1 - Base:**
+        - "Qual è la differenza tra motivazione intrinseca ed estrinseca?"
+        - "Lo stress può essere positivo per l'apprendimento?"
+        - "Cosa significa 'growth mindset'?"
+        
+        **Livello 2 - Strategie:**
+        - "Come posso incoraggiare la motivazione intrinseca?"
+        - "Quali attività riducono lo stress prima degli esami?"
+        - "Come promuovere un growth mindset?"
+        
+        **Livello 3 - Interventi:**
+        - "Come spostare gli studenti da motivazione estrinseca a intrinseca?"
+        - "Come aiutare studenti a reinterpretare il fallimento?"
+        
+        **Livello 4 - Integrazione:**
+        - "Come lo stress influenza la motivazione?"
+        - "Qual è il legame tra emozioni e mindset?"
+        
+        ### ℹ️ Aree Tematiche
+        
+        - 🎯 **Motivazione** (intrinseca vs estrinseca)
+        - 💪 **Stress** (positivo vs negativo)
+        - 🧩 **Mindset** (fisso vs crescita)
+        - 😊 **Emozioni** (positive vs negative)
+        - 🤔 **Metacognizione** (consapevolezza, riflessione)
         
         ### ℹ️ Tecnologie
         
@@ -418,4 +439,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
