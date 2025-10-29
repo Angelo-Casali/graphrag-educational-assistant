@@ -5,7 +5,7 @@
       "properties": {
         "id": "concept_selective_attention",
         "name": "selective",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -13,7 +13,7 @@
       "properties": {
         "id": "concept_sensory_filtering_modulation_of_bottom_up_salience",
         "name": "Sensory Filtering",
-        "concept": "Modulation of Bottom-Up Salience"
+        "category": "Modulation of Bottom-Up Salience"
       }
     },
     {
@@ -21,7 +21,7 @@
       "properties": {
         "id": "concept_sensory_input_perceptual_processing",
         "name": "Sensory Input",
-        "concept": "Perceptual Processing"
+        "category": "Perceptual Processing"
       }
     },
     {
@@ -29,7 +29,7 @@
       "properties": {
         "id": "concept_prefrontal_cortex_attentional_control",
         "name": "prefrontal cortex",
-        "concept": "Attentional Control"
+        "category": "Attentional Control"
       }
     },
     {
@@ -37,7 +37,7 @@
       "properties": {
         "id": "concept_stress_positive_or_negative_emotions",
         "name": "stress (positive or negative)",
-        "concept": "Emotions"
+        "category": "Emotions"
       }
     },
     {
@@ -45,7 +45,7 @@
       "properties": {
         "id": "concept_intrinsic_motivational_modulation",
         "name": "Intrinsic",
-        "concept": "Motivational Modulation"
+        "category": "Motivational Modulation"
       }
     },
     {
@@ -53,7 +53,7 @@
       "properties": {
         "id": "concept_extrinsic_motivational_modulation",
         "name": "Extrinsic",
-        "concept": "Motivational Modulation"
+        "category": "Motivational Modulation"
       }
     },
     {
@@ -61,7 +61,7 @@
       "properties": {
         "id": "concept_self_regulation_executive_control",
         "name": "Self-regulation",
-        "concept": "executive control"
+        "category": "executive control"
       }
     },
     {
@@ -69,7 +69,7 @@
       "properties": {
         "id": "concept_short_term_working_memory_memory",
         "name": "short-term / working memory",
-        "concept": "Memory"
+        "category": "Memory"
       }
     },
     {
@@ -77,7 +77,7 @@
       "properties": {
         "id": "concept_divided_attention",
         "name": "divided",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -85,7 +85,7 @@
       "properties": {
         "id": "concept_intrinsec_cognitive_load",
         "name": "Intrinsec",
-        "concept": "Cognitive load"
+        "category": "Cognitive load"
       }
     },
     {
@@ -93,7 +93,7 @@
       "properties": {
         "id": "concept_extraneous_cognitive_load",
         "name": "Extraneous",
-        "concept": "Cognitive load"
+        "category": "Cognitive load"
       }
     },
     {
@@ -101,7 +101,7 @@
       "properties": {
         "id": "concept_germane_cognitive_load",
         "name": "Germane",
-        "concept": "Cognitive load"
+        "category": "Cognitive load"
       }
     },
     {
@@ -109,7 +109,7 @@
       "properties": {
         "id": "concept_deep_processing_memory_encoding",
         "name": "deep processing",
-        "concept": "Memory encoding"
+        "category": "Memory encoding"
       }
     },
     {
@@ -117,7 +117,7 @@
       "properties": {
         "id": "concept_long_term_memory_memory_system",
         "name": "long-term memory",
-        "concept": "Memory System"
+        "category": "Memory System"
       }
     },
     {
@@ -125,7 +125,7 @@
       "properties": {
         "id": "concept_sleep_deprivation_psycho_biological_factor",
         "name": "sleep deprivation",
-        "concept": "Psycho-Biological factor"
+        "category": "Psycho-Biological factor"
       }
     },
     {
@@ -133,7 +133,7 @@
       "properties": {
         "id": "concept_anxiety_affective_processes",
         "name": "anxiety",
-        "concept": "Affective processes"
+        "category": "Affective processes"
       }
     },
     {
@@ -141,7 +141,7 @@
       "properties": {
         "id": "concept_excessive_use_of_technology_environmental_factors",
         "name": "excessive use of technology",
-        "concept": "Environmental factors"
+        "category": "Environmental factors"
       }
     },
     {
@@ -149,7 +149,7 @@
       "properties": {
         "id": "concept_multitasking_cognitive_load",
         "name": "multitasking",
-        "concept": "Cognitive Load"
+        "category": "Cognitive Load"
       }
     },
     {
@@ -157,7 +157,7 @@
       "properties": {
         "id": "concept_all_types_attention",
         "name": "All types",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -165,7 +165,7 @@
       "properties": {
         "id": "concept_mind_wandering_default_mode_network_activity",
         "name": "mind-wandering",
-        "concept": "Default Mode Network Activity"
+        "category": "Default Mode Network Activity"
       }
     },
     {
@@ -173,7 +173,7 @@
       "properties": {
         "id": "concept_breaks_restoration_of_executive_resources",
         "name": "Breaks",
-        "concept": "Restoration of Executive Resources"
+        "category": "Restoration of Executive Resources"
       }
     },
     {
@@ -181,7 +181,7 @@
       "properties": {
         "id": "concept_memory_encoding_memory_systems",
         "name": "Memory Encoding",
-        "concept": "Memory Systems"
+        "category": "Memory Systems"
       }
     },
     {
@@ -189,7 +189,7 @@
       "properties": {
         "id": "concept_sustained_attention",
         "name": "Sustained",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -197,7 +197,7 @@
       "properties": {
         "id": "concept_cognitive_fatigue_attentional_control",
         "name": "cognitive fatigue",
-        "concept": "Attentional Control"
+        "category": "Attentional Control"
       }
     },
     {
@@ -205,7 +205,7 @@
       "properties": {
         "id": "concept_divided_attention",
         "name": "Divided",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -213,7 +213,7 @@
       "properties": {
         "id": "concept_working_memory_capacity_resource_allocation",
         "name": "working memory capacity",
-        "concept": "Resource Allocation"
+        "category": "Resource Allocation"
       }
     },
     {
@@ -221,7 +221,7 @@
       "properties": {
         "id": "concept_focused_attention",
         "name": "Focused",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -229,7 +229,7 @@
       "properties": {
         "id": "concept_external_distractions_bottom_up_salience",
         "name": "external distractions",
-        "concept": "Bottom-Up Salience"
+        "category": "Bottom-Up Salience"
       }
     },
     {
@@ -237,7 +237,7 @@
       "properties": {
         "id": "concept_vigilance_attention",
         "name": "Vigilance",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -245,7 +245,7 @@
       "properties": {
         "id": "concept_arousal_regulation_attentional_state",
         "name": "arousal regulation",
-        "concept": "Attentional State"
+        "category": "Attentional State"
       }
     },
     {
@@ -253,7 +253,7 @@
       "properties": {
         "id": "concept_top_down_attention",
         "name": "Top-down",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -261,7 +261,7 @@
       "properties": {
         "id": "concept_goals_and_expectations_affective_motivational_modu",
         "name": "goals and expectations",
-        "concept": "Affective–Motivational Modulation"
+        "category": "Affective\u2013Motivational Modulation"
       }
     },
     {
@@ -269,7 +269,7 @@
       "properties": {
         "id": "concept_bottom_up_attention",
         "name": "Bottom-up",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -277,7 +277,7 @@
       "properties": {
         "id": "concept_salient_stimuli_sensory_processing",
         "name": "Salient Stimuli",
-        "concept": "Sensory Processing"
+        "category": "Sensory Processing"
       }
     },
     {
@@ -285,7 +285,7 @@
       "properties": {
         "id": "concept_selective_attention",
         "name": "Selective",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -293,7 +293,7 @@
       "properties": {
         "id": "concept_multimodal_sensory_input_cross_modal_sensory_proce",
         "name": "Multimodal Sensory Input",
-        "concept": "Cross-Modal Sensory Processing"
+        "category": "Cross-Modal Sensory Processing"
       }
     },
     {
@@ -301,7 +301,7 @@
       "properties": {
         "id": "concept_task_chunking_temporal_attention_structuring",
         "name": "task chunking",
-        "concept": "Temporal Attention Structuring"
+        "category": "Temporal Attention Structuring"
       }
     },
     {
@@ -309,7 +309,7 @@
       "properties": {
         "id": "concept_mindfulness_based_practices_attentional_control_re",
         "name": "mindfulness-based practices",
-        "concept": "Attentional Control / Regulation"
+        "category": "Attentional Control / Regulation"
       }
     },
     {
@@ -317,7 +317,7 @@
       "properties": {
         "id": "concept_active_retrieval_long_term_memory_consolidation",
         "name": "Active Retrieval",
-        "concept": "Long-Term Memory Consolidation"
+        "category": "Long-Term Memory Consolidation"
       }
     },
     {
@@ -325,7 +325,7 @@
       "properties": {
         "id": "concept_joint_attention_attention",
         "name": "Joint Attention",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -333,7 +333,7 @@
       "properties": {
         "id": "concept_language_development_social_cognitive_development",
         "name": "language development",
-        "concept": "Social Cognitive Development"
+        "category": "Social Cognitive Development"
       }
     },
     {
@@ -341,7 +341,7 @@
       "properties": {
         "id": "concept_visual_spatial_attention",
         "name": "Visual-Spatial",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -349,7 +349,7 @@
       "properties": {
         "id": "concept_interactive_game_based_tasks_spatial_attention_sys",
         "name": "Interactive Game-Based Tasks",
-        "concept": "Spatial Attention Systems"
+        "category": "Spatial Attention Systems"
       }
     },
     {
@@ -357,7 +357,7 @@
       "properties": {
         "id": "concept_adhd_prefrontal_executive_control_networks",
         "name": "adhd",
-        "concept": "Prefrontal/Executive Control Networks"
+        "category": "Prefrontal/Executive Control Networks"
       }
     },
     {
@@ -365,7 +365,7 @@
       "properties": {
         "id": "concept_deep_processing_long_term_memory_formation",
         "name": "Deep Processing",
-        "concept": "Long-Term Memory Formation"
+        "category": "Long-Term Memory Formation"
       }
     },
     {
@@ -373,7 +373,7 @@
       "properties": {
         "id": "concept_top_down_control_attentional_filtering",
         "name": "top-down control",
-        "concept": "Attentional Filtering"
+        "category": "Attentional Filtering"
       }
     },
     {
@@ -381,7 +381,7 @@
       "properties": {
         "id": "concept_irrelevant_stimuli_attentional_control",
         "name": "irrelevant stimuli",
-        "concept": "Attentional Control"
+        "category": "Attentional Control"
       }
     },
     {
@@ -389,7 +389,7 @@
       "properties": {
         "id": "concept_multitask_practice_executive_control_limitations",
         "name": "Multitask Practice",
-        "concept": "Executive Control Limitations"
+        "category": "Executive Control Limitations"
       }
     },
     {
@@ -397,7 +397,7 @@
       "properties": {
         "id": "concept_flow_state_optimal_attentional_network_activation",
         "name": "flow state",
-        "concept": "Optimal Attentional Network Activation"
+        "category": "Optimal Attentional Network Activation"
       }
     },
     {
@@ -405,7 +405,7 @@
       "properties": {
         "id": "concept_sustained_attention",
         "name": "sustained",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -413,7 +413,7 @@
       "properties": {
         "id": "concept_flow_state_coordinated_activation_of_executive_and",
         "name": "flow state",
-        "concept": "Coordinated Activation of Executive and Attentional Networks"
+        "category": "Coordinated Activation of Executive and Attentional Networks"
       }
     },
     {
@@ -421,7 +421,7 @@
       "properties": {
         "id": "concept_chunking_organization_working_memory",
         "name": "Chunking / Organization",
-        "concept": "Working Memory"
+        "category": "Working Memory"
       }
     },
     {
@@ -429,7 +429,7 @@
       "properties": {
         "id": "concept_encoding_long_term_memory",
         "name": "Encoding",
-        "concept": "Long-Term Memory"
+        "category": "Long-Term Memory"
       }
     },
     {
@@ -437,7 +437,7 @@
       "properties": {
         "id": "concept_visualization_mental_imagery_working_memory",
         "name": "Visualization / Mental Imagery",
-        "concept": "Working Memory"
+        "category": "Working Memory"
       }
     },
     {
@@ -445,7 +445,7 @@
       "properties": {
         "id": "concept_deep_processing_consolidation",
         "name": "Deep processing",
-        "concept": "Consolidation"
+        "category": "Consolidation"
       }
     },
     {
@@ -453,7 +453,7 @@
       "properties": {
         "id": "concept_rehearsal_working_memory",
         "name": "Rehearsal",
-        "concept": "Working Memory"
+        "category": "Working Memory"
       }
     },
     {
@@ -461,7 +461,7 @@
       "properties": {
         "id": "concept_retrieval_strength_consolidation",
         "name": "Retrieval Strength",
-        "concept": "Consolidation"
+        "category": "Consolidation"
       }
     },
     {
@@ -469,7 +469,7 @@
       "properties": {
         "id": "concept_capacity_working_memory",
         "name": "Capacity",
-        "concept": "Working Memory"
+        "category": "Working Memory"
       }
     },
     {
@@ -477,7 +477,7 @@
       "properties": {
         "id": "concept_information_processing_cognitive_load",
         "name": "information processing",
-        "concept": "Cognitive load"
+        "category": "Cognitive load"
       }
     },
     {
@@ -485,7 +485,7 @@
       "properties": {
         "id": "concept_elaboration_speed_deep_understanding",
         "name": "Elaboration speed",
-        "concept": "Deep understanding"
+        "category": "Deep understanding"
       }
     },
     {
@@ -493,7 +493,7 @@
       "properties": {
         "id": "concept_deep_processing_multimodal_information_integration",
         "name": "Deep processing",
-        "concept": "Multimodal information integration"
+        "category": "Multimodal information integration"
       }
     },
     {
@@ -501,7 +501,7 @@
       "properties": {
         "id": "concept_retrieval_strength_long_term_memory",
         "name": "Retrieval Strength",
-        "concept": "Long term memory"
+        "category": "Long term memory"
       }
     },
     {
@@ -509,7 +509,7 @@
       "properties": {
         "id": "concept_planning_executive_functions",
         "name": "Planning",
-        "concept": "Executive Functions"
+        "category": "Executive Functions"
       }
     },
     {
@@ -517,7 +517,7 @@
       "properties": {
         "id": "concept_cognitive_flexibility_adaptive_thinking",
         "name": "Cognitive flexibility",
-        "concept": "Adaptive thinking"
+        "category": "Adaptive thinking"
       }
     },
     {
@@ -525,7 +525,7 @@
       "properties": {
         "id": "concept_inhibitory_control_prefrontal_cortex_activation",
         "name": "Inhibitory Control",
-        "concept": "Prefrontal cortex activation"
+        "category": "Prefrontal cortex activation"
       }
     },
     {
@@ -533,7 +533,7 @@
       "properties": {
         "id": "concept_stress_and_fatigue_affective_constraint",
         "name": "Stress and Fatigue",
-        "concept": "Affective Constraint"
+        "category": "Affective Constraint"
       }
     },
     {
@@ -541,7 +541,7 @@
       "properties": {
         "id": "concept_metacognition_executive_functions",
         "name": "Metacognition",
-        "concept": "Executive Functions"
+        "category": "Executive Functions"
       }
     },
     {
@@ -549,7 +549,7 @@
       "properties": {
         "id": "concept_self_regulation_cognitive_control",
         "name": "Self-regulation",
-        "concept": "Cognitive control"
+        "category": "Cognitive control"
       }
     },
     {
@@ -557,7 +557,7 @@
       "properties": {
         "id": "concept_error_detection_correction_cognitive_control",
         "name": "Error Detection & Correction",
-        "concept": "Cognitive control"
+        "category": "Cognitive control"
       }
     },
     {
@@ -565,7 +565,7 @@
       "properties": {
         "id": "concept_learning_strategies_adaptive_behavior",
         "name": "Learning Strategies",
-        "concept": "Adaptive behavior"
+        "category": "Adaptive behavior"
       }
     },
     {
@@ -573,7 +573,7 @@
       "properties": {
         "id": "concept_transfer_of_learning_deep_learning",
         "name": "Transfer of Learning",
-        "concept": "Deep learning"
+        "category": "Deep learning"
       }
     },
     {
@@ -581,7 +581,7 @@
       "properties": {
         "id": "concept_overconfidence_bias_cognitive_bias",
         "name": "Overconfidence bias",
-        "concept": "Cognitive bias"
+        "category": "Cognitive bias"
       }
     },
     {
@@ -589,7 +589,7 @@
       "properties": {
         "id": "concept_inhibitory_control_executive_functions",
         "name": "Inhibitory Control",
-        "concept": "Executive Functions"
+        "category": "Executive Functions"
       }
     },
     {
@@ -597,7 +597,7 @@
       "properties": {
         "id": "concept_response_inhibition_motor_control",
         "name": "Response Inhibition",
-        "concept": "Motor Control"
+        "category": "Motor Control"
       }
     },
     {
@@ -605,7 +605,7 @@
       "properties": {
         "id": "concept_interference_control_cognitive_filtering",
         "name": "Interference Control",
-        "concept": "Cognitive Filtering"
+        "category": "Cognitive Filtering"
       }
     },
     {
@@ -613,7 +613,7 @@
       "properties": {
         "id": "concept_cognitive_control_prefrontal_cortex_activation",
         "name": "Cognitive control",
-        "concept": "Prefrontal Cortex activation"
+        "category": "Prefrontal Cortex activation"
       }
     },
     {
@@ -621,7 +621,7 @@
       "properties": {
         "id": "concept_planning_problem_solving_adaptive_thinking",
         "name": "Planning & Problem Solving",
-        "concept": "Adaptive thinking"
+        "category": "Adaptive thinking"
       }
     },
     {
@@ -629,7 +629,7 @@
       "properties": {
         "id": "concept_excessive_stress_affective_biological_constraints",
         "name": "Excessive stress",
-        "concept": "Affective & Biological Constraints"
+        "category": "Affective & Biological Constraints"
       }
     },
     {
@@ -637,7 +637,7 @@
       "properties": {
         "id": "concept_fatigue_affective_biological_constraints",
         "name": "Fatigue",
-        "concept": "Affective & Biological Constraints"
+        "category": "Affective & Biological Constraints"
       }
     },
     {
@@ -645,7 +645,7 @@
       "properties": {
         "id": "concept_adhd_affective_biological_constraints",
         "name": "ADHD",
-        "concept": "Affective & Biological Constraints"
+        "category": "Affective & Biological Constraints"
       }
     },
     {
@@ -653,7 +653,7 @@
       "properties": {
         "id": "concept_sleep_deprivation_affective_biological_constraints",
         "name": "Sleep deprivation",
-        "concept": "Affective & Biological Constraints"
+        "category": "Affective & Biological Constraints"
       }
     },
     {
@@ -661,7 +661,7 @@
       "properties": {
         "id": "concept_mindfulness_educational_clinical_interventions",
         "name": "Mindfulness",
-        "concept": "Educational & Clinical Interventions"
+        "category": "Educational & Clinical Interventions"
       }
     },
     {
@@ -669,7 +669,7 @@
       "properties": {
         "id": "concept_cognitive_training_educational_clinical_interventi",
         "name": "Cognitive Training",
-        "concept": "Educational & Clinical Interventions"
+        "category": "Educational & Clinical Interventions"
       }
     },
     {
@@ -677,7 +677,7 @@
       "properties": {
         "id": "concept_delay_of_gratification_tasks_educational_clinical_",
         "name": "Delay-of-Gratification Tasks",
-        "concept": "Educational & Clinical Interventions"
+        "category": "Educational & Clinical Interventions"
       }
     },
     {
@@ -685,7 +685,7 @@
       "properties": {
         "id": "concept_consolidation_long_term_memory",
         "name": "Consolidation",
-        "concept": "Long-Term Memory"
+        "category": "Long-Term Memory"
       }
     },
     {
@@ -693,7 +693,7 @@
       "properties": {
         "id": "concept_sleep_neuroplasticity",
         "name": "Sleep",
-        "concept": "Neuroplasticity"
+        "category": "Neuroplasticity"
       }
     },
     {
@@ -701,7 +701,7 @@
       "properties": {
         "id": "concept_rehearsal_memory_stabilization",
         "name": "Rehearsal",
-        "concept": "Memory Stabilization"
+        "category": "Memory Stabilization"
       }
     },
     {
@@ -709,7 +709,7 @@
       "properties": {
         "id": "concept_reactivation_memory_stabilization",
         "name": "Reactivation",
-        "concept": "Memory Stabilization"
+        "category": "Memory Stabilization"
       }
     },
     {
@@ -717,7 +717,7 @@
       "properties": {
         "id": "concept_emotional_arousal_amygdala_hippocampus_interaction",
         "name": "Emotional Arousal",
-        "concept": "Amygdala–Hippocampus Interaction"
+        "category": "Amygdala\u2013Hippocampus Interaction"
       }
     },
     {
@@ -725,7 +725,7 @@
       "properties": {
         "id": "concept_spaced_repetition_distributed_practice_effect",
         "name": "Spaced Repetition",
-        "concept": "Distributed Practice Effect"
+        "category": "Distributed Practice Effect"
       }
     },
     {
@@ -733,7 +733,7 @@
       "properties": {
         "id": "concept_schema_integration_prior_knowledge_scaffolding",
         "name": "Schema Integration",
-        "concept": "Prior Knowledge Scaffolding"
+        "category": "Prior Knowledge Scaffolding"
       }
     },
     {
@@ -741,7 +741,7 @@
       "properties": {
         "id": "concept_negative_stress_affective_biological_constraints",
         "name": "Negative Stress",
-        "concept": "Affective & Biological Constraints"
+        "category": "Affective & Biological Constraints"
       }
     },
     {
@@ -749,7 +749,7 @@
       "properties": {
         "id": "concept_durable_memory_traces_knowledge_integration",
         "name": "Durable Memory Traces",
-        "concept": "Knowledge Integration"
+        "category": "Knowledge Integration"
       }
     },
     {
@@ -757,7 +757,7 @@
       "properties": {
         "id": "concept_retrieval_processes_memory_accessibility",
         "name": "Retrieval Processes",
-        "concept": "Memory Accessibility"
+        "category": "Memory Accessibility"
       }
     },
     {
@@ -765,7 +765,7 @@
       "properties": {
         "id": "concept_divergent_thinking_creativity",
         "name": "Divergent Thinking",
-        "concept": "Creativity"
+        "category": "Creativity"
       }
     },
     {
@@ -773,7 +773,7 @@
       "properties": {
         "id": "concept_multiple_solutions_ideas_idea_generation",
         "name": "Multiple Solutions / Ideas",
-        "concept": "Idea Generation"
+        "category": "Idea Generation"
       }
     },
     {
@@ -781,7 +781,7 @@
       "properties": {
         "id": "concept_cognitive_flexibility_creativity",
         "name": "Cognitive Flexibility",
-        "concept": "Creativity"
+        "category": "Creativity"
       }
     },
     {
@@ -789,7 +789,7 @@
       "properties": {
         "id": "concept_novel_combinations_executive_functions",
         "name": "Novel Combinations",
-        "concept": "Executive Functions"
+        "category": "Executive Functions"
       }
     },
     {
@@ -797,7 +797,7 @@
       "properties": {
         "id": "concept_motivation_creativity",
         "name": "Motivation",
-        "concept": "Creativity"
+        "category": "Creativity"
       }
     },
     {
@@ -805,7 +805,7 @@
       "properties": {
         "id": "concept_engagement_persistence_affective_processes",
         "name": "Engagement & Persistence",
-        "concept": "Affective Processes"
+        "category": "Affective Processes"
       }
     },
     {
@@ -813,7 +813,7 @@
       "properties": {
         "id": "concept_curiosity_creativity",
         "name": "Curiosity",
-        "concept": "Creativity"
+        "category": "Creativity"
       }
     },
     {
@@ -821,7 +821,7 @@
       "properties": {
         "id": "concept_risk_taking_creativity",
         "name": "Risk-Taking",
-        "concept": "Creativity"
+        "category": "Creativity"
       }
     },
     {
@@ -829,7 +829,7 @@
       "properties": {
         "id": "concept_unconventional_solutions_affective_processes",
         "name": "Unconventional Solutions",
-        "concept": "Affective Processes"
+        "category": "Affective Processes"
       }
     },
     {
@@ -837,7 +837,7 @@
       "properties": {
         "id": "concept_mind_wandering_creativity",
         "name": "Mind-Wandering",
-        "concept": "Creativity"
+        "category": "Creativity"
       }
     },
     {
@@ -845,7 +845,7 @@
       "properties": {
         "id": "concept_insight_novel_associations_spontaneous_thought_dyn",
         "name": "Insight & Novel Associations",
-        "concept": "Spontaneous Thought Dynamics"
+        "category": "Spontaneous Thought Dynamics"
       }
     },
     {
@@ -853,7 +853,7 @@
       "properties": {
         "id": "concept_problem_solving_creativity",
         "name": "Problem-Solving",
-        "concept": "Creativity"
+        "category": "Creativity"
       }
     },
     {
@@ -861,7 +861,7 @@
       "properties": {
         "id": "concept_innovation_application_applied_cognition",
         "name": "Innovation & Application",
-        "concept": "Applied Cognition"
+        "category": "Applied Cognition"
       }
     },
     {
@@ -869,7 +869,7 @@
       "properties": {
         "id": "concept_attention_regulation_creativity",
         "name": "Attention Regulation",
-        "concept": "Creativity"
+        "category": "Creativity"
       }
     },
     {
@@ -877,7 +877,7 @@
       "properties": {
         "id": "concept_focused_diffuse_attention_attentional_control",
         "name": "Focused & Diffuse Attention",
-        "concept": "Attentional Control"
+        "category": "Attentional Control"
       }
     },
     {
@@ -885,7 +885,7 @@
       "properties": {
         "id": "concept_language_comprehension_communication",
         "name": "Language Comprehension",
-        "concept": "Communication"
+        "category": "Communication"
       }
     },
     {
@@ -893,7 +893,7 @@
       "properties": {
         "id": "concept_working_memory_resource_allocation",
         "name": "Working Memory",
-        "concept": "Resource Allocation"
+        "category": "Resource Allocation"
       }
     },
     {
@@ -901,7 +901,7 @@
       "properties": {
         "id": "concept_selective_attention_attentional_control",
         "name": "Selective attention",
-        "concept": "Attentional Control"
+        "category": "Attentional Control"
       }
     },
     {
@@ -909,7 +909,7 @@
       "properties": {
         "id": "concept_language_production_communication",
         "name": "Language Production",
-        "concept": "Communication"
+        "category": "Communication"
       }
     },
     {
@@ -917,7 +917,7 @@
       "properties": {
         "id": "concept_planning_organization_executive_functions",
         "name": "Planning & Organization",
-        "concept": "Executive Functions"
+        "category": "Executive Functions"
       }
     },
     {
@@ -925,7 +925,7 @@
       "properties": {
         "id": "concept_nonverbal_communication_communication",
         "name": "Nonverbal Communication",
-        "concept": "Communication"
+        "category": "Communication"
       }
     },
     {
@@ -933,7 +933,7 @@
       "properties": {
         "id": "concept_social_understanding_social_cognition",
         "name": "Social Understanding",
-        "concept": "Social Cognition"
+        "category": "Social Cognition"
       }
     },
     {
@@ -941,7 +941,7 @@
       "properties": {
         "id": "concept_reading_writing_communication",
         "name": "Reading & writing",
-        "concept": "Communication"
+        "category": "Communication"
       }
     },
     {
@@ -949,7 +949,7 @@
       "properties": {
         "id": "concept_working_memory_capacity_memory_systems",
         "name": "Working memory capacity",
-        "concept": "Memory Systems"
+        "category": "Memory Systems"
       }
     },
     {
@@ -957,7 +957,7 @@
       "properties": {
         "id": "concept_collaboration_communication",
         "name": "Collaboration",
-        "concept": "Communication"
+        "category": "Communication"
       }
     },
     {
@@ -965,7 +965,7 @@
       "properties": {
         "id": "concept_problem_solving_creativity_applied_cognition",
         "name": "Problem-Solving & Creativity",
-        "concept": "Applied Cognition"
+        "category": "Applied Cognition"
       }
     },
     {
@@ -973,7 +973,7 @@
       "properties": {
         "id": "concept_growth_mindset",
         "name": "Growth",
-        "concept": "Mindset"
+        "category": "Mindset"
       }
     },
     {
@@ -981,7 +981,7 @@
       "properties": {
         "id": "concept_neuroplasticity_brain_adaptability",
         "name": "Neuroplasticity",
-        "concept": "Brain Adaptability"
+        "category": "Brain Adaptability"
       }
     },
     {
@@ -989,7 +989,7 @@
       "properties": {
         "id": "concept_intrinsic_motivation_affective_motivational_proces",
         "name": "Intrinsic Motivation",
-        "concept": "Affective & Motivational Processes"
+        "category": "Affective & Motivational Processes"
       }
     },
     {
@@ -997,7 +997,7 @@
       "properties": {
         "id": "concept_errors_as_opportunities_metacognition",
         "name": "Errors as opportunities",
-        "concept": "Metacognition"
+        "category": "Metacognition"
       }
     },
     {
@@ -1005,7 +1005,7 @@
       "properties": {
         "id": "concept_resilience_executive_functions",
         "name": "Resilience",
-        "concept": "Executive Functions"
+        "category": "Executive Functions"
       }
     },
     {
@@ -1013,7 +1013,7 @@
       "properties": {
         "id": "concept_creativity_cognitive_flexibility",
         "name": "Creativity",
-        "concept": "Cognitive Flexibility"
+        "category": "Cognitive Flexibility"
       }
     },
     {
@@ -1021,7 +1021,7 @@
       "properties": {
         "id": "concept_feedback_integration_social_learning",
         "name": "Feedback integration",
-        "concept": "Social Learning"
+        "category": "Social Learning"
       }
     },
     {
@@ -1029,7 +1029,7 @@
       "properties": {
         "id": "concept_reward_system_adaptive_error_monitoring",
         "name": "reward system",
-        "concept": "Adaptive error monitoring"
+        "category": "Adaptive error monitoring"
       }
     },
     {
@@ -1037,7 +1037,7 @@
       "properties": {
         "id": "concept_fixed_mindset",
         "name": "Fixed",
-        "concept": "Mindset"
+        "category": "Mindset"
       }
     },
     {
@@ -1045,7 +1045,7 @@
       "properties": {
         "id": "concept_deterministic_beliefs_essentialism",
         "name": "Deterministic beliefs",
-        "concept": "Essentialism"
+        "category": "Essentialism"
       }
     },
     {
@@ -1053,7 +1053,7 @@
       "properties": {
         "id": "concept_motivation_to_practice_affective_motivational_proc",
         "name": "Motivation to practice",
-        "concept": "Affective & Motivational Processes"
+        "category": "Affective & Motivational Processes"
       }
     },
     {
@@ -1061,7 +1061,7 @@
       "properties": {
         "id": "concept_metacognition_cognitive_monitoring",
         "name": "Metacognition",
-        "concept": "Cognitive Monitoring"
+        "category": "Cognitive Monitoring"
       }
     },
     {
@@ -1069,7 +1069,7 @@
       "properties": {
         "id": "concept_effort_avoidance_learned_helplessness",
         "name": "Effort avoidance",
-        "concept": "Learned Helplessness"
+        "category": "Learned Helplessness"
       }
     },
     {
@@ -1077,7 +1077,7 @@
       "properties": {
         "id": "concept_cognitive_flexibility_problem_solving",
         "name": "Cognitive Flexibility",
-        "concept": "Problem Solving"
+        "category": "Problem Solving"
       }
     },
     {
@@ -1085,7 +1085,7 @@
       "properties": {
         "id": "concept_feedback_use_social_learning",
         "name": "Feedback use",
-        "concept": "Social Learning"
+        "category": "Social Learning"
       }
     },
     {
@@ -1093,7 +1093,7 @@
       "properties": {
         "id": "concept_stress_threat_reactions_survival_responses",
         "name": "stress-threat reactions",
-        "concept": "Survival responses"
+        "category": "Survival responses"
       }
     },
     {
@@ -1101,7 +1101,7 @@
       "properties": {
         "id": "concept_vark_preference_learning_styles",
         "name": "VARK preference",
-        "concept": "Learning Styles"
+        "category": "Learning Styles"
       }
     },
     {
@@ -1109,7 +1109,7 @@
       "properties": {
         "id": "concept_multimodal_teaching_improves_learning_for_all_evid",
         "name": "Multimodal teaching improves learning for all",
-        "concept": "Evidence-Based Instruction"
+        "category": "Evidence-Based Instruction"
       }
     },
     {
@@ -1117,7 +1117,7 @@
       "properties": {
         "id": "concept_left_brain_vs_right_brain_learners_hemispheric_spe",
         "name": "Left-brain vs. Right-brain learners",
-        "concept": "Hemispheric Specialization"
+        "category": "Hemispheric Specialization"
       }
     },
     {
@@ -1125,7 +1125,7 @@
       "properties": {
         "id": "concept_learning_processes_creativity_and_logic_require_di",
         "name": "Learning processes, creativity and logic require distributed networks",
-        "concept": "Cognitive Neuroscience"
+        "category": "Cognitive Neuroscience"
       }
     },
     {
@@ -1133,7 +1133,7 @@
       "properties": {
         "id": "concept_learning_stops_after_childhood_critical_periods_ar",
         "name": "Learning stops after childhood",
-        "concept": "Critical Periods Are Absolute"
+        "category": "Critical Periods Are Absolute"
       }
     },
     {
@@ -1141,7 +1141,7 @@
       "properties": {
         "id": "concept_plasticity_persists_across_lifespan_neuroplasticit",
         "name": "Plasticity persists across lifespan",
-        "concept": "Neuroplasticity"
+        "category": "Neuroplasticity"
       }
     },
     {
@@ -1149,7 +1149,7 @@
       "properties": {
         "id": "concept_cognitive_traits_people_are_analytical_or_creative",
         "name": "Cognitive Traits",
-        "concept": "People are analytical or creative"
+        "category": "People are analytical or creative"
       }
     },
     {
@@ -1157,15 +1157,15 @@
       "properties": {
         "id": "concept_creativity_and_logic_share_neural_resources_neural",
         "name": "Creativity and logic share neural resources",
-        "concept": "neural resources"
+        "category": "neural resources"
       }
     },
     {
       "label": "MultipleIntelligences",
       "properties": {
         "id": "concept_gardner_s_theory_is_a_neuroscience_theory_multiple",
-        "name": "Gardner’s theory is a neuroscience theory",
-        "concept": "Multiple Intelligences"
+        "name": "Gardner\u2019s theory is a neuroscience theory",
+        "category": "Multiple Intelligences"
       }
     },
     {
@@ -1173,7 +1173,7 @@
       "properties": {
         "id": "concept_gardner_proposed_a_pedagogical_framework_not_a_neu",
         "name": "Gardner proposed a pedagogical framework, not a neurobiological one",
-        "concept": "Educational Theory"
+        "category": "Educational Theory"
       }
     },
     {
@@ -1181,7 +1181,7 @@
       "properties": {
         "id": "concept_sugar_effect_sugar_causes_hyperactivity",
         "name": "Sugar Effect",
-        "concept": "Sugar Causes Hyperactivity"
+        "category": "Sugar Causes Hyperactivity"
       }
     },
     {
@@ -1189,7 +1189,7 @@
       "properties": {
         "id": "concept_behavioral_studies_cognitive_psychology",
         "name": "Behavioral studies",
-        "concept": "Cognitive Psychology"
+        "category": "Cognitive Psychology"
       }
     },
     {
@@ -1197,7 +1197,7 @@
       "properties": {
         "id": "concept_confirmation_bias_judgment_belief",
         "name": "Confirmation Bias",
-        "concept": "Judgment & Belief"
+        "category": "Judgment & Belief"
       }
     },
     {
@@ -1205,7 +1205,7 @@
       "properties": {
         "id": "concept_pre_existing_assumptions_teacher_student_reasoning",
         "name": "Pre-existing assumptions",
-        "concept": "Teacher/Student Reasoning"
+        "category": "Teacher/Student Reasoning"
       }
     },
     {
@@ -1213,7 +1213,7 @@
       "properties": {
         "id": "concept_anchoring_bias_first_impressions",
         "name": "Anchoring Bias",
-        "concept": "First Impressions"
+        "category": "First Impressions"
       }
     },
     {
@@ -1221,7 +1221,7 @@
       "properties": {
         "id": "concept_evaluation_of_performance_assessment",
         "name": "Evaluation of performance",
-        "concept": "Assessment"
+        "category": "Assessment"
       }
     },
     {
@@ -1229,7 +1229,7 @@
       "properties": {
         "id": "concept_halo_effect_attribution",
         "name": "Halo Effect",
-        "concept": "Attribution"
+        "category": "Attribution"
       }
     },
     {
@@ -1237,7 +1237,7 @@
       "properties": {
         "id": "concept_positive_traits_student_perception",
         "name": "Positive traits",
-        "concept": "Student Perception"
+        "category": "Student Perception"
       }
     },
     {
@@ -1245,7 +1245,7 @@
       "properties": {
         "id": "concept_horns_effect_attribution",
         "name": "Horns Effect",
-        "concept": "Attribution"
+        "category": "Attribution"
       }
     },
     {
@@ -1253,7 +1253,7 @@
       "properties": {
         "id": "concept_negative_traits_student_perception",
         "name": "Negative traits",
-        "concept": "Student Perception"
+        "category": "Student Perception"
       }
     },
     {
@@ -1261,7 +1261,7 @@
       "properties": {
         "id": "concept_availability_heuristic_memory_recall",
         "name": "Availability Heuristic",
-        "concept": "Memory & Recall"
+        "category": "Memory & Recall"
       }
     },
     {
@@ -1269,7 +1269,7 @@
       "properties": {
         "id": "concept_judgments_based_on_recent_vivid_events_decision_ma",
         "name": "Judgments based on recent/vivid events",
-        "concept": "Decision-Making"
+        "category": "Decision-Making"
       }
     },
     {
@@ -1277,7 +1277,7 @@
       "properties": {
         "id": "concept_overconfidence_bias_self_evaluation",
         "name": "Overconfidence Bias",
-        "concept": "Self-Evaluation"
+        "category": "Self-Evaluation"
       }
     },
     {
@@ -1285,15 +1285,15 @@
       "properties": {
         "id": "concept_perceived_mastery_metacognition",
         "name": "Perceived mastery",
-        "concept": "Metacognition"
+        "category": "Metacognition"
       }
     },
     {
       "label": "SelfEvaluation",
       "properties": {
         "id": "concept_dunning_kruger_effect_self_evaluation",
-        "name": "Dunning–Kruger Effect",
-        "concept": "Self-Evaluation"
+        "name": "Dunning\u2013Kruger Effect",
+        "category": "Self-Evaluation"
       }
     },
     {
@@ -1301,7 +1301,7 @@
       "properties": {
         "id": "concept_actual_ability_vs_perceived_ability_learning_progr",
         "name": "Actual ability vs perceived ability",
-        "concept": "Learning Progress"
+        "category": "Learning Progress"
       }
     },
     {
@@ -1309,7 +1309,7 @@
       "properties": {
         "id": "concept_self_fulfilling_prophecy_pygmalion_effect_expectat",
         "name": "Self-Fulfilling Prophecy / Pygmalion Effect",
-        "concept": "Expectations"
+        "category": "Expectations"
       }
     },
     {
@@ -1317,7 +1317,7 @@
       "properties": {
         "id": "concept_student_outcomes_motivation_performance",
         "name": "Student outcomes",
-        "concept": "Motivation & Performance"
+        "category": "Motivation & Performance"
       }
     },
     {
@@ -1325,7 +1325,7 @@
       "properties": {
         "id": "concept_analysis_critical_thinking",
         "name": "Analysis",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1333,7 +1333,7 @@
       "properties": {
         "id": "concept_working_memory_cognitive_processing",
         "name": "Working Memory",
-        "concept": "Cognitive Processing"
+        "category": "Cognitive Processing"
       }
     },
     {
@@ -1341,7 +1341,7 @@
       "properties": {
         "id": "concept_selective_attention_attention",
         "name": "Selective Attention",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -1349,7 +1349,7 @@
       "properties": {
         "id": "concept_evaluation_critical_thinking",
         "name": "Evaluation",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1357,7 +1357,7 @@
       "properties": {
         "id": "concept_executive_functions_monitoring_control_cognitive_c",
         "name": "Executive Functions (Monitoring & Control)",
-        "concept": "Cognitive Control"
+        "category": "Cognitive Control"
       }
     },
     {
@@ -1365,7 +1365,7 @@
       "properties": {
         "id": "concept_inference_critical_thinking",
         "name": "Inference",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1373,7 +1373,7 @@
       "properties": {
         "id": "concept_logical_reasoning_working_memory_reasoning",
         "name": "Logical Reasoning & Working Memory",
-        "concept": "Reasoning"
+        "category": "Reasoning"
       }
     },
     {
@@ -1381,7 +1381,7 @@
       "properties": {
         "id": "concept_interpretation_critical_thinking",
         "name": "Interpretation",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1389,7 +1389,7 @@
       "properties": {
         "id": "concept_language_comprehension_contextual_memory_memory_la",
         "name": "Language Comprehension & Contextual Memory",
-        "concept": "Memory / Language"
+        "category": "Memory / Language"
       }
     },
     {
@@ -1397,7 +1397,7 @@
       "properties": {
         "id": "concept_explanation_critical_thinking",
         "name": "Explanation",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1405,7 +1405,7 @@
       "properties": {
         "id": "concept_communication_skills_metacognition_communication",
         "name": "Communication Skills & Metacognition",
-        "concept": "Communication"
+        "category": "Communication"
       }
     },
     {
@@ -1413,7 +1413,7 @@
       "properties": {
         "id": "concept_self_regulation_metacognition_critical_thinking",
         "name": "Self-Regulation (Metacognition)",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1421,7 +1421,7 @@
       "properties": {
         "id": "concept_attention_management_cognitive_flexibility_executi",
         "name": "Attention Management & Cognitive Flexibility",
-        "concept": "Executive Functions / Metacognition"
+        "category": "Executive Functions / Metacognition"
       }
     },
     {
@@ -1429,7 +1429,7 @@
       "properties": {
         "id": "concept_open_mindedness_critical_thinking",
         "name": "Open-mindedness",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1437,7 +1437,7 @@
       "properties": {
         "id": "concept_perspective_taking_bias_awareness_social_cognition",
         "name": "Perspective Taking & Bias Awareness",
-        "concept": "Social Cognition / Bias Control"
+        "category": "Social Cognition / Bias Control"
       }
     },
     {
@@ -1445,7 +1445,7 @@
       "properties": {
         "id": "concept_skepticism_healthy_critical_thinking",
         "name": "Skepticism (healthy)",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1453,7 +1453,7 @@
       "properties": {
         "id": "concept_cognitive_biases_interference_cognitive_biases",
         "name": "Cognitive Biases interference",
-        "concept": "Cognitive Biases"
+        "category": "Cognitive Biases"
       }
     },
     {
@@ -1461,7 +1461,7 @@
       "properties": {
         "id": "concept_problem_identification_critical_thinking",
         "name": "Problem Identification",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1469,7 +1469,7 @@
       "properties": {
         "id": "concept_structured_problem_solving_working_memory_problem_",
         "name": "Structured Problem Solving & Working Memory",
-        "concept": "Problem Solving"
+        "category": "Problem Solving"
       }
     },
     {
@@ -1477,7 +1477,7 @@
       "properties": {
         "id": "concept_logical_reasoning_critical_thinking",
         "name": "Logical Reasoning",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1485,7 +1485,7 @@
       "properties": {
         "id": "concept_executive_functions_inhibitory_control_reasoning",
         "name": "Executive Functions & Inhibitory Control",
-        "concept": "Reasoning"
+        "category": "Reasoning"
       }
     },
     {
@@ -1493,7 +1493,7 @@
       "properties": {
         "id": "concept_creativity_critical_thinking",
         "name": "Creativity",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1501,7 +1501,7 @@
       "properties": {
         "id": "concept_cognitive_flexibility_divergent_thinking_innovatio",
         "name": "Cognitive Flexibility & Divergent Thinking",
-        "concept": "Innovation / Problem Solving"
+        "category": "Innovation / Problem Solving"
       }
     },
     {
@@ -1509,7 +1509,7 @@
       "properties": {
         "id": "concept_reflection_critical_thinking",
         "name": "Reflection",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1517,7 +1517,7 @@
       "properties": {
         "id": "concept_long_term_memory_consolidation_metacognition_memor",
         "name": "Long-Term Memory Consolidation & Metacognition",
-        "concept": "Memory / Self-Monitoring"
+        "category": "Memory / Self-Monitoring"
       }
     },
     {
@@ -1525,7 +1525,7 @@
       "properties": {
         "id": "concept_evidence_use_critical_thinking",
         "name": "Evidence Use",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1533,7 +1533,7 @@
       "properties": {
         "id": "concept_information_evaluation_memory_retrieval_informatio",
         "name": "Information Evaluation & Memory Retrieval",
-        "concept": "Information Literacy"
+        "category": "Information Literacy"
       }
     },
     {
@@ -1541,7 +1541,7 @@
       "properties": {
         "id": "concept_argumentation_critical_thinking",
         "name": "Argumentation",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1549,7 +1549,7 @@
       "properties": {
         "id": "concept_logical_reasoning_communication_skills_reasoning_c",
         "name": "Logical Reasoning & Communication Skills",
-        "concept": "Reasoning / Communication"
+        "category": "Reasoning / Communication"
       }
     },
     {
@@ -1557,7 +1557,7 @@
       "properties": {
         "id": "concept_curiosity_critical_thinking",
         "name": "Curiosity",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1565,7 +1565,7 @@
       "properties": {
         "id": "concept_attention_allocation_motivational_modulation_motiv",
         "name": "Attention Allocation & Motivational Modulation",
-        "concept": "Motivation / Attention"
+        "category": "Motivation / Attention"
       }
     },
     {
@@ -1573,7 +1573,7 @@
       "properties": {
         "id": "concept_cognitive_flexibility_critical_thinking",
         "name": "Cognitive Flexibility",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1581,7 +1581,7 @@
       "properties": {
         "id": "concept_executive_functions_working_memory_adaptation_prob",
         "name": "Executive Functions & Working Memory",
-        "concept": "Adaptation / Problem Solving"
+        "category": "Adaptation / Problem Solving"
       }
     },
     {
@@ -1589,7 +1589,7 @@
       "properties": {
         "id": "concept_emotional_regulation_critical_thinking",
         "name": "Emotional Regulation",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1597,7 +1597,7 @@
       "properties": {
         "id": "concept_affective_influence_on_decision_making_emotion_cog",
         "name": "Affective Influence on Decision-Making",
-        "concept": "Emotion-Cognition Interaction"
+        "category": "Emotion-Cognition Interaction"
       }
     },
     {
@@ -1605,7 +1605,7 @@
       "properties": {
         "id": "concept_bias_awareness_critical_thinking",
         "name": "Bias Awareness",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1613,7 +1613,7 @@
       "properties": {
         "id": "concept_cognitive_bias_interference_cognitive_biases",
         "name": "Cognitive Bias Interference",
-        "concept": "Cognitive Biases"
+        "category": "Cognitive Biases"
       }
     },
     {
@@ -1621,7 +1621,7 @@
       "properties": {
         "id": "concept_flow_of_inquiry_critical_thinking",
         "name": "Flow of Inquiry",
-        "concept": "Critical Thinking"
+        "category": "Critical Thinking"
       }
     },
     {
@@ -1629,7 +1629,7 @@
       "properties": {
         "id": "concept_engagement_motivation_working_memory_knowledge_con",
         "name": "Engagement, Motivation, Working Memory",
-        "concept": "Knowledge Construction / Attention"
+        "category": "Knowledge Construction / Attention"
       }
     },
     {
@@ -1637,7 +1637,7 @@
       "properties": {
         "id": "concept_engagement_driven_by_curiosity_personal_interest_e",
         "name": "Engagement driven by curiosity, personal interest, enjoyment, mastery, meaning",
-        "concept": "Intrinsic Motivation"
+        "category": "Intrinsic Motivation"
       }
     },
     {
@@ -1645,7 +1645,7 @@
       "properties": {
         "id": "concept_persistence_deeper_learning_creativity_long_term_w",
         "name": "Persistence, deeper learning, creativity, long-term well-being",
-        "concept": "Learning & Performance"
+        "category": "Learning & Performance"
       }
     },
     {
@@ -1653,7 +1653,7 @@
       "properties": {
         "id": "concept_engagement_driven_by_external_rewards_grades_money",
         "name": "Engagement driven by external rewards (grades, money, praise) or avoidance of punishment",
-        "concept": "Extrinsic Motivation"
+        "category": "Extrinsic Motivation"
       }
     },
     {
@@ -1661,7 +1661,7 @@
       "properties": {
         "id": "concept_goal_completion_short_term_effort_compliance_exter",
         "name": "Goal completion, short-term effort, compliance, external achievement",
-        "concept": "Learning & Performance"
+        "category": "Learning & Performance"
       }
     },
     {
@@ -1669,7 +1669,7 @@
       "properties": {
         "id": "concept_flow_autonomy_self_determination_internal_satisfac",
         "name": "Flow, autonomy, self-determination, internal satisfaction",
-        "concept": "Intrinsic Motivation"
+        "category": "Intrinsic Motivation"
       }
     },
     {
@@ -1677,7 +1677,7 @@
       "properties": {
         "id": "concept_external_control_conditional_incentives_social_pre",
         "name": "External control, conditional incentives, social pressure",
-        "concept": "Extrinsic Motivation"
+        "category": "Extrinsic Motivation"
       }
     },
     {
@@ -1685,7 +1685,7 @@
       "properties": {
         "id": "concept_autonomy_competence_relatedness_intrinsic_motivati",
         "name": "Autonomy, competence, relatedness",
-        "concept": "Intrinsic Motivation"
+        "category": "Intrinsic Motivation"
       }
     },
     {
@@ -1693,7 +1693,7 @@
       "properties": {
         "id": "concept_psychological_needs_that_when_satisfied_boost_grow",
         "name": "Psychological needs that, when satisfied, boost growth and self-regulation",
-        "concept": "Human Development"
+        "category": "Human Development"
       }
     },
     {
@@ -1701,7 +1701,7 @@
       "properties": {
         "id": "concept_external_rewards_tangible_money_prizes_intangible_",
         "name": "External rewards (tangible: money, prizes; intangible: approval, status)",
-        "concept": "Extrinsic Motivation"
+        "category": "Extrinsic Motivation"
       }
     },
     {
@@ -1709,7 +1709,7 @@
       "properties": {
         "id": "concept_internal_satisfaction_and_autonomy_overjustificati",
         "name": "Internal satisfaction and autonomy (overjustification effect)",
-        "concept": "Intrinsic Motivation"
+        "category": "Intrinsic Motivation"
       }
     },
     {
@@ -1717,7 +1717,7 @@
       "properties": {
         "id": "concept_grades_rewards_deadlines_punishments_extrinsic_mot",
         "name": "Grades, rewards, deadlines, punishments",
-        "concept": "Extrinsic Motivation"
+        "category": "Extrinsic Motivation"
       }
     },
     {
@@ -1725,7 +1725,7 @@
       "properties": {
         "id": "concept_performance_in_tasks_with_clear_simple_goals_short",
         "name": "Performance in tasks with clear, simple goals",
-        "concept": "Short-term Outcomes"
+        "category": "Short-term Outcomes"
       }
     },
     {
@@ -1733,7 +1733,7 @@
       "properties": {
         "id": "concept_enjoyment_curiosity_mastery_intrinsic_motivation",
         "name": "Enjoyment, curiosity, mastery",
-        "concept": "Intrinsic Motivation"
+        "category": "Intrinsic Motivation"
       }
     },
     {
@@ -1741,7 +1741,7 @@
       "properties": {
         "id": "concept_deep_processing_creativity_resilience_long_term_ou",
         "name": "Deep processing, creativity, resilience",
-        "concept": "Long-term Outcomes"
+        "category": "Long-term Outcomes"
       }
     },
     {
@@ -1749,7 +1749,7 @@
       "properties": {
         "id": "concept_social_recognition_competition_fear_of_failure_ext",
         "name": "Social recognition, competition, fear of failure",
-        "concept": "Extrinsic Motivation"
+        "category": "Extrinsic Motivation"
       }
     },
     {
@@ -1757,7 +1757,7 @@
       "properties": {
         "id": "concept_anxiety_external_locus_of_control_fragile_self_wor",
         "name": "Anxiety, external locus of control, fragile self-worth",
-        "concept": "Emotional Regulation"
+        "category": "Emotional Regulation"
       }
     },
     {
@@ -1765,7 +1765,7 @@
       "properties": {
         "id": "concept_personal_challenge_self_expression_exploration_int",
         "name": "Personal challenge, self-expression, exploration",
-        "concept": "Intrinsic Motivation"
+        "category": "Intrinsic Motivation"
       }
     },
     {
@@ -1773,7 +1773,7 @@
       "properties": {
         "id": "concept_flow_state_self_actualization_positive_psychology",
         "name": "Flow state, self-actualization",
-        "concept": "Positive Psychology"
+        "category": "Positive Psychology"
       }
     },
     {
@@ -1781,7 +1781,7 @@
       "properties": {
         "id": "concept_surveillance_strict_deadlines_excessive_control_ex",
         "name": "Surveillance, strict deadlines, excessive control",
-        "concept": "Extrinsic Motivation"
+        "category": "Extrinsic Motivation"
       }
     },
     {
@@ -1789,7 +1789,7 @@
       "properties": {
         "id": "concept_autonomy_intrinsic_drive_engagement_learning_quali",
         "name": "Autonomy, intrinsic drive, engagement",
-        "concept": "Learning Quality"
+        "category": "Learning Quality"
       }
     },
     {
@@ -1797,7 +1797,7 @@
       "properties": {
         "id": "concept_moderate_levels_of_stress_that_enhance_alertness_m",
         "name": "Moderate levels of stress that enhance alertness, motivation, focus, and performance",
-        "concept": "Positive Stress (Eustress)"
+        "category": "Positive Stress (Eustress)"
       }
     },
     {
@@ -1805,7 +1805,7 @@
       "properties": {
         "id": "concept_adaptation_resilience_growth_mindset_effective_pro",
         "name": "Adaptation, resilience, growth mindset, effective problem-solving",
-        "concept": "Learning & Development"
+        "category": "Learning & Development"
       }
     },
     {
@@ -1813,7 +1813,7 @@
       "properties": {
         "id": "concept_excessive_chronic_or_overwhelming_stress_that_impa",
         "name": "Excessive, chronic, or overwhelming stress that impairs functioning",
-        "concept": "Negative Stress (Distress)"
+        "category": "Negative Stress (Distress)"
       }
     },
     {
@@ -1821,7 +1821,7 @@
       "properties": {
         "id": "concept_memory_concentration_health_motivation_well_being_",
         "name": "Memory, concentration, health, motivation, well-being",
-        "concept": "Learning & Development"
+        "category": "Learning & Development"
       }
     },
     {
@@ -1829,7 +1829,7 @@
       "properties": {
         "id": "concept_short_term_manageable_arousal_of_body_and_mind_pos",
         "name": "Short-term, manageable arousal of body and mind",
-        "concept": "Positive Stress (Eustress)"
+        "category": "Positive Stress (Eustress)"
       }
     },
     {
@@ -1837,7 +1837,7 @@
       "properties": {
         "id": "concept_chronic_activation_of_fight_or_flight_response_neg",
         "name": "Chronic activation of fight-or-flight response",
-        "concept": "Negative Stress (Distress)"
+        "category": "Negative Stress (Distress)"
       }
     },
     {
@@ -1845,7 +1845,7 @@
       "properties": {
         "id": "concept_challenge_appraisal_seeing_tasks_as_opportunities_",
         "name": "Challenge appraisal (seeing tasks as opportunities for growth)",
-        "concept": "Positive Stress (Eustress)"
+        "category": "Positive Stress (Eustress)"
       }
     },
     {
@@ -1853,7 +1853,7 @@
       "properties": {
         "id": "concept_intrinsic_motivation_perseverance_engagement_adapt",
         "name": "Intrinsic motivation, perseverance, engagement",
-        "concept": "Adaptive Coping"
+        "category": "Adaptive Coping"
       }
     },
     {
@@ -1861,7 +1861,7 @@
       "properties": {
         "id": "concept_threat_appraisal_seeing_tasks_as_dangers_risks_or_",
         "name": "Threat appraisal (seeing tasks as dangers, risks, or failures)",
-        "concept": "Negative Stress (Distress)"
+        "category": "Negative Stress (Distress)"
       }
     },
     {
@@ -1869,15 +1869,15 @@
       "properties": {
         "id": "concept_anxiety_avoidance_self_doubt_burnout_maladaptive_c",
         "name": "Anxiety, avoidance, self-doubt, burnout",
-        "concept": "Maladaptive Coping"
+        "category": "Maladaptive Coping"
       }
     },
     {
       "label": "PositiveStressEustress",
       "properties": {
         "id": "concept_optimal_arousal_yerkes_dodson_law_positive_stress_",
-        "name": "Optimal arousal (Yerkes–Dodson law)",
-        "concept": "Positive Stress (Eustress)"
+        "name": "Optimal arousal (Yerkes\u2013Dodson law)",
+        "category": "Positive Stress (Eustress)"
       }
     },
     {
@@ -1885,7 +1885,7 @@
       "properties": {
         "id": "concept_performance_in_complex_engaging_tasks_academic_wor",
         "name": "Performance in complex, engaging tasks",
-        "concept": "Academic/Work Outcomes"
+        "category": "Academic/Work Outcomes"
       }
     },
     {
@@ -1893,7 +1893,7 @@
       "properties": {
         "id": "concept_over_arousal_too_much_stress_or_under_arousal_apat",
         "name": "Over-arousal (too much stress) or under-arousal (apathy)",
-        "concept": "Negative Stress (Distress)"
+        "category": "Negative Stress (Distress)"
       }
     },
     {
@@ -1901,7 +1901,7 @@
       "properties": {
         "id": "concept_memory_recall_executive_function_emotional_regulat",
         "name": "Memory recall, executive function, emotional regulation",
-        "concept": "Academic/Work Outcomes"
+        "category": "Academic/Work Outcomes"
       }
     },
     {
@@ -1909,7 +1909,7 @@
       "properties": {
         "id": "concept_builds_tolerance_to_pressure_strengthens_coping_me",
         "name": "Builds tolerance to pressure, strengthens coping mechanisms",
-        "concept": "Positive Stress (Eustress)"
+        "category": "Positive Stress (Eustress)"
       }
     },
     {
@@ -1917,7 +1917,7 @@
       "properties": {
         "id": "concept_resilience_confidence_proactive_behavior_long_term",
         "name": "Resilience, confidence, proactive behavior",
-        "concept": "Long-term Growth"
+        "category": "Long-term Growth"
       }
     },
     {
@@ -1925,7 +1925,7 @@
       "properties": {
         "id": "concept_cortisol_dysregulation_sleep_disturbance_somatic_s",
         "name": "Cortisol dysregulation, sleep disturbance, somatic symptoms",
-        "concept": "Negative Stress (Distress)"
+        "category": "Negative Stress (Distress)"
       }
     },
     {
@@ -1933,7 +1933,7 @@
       "properties": {
         "id": "concept_fatigue_reduced_learning_capacity_health_risks_lon",
         "name": "Fatigue, reduced learning capacity, health risks",
-        "concept": "Long-term Decline"
+        "category": "Long-term Decline"
       }
     },
     {
@@ -1941,7 +1941,7 @@
       "properties": {
         "id": "concept_activation_of_hpa_axis_adrenaline_cortisol_stress_",
         "name": "Activation of HPA axis, adrenaline, cortisol",
-        "concept": "Stress Response"
+        "category": "Stress Response"
       }
     },
     {
@@ -1949,7 +1949,7 @@
       "properties": {
         "id": "concept_adaptive_short_bursts_eustress_or_maladaptive_chro",
         "name": "Adaptive (short bursts, eustress) or maladaptive (chronic, distress)",
-        "concept": "Body & Brain Systems"
+        "category": "Body & Brain Systems"
       }
     },
     {
@@ -1957,7 +1957,7 @@
       "properties": {
         "id": "concept_belief_that_abilities_and_intelligence_can_be_deve",
         "name": "Belief that abilities and intelligence can be developed through effort, learning, and persistence",
-        "concept": "Growth Mindset"
+        "category": "Growth Mindset"
       }
     },
     {
@@ -1965,7 +1965,7 @@
       "properties": {
         "id": "concept_resilience_neuroplasticity_motivation_curiosity_ef",
         "name": "Resilience, neuroplasticity, motivation, curiosity, effective learning strategies",
-        "concept": "Learning & Development"
+        "category": "Learning & Development"
       }
     },
     {
@@ -1973,7 +1973,7 @@
       "properties": {
         "id": "concept_belief_that_abilities_and_intelligence_are_innate_",
         "name": "Belief that abilities and intelligence are innate and unchangeable",
-        "concept": "Fixed Mindset"
+        "category": "Fixed Mindset"
       }
     },
     {
@@ -1981,7 +1981,7 @@
       "properties": {
         "id": "concept_effort_persistence_openness_to_feedback_adaptive_c",
         "name": "Effort, persistence, openness to feedback, adaptive coping",
-        "concept": "Learning & Development"
+        "category": "Learning & Development"
       }
     },
     {
@@ -1989,15 +1989,15 @@
       "properties": {
         "id": "concept_effort_seen_as_a_path_to_mastery_growth_mindset",
         "name": "Effort seen as a path to mastery",
-        "concept": "Growth Mindset"
+        "category": "Growth Mindset"
       }
     },
     {
       "label": "FixedMindset",
       "properties": {
         "id": "concept_effort_seen_as_pointless_if_i_m_not_naturally_good",
-        "name": "Effort seen as pointless (“If I’m not naturally good, I’ll never succeed”)",
-        "concept": "Fixed Mindset"
+        "name": "Effort seen as pointless (\u201cIf I\u2019m not naturally good, I\u2019ll never succeed\u201d)",
+        "category": "Fixed Mindset"
       }
     },
     {
@@ -2005,7 +2005,7 @@
       "properties": {
         "id": "concept_challenges_are_opportunities_to_improve_growth_min",
         "name": "Challenges are opportunities to improve",
-        "concept": "Growth Mindset"
+        "category": "Growth Mindset"
       }
     },
     {
@@ -2013,7 +2013,7 @@
       "properties": {
         "id": "concept_higher_achievement_persistence_adaptive_motivation",
         "name": "Higher achievement, persistence, adaptive motivation",
-        "concept": "Positive Outcomes"
+        "category": "Positive Outcomes"
       }
     },
     {
@@ -2021,7 +2021,7 @@
       "properties": {
         "id": "concept_challenges_are_threats_that_expose_limits_fixed_mi",
         "name": "Challenges are threats that expose limits",
-        "concept": "Fixed Mindset"
+        "category": "Fixed Mindset"
       }
     },
     {
@@ -2029,7 +2029,7 @@
       "properties": {
         "id": "concept_avoidance_performance_anxiety_defensive_behavior_n",
         "name": "Avoidance, performance anxiety, defensive behavior",
-        "concept": "Negative Outcomes"
+        "category": "Negative Outcomes"
       }
     },
     {
@@ -2037,7 +2037,7 @@
       "properties": {
         "id": "concept_failure_is_feedback_and_a_chance_to_learn_growth_m",
         "name": "Failure is feedback and a chance to learn",
-        "concept": "Growth Mindset"
+        "category": "Growth Mindset"
       }
     },
     {
@@ -2045,7 +2045,7 @@
       "properties": {
         "id": "concept_mistakes_as_stepping_stones_for_improvement_resili",
         "name": "Mistakes as stepping stones for improvement",
-        "concept": "Resilience"
+        "category": "Resilience"
       }
     },
     {
@@ -2053,7 +2053,7 @@
       "properties": {
         "id": "concept_failure_is_proof_of_lack_of_ability_fixed_mindset",
         "name": "Failure is proof of lack of ability",
-        "concept": "Fixed Mindset"
+        "category": "Fixed Mindset"
       }
     },
     {
@@ -2061,7 +2061,7 @@
       "properties": {
         "id": "concept_learned_helplessness_disengagement_perfectionism_v",
         "name": "Learned helplessness, disengagement, perfectionism",
-        "concept": "Vulnerability"
+        "category": "Vulnerability"
       }
     },
     {
@@ -2069,7 +2069,7 @@
       "properties": {
         "id": "concept_encourages_intrinsic_motivation_curiosity_persiste",
         "name": "Encourages intrinsic motivation, curiosity, persistence",
-        "concept": "Growth Mindset"
+        "category": "Growth Mindset"
       }
     },
     {
@@ -2077,7 +2077,7 @@
       "properties": {
         "id": "concept_lifelong_learning_and_adaptability_personal_growth",
         "name": "Lifelong learning and adaptability",
-        "concept": "Personal Growth"
+        "category": "Personal Growth"
       }
     },
     {
@@ -2085,7 +2085,7 @@
       "properties": {
         "id": "concept_encourages_external_validation_and_fear_of_judgmen",
         "name": "Encourages external validation and fear of judgment",
-        "concept": "Fixed Mindset"
+        "category": "Fixed Mindset"
       }
     },
     {
@@ -2093,7 +2093,7 @@
       "properties": {
         "id": "concept_creativity_risk_taking_authentic_engagement_person",
         "name": "Creativity, risk-taking, authentic engagement",
-        "concept": "Personal Growth"
+        "category": "Personal Growth"
       }
     },
     {
@@ -2101,7 +2101,7 @@
       "properties": {
         "id": "concept_reflection_feedback_supportive_environment_mindset",
         "name": "Reflection, feedback, supportive environment",
-        "concept": "Mindset Shift"
+        "category": "Mindset Shift"
       }
     },
     {
@@ -2109,7 +2109,7 @@
       "properties": {
         "id": "concept_fixed_mindset_tendencies_into_growth_oriented_atti",
         "name": "Fixed mindset tendencies into growth-oriented attitudes",
-        "concept": "Mindset Flexibility"
+        "category": "Mindset Flexibility"
       }
     },
     {
@@ -2117,7 +2117,7 @@
       "properties": {
         "id": "concept_joy_curiosity_interest_hope_enthusiasm_positive_em",
         "name": "Joy, curiosity, interest, hope, enthusiasm",
-        "concept": "Positive Emotions"
+        "category": "Positive Emotions"
       }
     },
     {
@@ -2125,7 +2125,7 @@
       "properties": {
         "id": "concept_attention_memory_encoding_creativity_openness_to_l",
         "name": "Attention, memory encoding, creativity, openness to learning",
-        "concept": "Cognitive Processes"
+        "category": "Cognitive Processes"
       }
     },
     {
@@ -2133,7 +2133,7 @@
       "properties": {
         "id": "concept_fear_anxiety_sadness_anger_shame_negative_emotions",
         "name": "Fear, anxiety, sadness, anger, shame",
-        "concept": "Negative Emotions"
+        "category": "Negative Emotions"
       }
     },
     {
@@ -2141,7 +2141,7 @@
       "properties": {
         "id": "concept_working_memory_concentration_motivation_cognitive_",
         "name": "Working memory, concentration, motivation",
-        "concept": "Cognitive Processes"
+        "category": "Cognitive Processes"
       }
     },
     {
@@ -2149,7 +2149,7 @@
       "properties": {
         "id": "concept_build_approach_oriented_behaviors_exploration_coll",
         "name": "Build approach-oriented behaviors (exploration, collaboration)",
-        "concept": "Positive Emotions"
+        "category": "Positive Emotions"
       }
     },
     {
@@ -2157,7 +2157,7 @@
       "properties": {
         "id": "concept_engagement_resilience_persistence_learning_outcome",
         "name": "Engagement, resilience, persistence",
-        "concept": "Learning Outcomes"
+        "category": "Learning Outcomes"
       }
     },
     {
@@ -2165,7 +2165,7 @@
       "properties": {
         "id": "concept_trigger_avoidance_oriented_behaviors_withdrawal_pr",
         "name": "Trigger avoidance-oriented behaviors (withdrawal, procrastination)",
-        "concept": "Negative Emotions"
+        "category": "Negative Emotions"
       }
     },
     {
@@ -2173,7 +2173,7 @@
       "properties": {
         "id": "concept_participation_risk_taking_confidence_learning_outc",
         "name": "Participation, risk-taking, confidence",
-        "concept": "Learning Outcomes"
+        "category": "Learning Outcomes"
       }
     },
     {
@@ -2181,7 +2181,7 @@
       "properties": {
         "id": "concept_broaden_perspective_and_flexible_thinking_positive",
         "name": "Broaden perspective and flexible thinking",
-        "concept": "Positive Emotions"
+        "category": "Positive Emotions"
       }
     },
     {
@@ -2189,7 +2189,7 @@
       "properties": {
         "id": "concept_problem_solving_creativity_empathy_higher_order_th",
         "name": "Problem-solving, creativity, empathy",
-        "concept": "Higher-Order Thinking"
+        "category": "Higher-Order Thinking"
       }
     },
     {
@@ -2197,7 +2197,7 @@
       "properties": {
         "id": "concept_narrow_focus_to_perceived_threat_negative_emotions",
         "name": "Narrow focus to perceived threat",
-        "concept": "Negative Emotions"
+        "category": "Negative Emotions"
       }
     },
     {
@@ -2205,7 +2205,7 @@
       "properties": {
         "id": "concept_survival_oriented_responses_defensive_thinking_rig",
         "name": "Survival-oriented responses, defensive thinking, rigidity",
-        "concept": "Lower-Order Thinking"
+        "category": "Lower-Order Thinking"
       }
     },
     {
@@ -2213,7 +2213,7 @@
       "properties": {
         "id": "concept_promote_intrinsic_motivation_positive_emotions",
         "name": "Promote intrinsic motivation",
-        "concept": "Positive Emotions"
+        "category": "Positive Emotions"
       }
     },
     {
@@ -2221,7 +2221,7 @@
       "properties": {
         "id": "concept_growth_mindset_curiosity_long_term_learning_motiva",
         "name": "Growth mindset, curiosity, long-term learning",
-        "concept": "Motivation & Mindset"
+        "category": "Motivation & Mindset"
       }
     },
     {
@@ -2229,7 +2229,7 @@
       "properties": {
         "id": "concept_increase_extrinsic_control_and_fear_based_motivati",
         "name": "Increase extrinsic control and fear-based motivation",
-        "concept": "Negative Emotions"
+        "category": "Negative Emotions"
       }
     },
     {
@@ -2237,7 +2237,7 @@
       "properties": {
         "id": "concept_fixed_mindset_avoidance_of_challenges_motivation_m",
         "name": "Fixed mindset, avoidance of challenges",
-        "concept": "Motivation & Mindset"
+        "category": "Motivation & Mindset"
       }
     },
     {
@@ -2245,7 +2245,7 @@
       "properties": {
         "id": "concept_awareness_and_management_of_emotions_emotional_reg",
         "name": "Awareness and management of emotions",
-        "concept": "Emotional Regulation"
+        "category": "Emotional Regulation"
       }
     },
     {
@@ -2253,7 +2253,7 @@
       "properties": {
         "id": "concept_negative_emotions_into_productive_focus_positive_e",
         "name": "Negative emotions into productive focus, positive emotions into sustained drive",
-        "concept": "Self-Regulation"
+        "category": "Self-Regulation"
       }
     },
     {
@@ -2261,7 +2261,7 @@
       "properties": {
         "id": "concept_empathy_gratitude_compassion_social_emotions",
         "name": "Empathy, gratitude, compassion",
-        "concept": "Social Emotions"
+        "category": "Social Emotions"
       }
     },
     {
@@ -2269,15 +2269,15 @@
       "properties": {
         "id": "concept_cooperation_perspective_taking_prosocial_learning_",
         "name": "Cooperation, perspective-taking, prosocial learning",
-        "concept": "Social Cognition"
+        "category": "Social Cognition"
       }
     },
     {
       "label": "KnowledgeofCognition",
       "properties": {
         "id": "concept_awareness_of_one_s_own_cognitive_strengths_and_lim",
-        "name": "Awareness of one’s own cognitive strengths and limits",
-        "concept": "Knowledge of Cognition"
+        "name": "Awareness of one\u2019s own cognitive strengths and limits",
+        "category": "Knowledge of Cognition"
       }
     },
     {
@@ -2285,7 +2285,7 @@
       "properties": {
         "id": "concept_strategic_use_of_learning_methods_self_regulated_l",
         "name": "Strategic use of learning methods",
-        "concept": "Self-Regulated Learning"
+        "category": "Self-Regulated Learning"
       }
     },
     {
@@ -2293,7 +2293,7 @@
       "properties": {
         "id": "concept_planning_monitoring_and_evaluating_cognitive_strat",
         "name": "Planning, monitoring, and evaluating cognitive strategies",
-        "concept": "Regulation of Cognition"
+        "category": "Regulation of Cognition"
       }
     },
     {
@@ -2301,7 +2301,7 @@
       "properties": {
         "id": "concept_adaptation_of_strategies_to_improve_task_performan",
         "name": "Adaptation of strategies to improve task performance",
-        "concept": "Executive Functions"
+        "category": "Executive Functions"
       }
     },
     {
@@ -2309,7 +2309,7 @@
       "properties": {
         "id": "concept_self_checking_understanding_during_tasks_metacogni",
         "name": "Self-checking understanding during tasks",
-        "concept": "Metacognitive Monitoring"
+        "category": "Metacognitive Monitoring"
       }
     },
     {
@@ -2317,7 +2317,7 @@
       "properties": {
         "id": "concept_error_detection_correction_persistence_problem_sol",
         "name": "Error detection, correction, persistence",
-        "concept": "Problem Solving"
+        "category": "Problem Solving"
       }
     },
     {
@@ -2325,7 +2325,7 @@
       "properties": {
         "id": "concept_adjusting_effort_focus_and_strategies_in_real_time",
         "name": "Adjusting effort, focus, and strategies in real time",
-        "concept": "Metacognitive Control"
+        "category": "Metacognitive Control"
       }
     },
     {
@@ -2333,15 +2333,15 @@
       "properties": {
         "id": "concept_working_memory_use_attentional_allocation_cognitiv",
         "name": "Working memory use, attentional allocation",
-        "concept": "Cognitive Processes"
+        "category": "Cognitive Processes"
       }
     },
     {
       "label": "ReflectiveThinking",
       "properties": {
         "id": "concept_thinking_about_one_s_own_thought_processes_reflect",
-        "name": "Thinking about one’s own thought processes",
-        "concept": "Reflective Thinking"
+        "name": "Thinking about one\u2019s own thought processes",
+        "category": "Reflective Thinking"
       }
     },
     {
@@ -2349,7 +2349,7 @@
       "properties": {
         "id": "concept_critical_thinking_transfer_of_knowledge_higher_ord",
         "name": "Critical thinking, transfer of knowledge",
-        "concept": "Higher-Order Thinking"
+        "category": "Higher-Order Thinking"
       }
     },
     {
@@ -2357,7 +2357,7 @@
       "properties": {
         "id": "concept_goal_setting_and_strategy_selection_before_a_task_",
         "name": "Goal setting and strategy selection before a task",
-        "concept": "Planning"
+        "category": "Planning"
       }
     },
     {
@@ -2365,7 +2365,7 @@
       "properties": {
         "id": "concept_organization_prioritization_time_management_learni",
         "name": "Organization, prioritization, time management",
-        "concept": "Learning Outcomes"
+        "category": "Learning Outcomes"
       }
     },
     {
@@ -2373,7 +2373,7 @@
       "properties": {
         "id": "concept_checking_progress_toward_goals_monitoring",
         "name": "Checking progress toward goals",
-        "concept": "Monitoring"
+        "category": "Monitoring"
       }
     },
     {
@@ -2381,7 +2381,7 @@
       "properties": {
         "id": "concept_motivation_persistence_adaptive_responses_self_reg",
         "name": "Motivation, persistence, adaptive responses",
-        "concept": "Self-Regulation"
+        "category": "Self-Regulation"
       }
     },
     {
@@ -2389,7 +2389,7 @@
       "properties": {
         "id": "concept_assessing_strategy_effectiveness_after_a_task_eval",
         "name": "Assessing strategy effectiveness after a task",
-        "concept": "Evaluation"
+        "category": "Evaluation"
       }
     },
     {
@@ -2397,7 +2397,7 @@
       "properties": {
         "id": "concept_future_learning_efficiency_error_reduction_long_te",
         "name": "Future learning efficiency, error reduction",
-        "concept": "Long-Term Learning"
+        "category": "Long-Term Learning"
       }
     },
     {
@@ -2405,7 +2405,7 @@
       "properties": {
         "id": "concept_recognizing_biases_knowledge_gaps_and_strengths_se",
         "name": "Recognizing biases, knowledge gaps, and strengths",
-        "concept": "Self-Awareness"
+        "category": "Self-Awareness"
       }
     },
     {
@@ -2413,23 +2413,23 @@
       "properties": {
         "id": "concept_growth_mindset_intellectual_humility_mindset_attit",
         "name": "Growth mindset, intellectual humility",
-        "concept": "Mindset & Attitudes"
+        "category": "Mindset & Attitudes"
       }
     },
     {
       "label": "InstructionalScaffolding",
       "properties": {
         "id": "concept_teachers_modeling_thinking_aloud_strategies_instru",
-        "name": "Teachers modeling “thinking aloud” strategies",
-        "concept": "Instructional Scaffolding"
+        "name": "Teachers modeling \u201cthinking aloud\u201d strategies",
+        "category": "Instructional Scaffolding"
       }
     },
     {
       "label": "TeachingPractices",
       "properties": {
         "id": "concept_students_independent_metacognitive_development_tea",
-        "name": "Students’ independent metacognitive development",
-        "concept": "Teaching Practices"
+        "name": "Students\u2019 independent metacognitive development",
+        "category": "Teaching Practices"
       }
     },
     {
@@ -2437,7 +2437,7 @@
       "properties": {
         "id": "concept_difficulty_sustaining_focus_attention",
         "name": "Difficulty sustaining focus",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -2445,7 +2445,7 @@
       "properties": {
         "id": "concept_task_completion_academic_performance_learning_outc",
         "name": "Task completion, academic performance",
-        "concept": "Learning Outcomes"
+        "category": "Learning Outcomes"
       }
     },
     {
@@ -2453,7 +2453,7 @@
       "properties": {
         "id": "concept_impaired_inhibitory_control_executive_functions",
         "name": "Impaired inhibitory control",
-        "concept": "Executive Functions"
+        "category": "Executive Functions"
       }
     },
     {
@@ -2461,7 +2461,7 @@
       "properties": {
         "id": "concept_impulsivity_distractibility_behavioral_regulation",
         "name": "Impulsivity, distractibility",
-        "concept": "Behavioral Regulation"
+        "category": "Behavioral Regulation"
       }
     },
     {
@@ -2469,7 +2469,7 @@
       "properties": {
         "id": "concept_reduced_working_memory_capacity_executive_function",
         "name": "Reduced working memory capacity",
-        "concept": "Executive Functions"
+        "category": "Executive Functions"
       }
     },
     {
@@ -2477,7 +2477,7 @@
       "properties": {
         "id": "concept_planning_sequencing_and_mental_flexibility_cogniti",
         "name": "Planning, sequencing, and mental flexibility",
-        "concept": "Cognitive Control"
+        "category": "Cognitive Control"
       }
     },
     {
@@ -2485,7 +2485,7 @@
       "properties": {
         "id": "concept_altered_reward_sensitivity_motivation",
         "name": "Altered reward sensitivity",
-        "concept": "Motivation"
+        "category": "Motivation"
       }
     },
     {
@@ -2493,7 +2493,7 @@
       "properties": {
         "id": "concept_preference_for_immediate_rewards_over_delayed_ones",
         "name": "Preference for immediate rewards over delayed ones",
-        "concept": "Learning Engagement"
+        "category": "Learning Engagement"
       }
     },
     {
@@ -2501,7 +2501,7 @@
       "properties": {
         "id": "concept_difficulty_managing_frustration_or_stress_emotiona",
         "name": "Difficulty managing frustration or stress",
-        "concept": "Emotional Regulation"
+        "category": "Emotional Regulation"
       }
     },
     {
@@ -2509,7 +2509,7 @@
       "properties": {
         "id": "concept_mood_swings_anxiety_social_conflict_emotional_well",
         "name": "Mood swings, anxiety, social conflict",
-        "concept": "Emotional Well-being"
+        "category": "Emotional Well-being"
       }
     },
     {
@@ -2517,7 +2517,7 @@
       "properties": {
         "id": "concept_limited_metacognitive_monitoring_self_regulation",
         "name": "Limited metacognitive monitoring",
-        "concept": "Self-Regulation"
+        "category": "Self-Regulation"
       }
     },
     {
@@ -2525,7 +2525,7 @@
       "properties": {
         "id": "concept_awareness_of_errors_ability_to_adjust_strategies_m",
         "name": "Awareness of errors, ability to adjust strategies",
-        "concept": "Metacognition"
+        "category": "Metacognition"
       }
     },
     {
@@ -2533,7 +2533,7 @@
       "properties": {
         "id": "concept_inefficient_rehearsal_or_organization_learning_str",
         "name": "Inefficient rehearsal or organization",
-        "concept": "Learning Strategies"
+        "category": "Learning Strategies"
       }
     },
     {
@@ -2541,7 +2541,7 @@
       "properties": {
         "id": "concept_encoding_and_transfer_of_knowledge_memory_processe",
         "name": "Encoding and transfer of knowledge",
-        "concept": "Memory Processes"
+        "category": "Memory Processes"
       }
     },
     {
@@ -2549,7 +2549,7 @@
       "properties": {
         "id": "concept_challenges_in_joint_attention_and_perspective_taki",
         "name": "Challenges in joint attention and perspective-taking",
-        "concept": "Social Cognition"
+        "category": "Social Cognition"
       }
     },
     {
@@ -2557,7 +2557,7 @@
       "properties": {
         "id": "concept_collaboration_peer_relationships_social_learning",
         "name": "Collaboration, peer relationships",
-        "concept": "Social Learning"
+        "category": "Social Learning"
       }
     },
     {
@@ -2565,7 +2565,7 @@
       "properties": {
         "id": "concept_need_for_structure_and_scaffolding_educational_env",
         "name": "Need for structure and scaffolding",
-        "concept": "Educational Environment"
+        "category": "Educational Environment"
       }
     },
     {
@@ -2573,7 +2573,7 @@
       "properties": {
         "id": "concept_adaptive_strategies_sustained_engagement_teaching_",
         "name": "Adaptive strategies, sustained engagement",
-        "concept": "Teaching Practices"
+        "category": "Teaching Practices"
       }
     },
     {
@@ -2581,7 +2581,7 @@
       "properties": {
         "id": "concept_high_creativity_divergent_thinking_strengths",
         "name": "High creativity, divergent thinking",
-        "concept": "Strengths"
+        "category": "Strengths"
       }
     },
     {
@@ -2589,7 +2589,7 @@
       "properties": {
         "id": "concept_innovative_problem_solving_flexible_idea_generatio",
         "name": "Innovative problem-solving, flexible idea generation",
-        "concept": "Creativity & Innovation"
+        "category": "Creativity & Innovation"
       }
     },
     {
@@ -2597,7 +2597,7 @@
       "properties": {
         "id": "concept_difficulty_with_theory_of_mind_social_cognition",
         "name": "Difficulty with theory of mind",
-        "concept": "Social Cognition"
+        "category": "Social Cognition"
       }
     },
     {
@@ -2605,7 +2605,7 @@
       "properties": {
         "id": "concept_perspective_taking_empathy_social_understanding",
         "name": "Perspective-taking, empathy",
-        "concept": "Social Understanding"
+        "category": "Social Understanding"
       }
     },
     {
@@ -2613,7 +2613,7 @@
       "properties": {
         "id": "concept_pragmatic_language_challenges_communication",
         "name": "Pragmatic language challenges",
-        "concept": "Communication"
+        "category": "Communication"
       }
     },
     {
@@ -2621,7 +2621,7 @@
       "properties": {
         "id": "concept_social_interaction_classroom_participation_languag",
         "name": "Social interaction, classroom participation",
-        "concept": "Language Development"
+        "category": "Language Development"
       }
     },
     {
@@ -2629,7 +2629,7 @@
       "properties": {
         "id": "concept_hyper_or_hypo_sensitivity_sensory_processing",
         "name": "Hyper- or hypo-sensitivity",
-        "concept": "Sensory Processing"
+        "category": "Sensory Processing"
       }
     },
     {
@@ -2637,7 +2637,7 @@
       "properties": {
         "id": "concept_attention_emotional_regulation_sensory_integration",
         "name": "Attention, emotional regulation",
-        "concept": "Sensory Integration"
+        "category": "Sensory Integration"
       }
     },
     {
@@ -2645,7 +2645,7 @@
       "properties": {
         "id": "concept_rigidity_reduced_cognitive_flexibility_executive_f",
         "name": "Rigidity, reduced cognitive flexibility",
-        "concept": "Executive Functions"
+        "category": "Executive Functions"
       }
     },
     {
@@ -2653,7 +2653,7 @@
       "properties": {
         "id": "concept_problem_solving_adapting_to_change_cognitive_contr",
         "name": "Problem-solving, adapting to change",
-        "concept": "Cognitive Control"
+        "category": "Cognitive Control"
       }
     },
     {
@@ -2661,7 +2661,7 @@
       "properties": {
         "id": "concept_strong_focus_on_restricted_interests_attention",
         "name": "Strong focus on restricted interests",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -2669,7 +2669,7 @@
       "properties": {
         "id": "concept_deep_knowledge_expertise_in_specific_areas_learnin",
         "name": "Deep knowledge, expertise in specific areas",
-        "concept": "Learning Depth"
+        "category": "Learning Depth"
       }
     },
     {
@@ -2677,7 +2677,7 @@
       "properties": {
         "id": "concept_preference_for_intrinsic_interest_driven_tasks_mot",
         "name": "Preference for intrinsic, interest-driven tasks",
-        "concept": "Motivation"
+        "category": "Motivation"
       }
     },
     {
@@ -2685,7 +2685,7 @@
       "properties": {
         "id": "concept_engagement_and_persistence_learning_outcomes",
         "name": "Engagement and persistence",
-        "concept": "Learning Outcomes"
+        "category": "Learning Outcomes"
       }
     },
     {
@@ -2693,7 +2693,7 @@
       "properties": {
         "id": "concept_heightened_anxiety_in_unpredictable_contexts_emoti",
         "name": "Heightened anxiety in unpredictable contexts",
-        "concept": "Emotional Regulation"
+        "category": "Emotional Regulation"
       }
     },
     {
@@ -2701,7 +2701,7 @@
       "properties": {
         "id": "concept_stress_responses_withdrawal_emotional_well_being",
         "name": "Stress responses, withdrawal",
-        "concept": "Emotional Well-being"
+        "category": "Emotional Well-being"
       }
     },
     {
@@ -2709,7 +2709,7 @@
       "properties": {
         "id": "concept_challenges_in_joint_attention_social_learning",
         "name": "Challenges in joint attention",
-        "concept": "Social Learning"
+        "category": "Social Learning"
       }
     },
     {
@@ -2717,7 +2717,7 @@
       "properties": {
         "id": "concept_collaborative_learning_peer_interaction_social_dev",
         "name": "Collaborative learning, peer interaction",
-        "concept": "Social Development"
+        "category": "Social Development"
       }
     },
     {
@@ -2725,7 +2725,7 @@
       "properties": {
         "id": "concept_pattern_recognition_and_detail_orientation_strengt",
         "name": "Pattern recognition and detail orientation",
-        "concept": "Strengths"
+        "category": "Strengths"
       }
     },
     {
@@ -2733,7 +2733,7 @@
       "properties": {
         "id": "concept_analytical_thinking_stem_related_skills_cognitive_",
         "name": "Analytical thinking, STEM-related skills",
-        "concept": "Cognitive Strengths"
+        "category": "Cognitive Strengths"
       }
     },
     {
@@ -2741,7 +2741,7 @@
       "properties": {
         "id": "concept_structured_routines_visual_aids_educational_suppor",
         "name": "Structured routines, visual aids",
-        "concept": "Educational Support"
+        "category": "Educational Support"
       }
     },
     {
@@ -2749,7 +2749,7 @@
       "properties": {
         "id": "concept_predictability_reduced_anxiety_learning_gains_teac",
         "name": "Predictability, reduced anxiety, learning gains",
-        "concept": "Teaching Practices"
+        "category": "Teaching Practices"
       }
     },
     {
@@ -2757,7 +2757,7 @@
       "properties": {
         "id": "concept_unique_perspectives_and_divergent_thinking_creativ",
         "name": "Unique perspectives and divergent thinking",
-        "concept": "Creativity"
+        "category": "Creativity"
       }
     },
     {
@@ -2765,7 +2765,7 @@
       "properties": {
         "id": "concept_innovative_solutions_original_approaches_creative_",
         "name": "Innovative solutions, original approaches",
-        "concept": "Creative Outcomes"
+        "category": "Creative Outcomes"
       }
     },
     {
@@ -2773,7 +2773,7 @@
       "properties": {
         "id": "concept_phonological_awareness_deficits_language_processin",
         "name": "Phonological awareness deficits",
-        "concept": "Language Processing"
+        "category": "Language Processing"
       }
     },
     {
@@ -2781,7 +2781,7 @@
       "properties": {
         "id": "concept_decoding_word_recognition_reading_acquisition",
         "name": "Decoding, word recognition",
-        "concept": "Reading Acquisition"
+        "category": "Reading Acquisition"
       }
     },
     {
@@ -2789,7 +2789,7 @@
       "properties": {
         "id": "concept_limited_verbal_working_memory_working_memory",
         "name": "Limited verbal working memory",
-        "concept": "Working Memory"
+        "category": "Working Memory"
       }
     },
     {
@@ -2797,7 +2797,7 @@
       "properties": {
         "id": "concept_retention_of_letter_sound_sequences_reading_fluenc",
         "name": "Retention of letter-sound sequences",
-        "concept": "Reading Fluency"
+        "category": "Reading Fluency"
       }
     },
     {
@@ -2805,7 +2805,7 @@
       "properties": {
         "id": "concept_slower_automatization_of_word_retrieval_processing",
         "name": "Slower automatization of word retrieval",
-        "concept": "Processing Speed"
+        "category": "Processing Speed"
       }
     },
     {
@@ -2813,7 +2813,7 @@
       "properties": {
         "id": "concept_reading_fluency_comprehension_pace_learning_outcom",
         "name": "Reading fluency, comprehension pace",
-        "concept": "Learning Outcomes"
+        "category": "Learning Outcomes"
       }
     },
     {
@@ -2821,7 +2821,7 @@
       "properties": {
         "id": "concept_difficulty_linking_sounds_to_written_symbols_ortho",
         "name": "Difficulty linking sounds to written symbols",
-        "concept": "Orthographic Mapping"
+        "category": "Orthographic Mapping"
       }
     },
     {
@@ -2829,7 +2829,7 @@
       "properties": {
         "id": "concept_spelling_accuracy_literacy_skills",
         "name": "Spelling accuracy",
-        "concept": "Literacy Skills"
+        "category": "Literacy Skills"
       }
     },
     {
@@ -2837,7 +2837,7 @@
       "properties": {
         "id": "concept_increased_cognitive_load_during_reading_tasks_atte",
         "name": "Increased cognitive load during reading tasks",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -2845,7 +2845,7 @@
       "properties": {
         "id": "concept_fatigue_reduced_concentration_learning_engagement",
         "name": "Fatigue, reduced concentration",
-        "concept": "Learning Engagement"
+        "category": "Learning Engagement"
       }
     },
     {
@@ -2853,7 +2853,7 @@
       "properties": {
         "id": "concept_need_for_higher_effort_in_self_monitoring_executiv",
         "name": "Need for higher effort in self-monitoring",
-        "concept": "Executive Functions"
+        "category": "Executive Functions"
       }
     },
     {
@@ -2861,7 +2861,7 @@
       "properties": {
         "id": "concept_extra_use_of_cognitive_resources_cognitive_control",
         "name": "Extra use of cognitive resources",
-        "concept": "Cognitive Control"
+        "category": "Cognitive Control"
       }
     },
     {
@@ -2869,7 +2869,7 @@
       "properties": {
         "id": "concept_risk_of_reduced_self_efficacy_in_academics_motivat",
         "name": "Risk of reduced self-efficacy in academics",
-        "concept": "Motivation"
+        "category": "Motivation"
       }
     },
     {
@@ -2877,7 +2877,7 @@
       "properties": {
         "id": "concept_avoidance_of_reading_tasks_learning_motivation",
         "name": "Avoidance of reading tasks",
-        "concept": "Learning Motivation"
+        "category": "Learning Motivation"
       }
     },
     {
@@ -2885,7 +2885,7 @@
       "properties": {
         "id": "concept_frustration_and_stress_during_reading_emotional_re",
         "name": "Frustration and stress during reading",
-        "concept": "Emotional Regulation"
+        "category": "Emotional Regulation"
       }
     },
     {
@@ -2893,7 +2893,7 @@
       "properties": {
         "id": "concept_anxiety_disengagement_emotional_well_being",
         "name": "Anxiety, disengagement",
-        "concept": "Emotional Well-being"
+        "category": "Emotional Well-being"
       }
     },
     {
@@ -2901,7 +2901,7 @@
       "properties": {
         "id": "concept_visual_spatial_reasoning_and_creativity_strengths",
         "name": "Visual-spatial reasoning and creativity",
-        "concept": "Strengths"
+        "category": "Strengths"
       }
     },
     {
@@ -2909,7 +2909,7 @@
       "properties": {
         "id": "concept_problem_solving_innovation_cognitive_strengths",
         "name": "Problem-solving, innovation",
-        "concept": "Cognitive Strengths"
+        "category": "Cognitive Strengths"
       }
     },
     {
@@ -2917,7 +2917,7 @@
       "properties": {
         "id": "concept_multisensory_structured_literacy_instruction_educa",
         "name": "Multisensory structured literacy instruction",
-        "concept": "Educational Support"
+        "category": "Educational Support"
       }
     },
     {
@@ -2925,7 +2925,7 @@
       "properties": {
         "id": "concept_reading_accuracy_and_confidence_teaching_practices",
         "name": "Reading accuracy and confidence",
-        "concept": "Teaching Practices"
+        "category": "Teaching Practices"
       }
     },
     {
@@ -2933,7 +2933,7 @@
       "properties": {
         "id": "concept_risk_of_stigma_and_misunderstanding_social_dimensi",
         "name": "Risk of stigma and misunderstanding",
-        "concept": "Social Dimension"
+        "category": "Social Dimension"
       }
     },
     {
@@ -2941,7 +2941,7 @@
       "properties": {
         "id": "concept_peer_relationships_self_esteem_social_learning",
         "name": "Peer relationships, self-esteem",
-        "concept": "Social Learning"
+        "category": "Social Learning"
       }
     },
     {
@@ -2949,7 +2949,7 @@
       "properties": {
         "id": "concept_difficulty_understanding_magnitude_and_quantity_nu",
         "name": "Difficulty understanding magnitude and quantity",
-        "concept": "Number Sense"
+        "category": "Number Sense"
       }
     },
     {
@@ -2957,7 +2957,7 @@
       "properties": {
         "id": "concept_basic_arithmetic_numerical_cognition",
         "name": "Basic arithmetic",
-        "concept": "Numerical Cognition"
+        "category": "Numerical Cognition"
       }
     },
     {
@@ -2965,7 +2965,7 @@
       "properties": {
         "id": "concept_reduced_ability_to_hold_numerical_information_work",
         "name": "Reduced ability to hold numerical information",
-        "concept": "Working Memory"
+        "category": "Working Memory"
       }
     },
     {
@@ -2973,7 +2973,7 @@
       "properties": {
         "id": "concept_multi_step_calculations_problem_solving_cognitive_",
         "name": "Multi-step calculations, problem solving",
-        "concept": "Cognitive Processing"
+        "category": "Cognitive Processing"
       }
     },
     {
@@ -2981,7 +2981,7 @@
       "properties": {
         "id": "concept_slow_retrieval_of_math_facts_processing_speed",
         "name": "Slow retrieval of math facts",
-        "concept": "Processing Speed"
+        "category": "Processing Speed"
       }
     },
     {
@@ -2989,7 +2989,7 @@
       "properties": {
         "id": "concept_fluency_in_calculation_learning_outcomes",
         "name": "Fluency in calculation",
-        "concept": "Learning Outcomes"
+        "category": "Learning Outcomes"
       }
     },
     {
@@ -2997,7 +2997,7 @@
       "properties": {
         "id": "concept_difficulty_linking_numbers_to_symbols_symbolic_pro",
         "name": "Difficulty linking numbers to symbols",
-        "concept": "Symbolic Processing"
+        "category": "Symbolic Processing"
       }
     },
     {
@@ -3005,7 +3005,7 @@
       "properties": {
         "id": "concept_place_value_written_arithmetic_mathematical_litera",
         "name": "Place value, written arithmetic",
-        "concept": "Mathematical Literacy"
+        "category": "Mathematical Literacy"
       }
     },
     {
@@ -3013,7 +3013,7 @@
       "properties": {
         "id": "concept_challenges_with_spatial_reasoning_spatial_processi",
         "name": "Challenges with spatial reasoning",
-        "concept": "Spatial Processing"
+        "category": "Spatial Processing"
       }
     },
     {
@@ -3021,7 +3021,7 @@
       "properties": {
         "id": "concept_geometry_alignment_in_written_problems_spatial_cog",
         "name": "Geometry, alignment in written problems",
-        "concept": "Spatial Cognition"
+        "category": "Spatial Cognition"
       }
     },
     {
@@ -3029,7 +3029,7 @@
       "properties": {
         "id": "concept_weak_planning_and_sequencing_in_math_tasks_executi",
         "name": "Weak planning and sequencing in math tasks",
-        "concept": "Executive Functions"
+        "category": "Executive Functions"
       }
     },
     {
@@ -3037,7 +3037,7 @@
       "properties": {
         "id": "concept_problem_solving_strategies_cognitive_control",
         "name": "Problem-solving strategies",
-        "concept": "Cognitive Control"
+        "category": "Cognitive Control"
       }
     },
     {
@@ -3045,7 +3045,7 @@
       "properties": {
         "id": "concept_high_cognitive_load_in_math_tasks_attention",
         "name": "High cognitive load in math tasks",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -3053,7 +3053,7 @@
       "properties": {
         "id": "concept_fatigue_avoidance_learning_engagement",
         "name": "Fatigue, avoidance",
-        "concept": "Learning Engagement"
+        "category": "Learning Engagement"
       }
     },
     {
@@ -3061,7 +3061,7 @@
       "properties": {
         "id": "concept_risk_of_math_anxiety_and_low_self_confidence_motiv",
         "name": "Risk of math anxiety and low self-confidence",
-        "concept": "Motivation"
+        "category": "Motivation"
       }
     },
     {
@@ -3069,7 +3069,7 @@
       "properties": {
         "id": "concept_avoidance_of_math_related_learning_academic_motiva",
         "name": "Avoidance of math-related learning",
-        "concept": "Academic Motivation"
+        "category": "Academic Motivation"
       }
     },
     {
@@ -3077,7 +3077,7 @@
       "properties": {
         "id": "concept_frustration_in_learning_numbers_emotional_regulati",
         "name": "Frustration in learning numbers",
-        "concept": "Emotional Regulation"
+        "category": "Emotional Regulation"
       }
     },
     {
@@ -3085,7 +3085,7 @@
       "properties": {
         "id": "concept_stress_negative_self_image_emotional_well_being",
         "name": "Stress, negative self-image",
-        "concept": "Emotional Well-being"
+        "category": "Emotional Well-being"
       }
     },
     {
@@ -3093,7 +3093,7 @@
       "properties": {
         "id": "concept_creativity_verbal_reasoning_visual_arts_strengths",
         "name": "Creativity, verbal reasoning, visual arts",
-        "concept": "Strengths"
+        "category": "Strengths"
       }
     },
     {
@@ -3101,7 +3101,7 @@
       "properties": {
         "id": "concept_alternative_problem_solving_approaches_cognitive_s",
         "name": "Alternative problem-solving approaches",
-        "concept": "Cognitive Strengths"
+        "category": "Cognitive Strengths"
       }
     },
     {
@@ -3109,7 +3109,7 @@
       "properties": {
         "id": "concept_concrete_manipulatives_visual_aids_step_by_step_in",
         "name": "Concrete manipulatives, visual aids, step-by-step instruction",
-        "concept": "Educational Support"
+        "category": "Educational Support"
       }
     },
     {
@@ -3117,7 +3117,7 @@
       "properties": {
         "id": "concept_conceptual_understanding_confidence_teaching_pract",
         "name": "Conceptual understanding, confidence",
-        "concept": "Teaching Practices"
+        "category": "Teaching Practices"
       }
     },
     {
@@ -3125,7 +3125,7 @@
       "properties": {
         "id": "concept_presence_of_motor_tics_sudden_repetitive_movements",
         "name": "Presence of motor tics (sudden, repetitive movements)",
-        "concept": "Motor Control"
+        "category": "Motor Control"
       }
     },
     {
@@ -3133,7 +3133,7 @@
       "properties": {
         "id": "concept_classroom_focus_handwriting_coordination_motor_fun",
         "name": "Classroom focus, handwriting, coordination",
-        "concept": "Motor Function"
+        "category": "Motor Function"
       }
     },
     {
@@ -3141,7 +3141,7 @@
       "properties": {
         "id": "concept_vocal_tics_sounds_words_throat_clearing_vocal_cont",
         "name": "Vocal tics (sounds, words, throat clearing)",
-        "concept": "Vocal Control"
+        "category": "Vocal Control"
       }
     },
     {
@@ -3149,7 +3149,7 @@
       "properties": {
         "id": "concept_communication_peer_interaction_language_social_ski",
         "name": "Communication, peer interaction",
-        "concept": "Language & Social Skills"
+        "category": "Language & Social Skills"
       }
     },
     {
@@ -3157,7 +3157,7 @@
       "properties": {
         "id": "concept_cognitive_interference_from_premonitory_urges_atte",
         "name": "Cognitive interference from premonitory urges",
-        "concept": "Attention"
+        "category": "Attention"
       }
     },
     {
@@ -3165,7 +3165,7 @@
       "properties": {
         "id": "concept_concentration_during_tasks_learning_engagement",
         "name": "Concentration during tasks",
-        "concept": "Learning Engagement"
+        "category": "Learning Engagement"
       }
     },
     {
@@ -3173,7 +3173,7 @@
       "properties": {
         "id": "concept_impulse_control_difficulties_executive_functions",
         "name": "Impulse control difficulties",
-        "concept": "Executive Functions"
+        "category": "Executive Functions"
       }
     },
     {
@@ -3181,7 +3181,7 @@
       "properties": {
         "id": "concept_disinhibition_distractibility_cognitive_regulation",
         "name": "Disinhibition, distractibility",
-        "concept": "Cognitive Regulation"
+        "category": "Cognitive Regulation"
       }
     },
     {
@@ -3189,7 +3189,7 @@
       "properties": {
         "id": "concept_stress_and_anxiety_exacerbate_tics_emotional_regul",
         "name": "Stress and anxiety exacerbate tics",
-        "concept": "Emotional Regulation"
+        "category": "Emotional Regulation"
       }
     },
     {
@@ -3197,7 +3197,7 @@
       "properties": {
         "id": "concept_tic_frequency_and_intensity_emotional_well_being",
         "name": "Tic frequency and intensity",
-        "concept": "Emotional Well-being"
+        "category": "Emotional Well-being"
       }
     },
     {
@@ -3205,7 +3205,7 @@
       "properties": {
         "id": "concept_stigma_and_peer_misunderstanding_social_cognition",
         "name": "Stigma and peer misunderstanding",
-        "concept": "Social Cognition"
+        "category": "Social Cognition"
       }
     },
     {
@@ -3213,7 +3213,7 @@
       "properties": {
         "id": "concept_social_integration_self_esteem_social_learning",
         "name": "Social integration, self-esteem",
-        "concept": "Social Learning"
+        "category": "Social Learning"
       }
     },
     {
@@ -3221,7 +3221,7 @@
       "properties": {
         "id": "concept_often_co_occurs_with_adhd_or_ocd_comorbidities",
         "name": "Often co-occurs with ADHD or OCD",
-        "concept": "Comorbidities"
+        "category": "Comorbidities"
       }
     },
     {
@@ -3229,7 +3229,7 @@
       "properties": {
         "id": "concept_cognitive_load_learning_difficulties_neurodevelopm",
         "name": "Cognitive load, learning difficulties",
-        "concept": "Neurodevelopmental Links"
+        "category": "Neurodevelopmental Links"
       }
     },
     {
@@ -3237,7 +3237,7 @@
       "properties": {
         "id": "concept_desire_to_suppress_tics_motivation",
         "name": "Desire to suppress tics",
-        "concept": "Motivation"
+        "category": "Motivation"
       }
     },
     {
@@ -3245,7 +3245,7 @@
       "properties": {
         "id": "concept_fatigue_reduced_task_persistence_academic_motivati",
         "name": "Fatigue, reduced task persistence",
-        "concept": "Academic Motivation"
+        "category": "Academic Motivation"
       }
     },
     {
@@ -3253,7 +3253,7 @@
       "properties": {
         "id": "concept_creativity_resilience_heightened_awareness_strengt",
         "name": "Creativity, resilience, heightened awareness",
-        "concept": "Strengths"
+        "category": "Strengths"
       }
     },
     {
@@ -3261,7 +3261,7 @@
       "properties": {
         "id": "concept_adaptive_problem_solving_empathy_personal_growth",
         "name": "Adaptive problem-solving, empathy",
-        "concept": "Personal Growth"
+        "category": "Personal Growth"
       }
     },
     {
@@ -3269,7 +3269,7 @@
       "properties": {
         "id": "concept_psychoeducation_supportive_classroom_environment_e",
         "name": "Psychoeducation, supportive classroom environment",
-        "concept": "Educational Support"
+        "category": "Educational Support"
       }
     },
     {
@@ -3277,7 +3277,7 @@
       "properties": {
         "id": "concept_reduced_stigma_improved_engagement_teaching_practi",
         "name": "Reduced stigma, improved engagement",
-        "concept": "Teaching Practices"
+        "category": "Teaching Practices"
       }
     },
     {
@@ -3285,7 +3285,7 @@
       "properties": {
         "id": "concept_gender_ratio_estimated_prevalence_global_averages_",
         "name": "Gender Ratio",
-        "concept": "Estimated Prevalence (global averages)"
+        "category": "Estimated Prevalence (global averages)"
       }
     },
     {
@@ -3293,7 +3293,7 @@
       "properties": {
         "id": "concept_notes_concept",
         "name": "Notes",
-        "concept": null
+        "category": null
       }
     }
   ],
@@ -4275,7 +4275,7 @@
       "to": "concept_gardner_proposed_a_pedagogical_framework_not_a_neu",
       "type": "MISINTERPRETS",
       "properties": {
-        "from_name": "Gardner’s theory is a neuroscience theory",
+        "from_name": "Gardner\u2019s theory is a neuroscience theory",
         "to_name": "Gardner proposed a pedagogical framework, not a neurobiological one"
       }
     },
@@ -4347,7 +4347,7 @@
       "to": "concept_actual_ability_vs_perceived_ability_learning_progr",
       "type": "MISALIGNS",
       "properties": {
-        "from_name": "Dunning–Kruger Effect",
+        "from_name": "Dunning\u2013Kruger Effect",
         "to_name": "Actual ability vs perceived ability"
       }
     },
@@ -4680,7 +4680,7 @@
       "to": "concept_performance_in_complex_engaging_tasks_academic_wor",
       "type": "ENHANCES",
       "properties": {
-        "from_name": "Optimal arousal (Yerkes–Dodson law)",
+        "from_name": "Optimal arousal (Yerkes\u2013Dodson law)",
         "to_name": "Performance in complex, engaging tasks"
       }
     },
@@ -4744,7 +4744,7 @@
       "type": "IS_CONTRASTED_WITH",
       "properties": {
         "from_name": "Effort seen as a path to mastery",
-        "to_name": "Effort seen as pointless (“If I’m not naturally good, I’ll never succeed”)"
+        "to_name": "Effort seen as pointless (\u201cIf I\u2019m not naturally good, I\u2019ll never succeed\u201d)"
       }
     },
     {
@@ -4905,7 +4905,7 @@
       "to": "concept_strategic_use_of_learning_methods_self_regulated_l",
       "type": "ENABLES",
       "properties": {
-        "from_name": "Awareness of one’s own cognitive strengths and limits",
+        "from_name": "Awareness of one\u2019s own cognitive strengths and limits",
         "to_name": "Strategic use of learning methods"
       }
     },
@@ -4941,7 +4941,7 @@
       "to": "concept_critical_thinking_transfer_of_knowledge_higher_ord",
       "type": "STRENGTHENS",
       "properties": {
-        "from_name": "Thinking about one’s own thought processes",
+        "from_name": "Thinking about one\u2019s own thought processes",
         "to_name": "Critical thinking, transfer of knowledge"
       }
     },
@@ -4986,8 +4986,8 @@
       "to": "concept_students_independent_metacognitive_development_tea",
       "type": "PROMOTES",
       "properties": {
-        "from_name": "Teachers modeling “thinking aloud” strategies",
-        "to_name": "Students’ independent metacognitive development"
+        "from_name": "Teachers modeling \u201cthinking aloud\u201d strategies",
+        "to_name": "Students\u2019 independent metacognitive development"
       }
     },
     {
@@ -5470,7 +5470,7 @@
     {
       "from": "concept_gender_ratio_estimated_prevalence_global_averages_",
       "to": "concept_notes_concept",
-      "type": "TYPICAL_ONSET_/_DETECTION",
+      "type": "TYPICAL_ONSET___DETECTION",
       "properties": {
         "from_name": "Gender Ratio",
         "to_name": "Notes"

@@ -64,23 +64,50 @@ def category_to_label(category):
 
 def process_excel_data(input_file='concept_carina4.xlsx', output_file='concepts4_neo4j.json'):
     """Process Excel file with streamlined A/B structure into Neo4j-ready format"""
-    
+
     # Load Excel file
     print(f"Loading {input_file}...")
     df = pd.read_excel(input_file)
-    
+
+    # Handle different column naming conventions
+    column_mappings = {
+        # Old standard format
+        'Value A': 'Value A',
+        'Relationship': 'Relationship',
+        'Value B': 'Value B',
+        'Category A': 'Category A',
+        'Category B': 'Category B',
+        # New neuroscience format
+        'Value A (nodo 1)': 'Value A',
+        'Relationship (freccia)': 'Relationship',
+        'Value B (nodo 2/di arrivo)': 'Value B',
+        'Concept A': 'Category A',  # Map Concept A to Category A
+        'Concept B': 'Category B',  # Map Concept B to Category B
+    }
+
+    # Map columns to expected names
+    df_mapped = df.copy()
+    for old_col, standard_col in column_mappings.items():
+        if old_col in df.columns and standard_col not in df.columns:
+            df_mapped = df_mapped.rename(columns={old_col: standard_col})
+
     # Validate columns - now expecting only 5 essential columns
     expected_cols = ['Category A', 'Value A', 'Relationship', 'Value B', 'Category B']
-    missing_cols = [col for col in expected_cols if col not in df.columns]
-    
+    missing_cols = [col for col in expected_cols if col not in df_mapped.columns]
+
     if missing_cols:
-        print(f"❌ Missing columns: {missing_cols}")
+        print(f"❌ Missing required columns: {missing_cols}")
         print(f"Available columns: {list(df.columns)}")
+        print("Column mapping attempted:")
+        for old, standard in column_mappings.items():
+            if old in df.columns:
+                print(f"  '{old}' → '{standard}'")
         return False
-    
+
     print(f"✅ Found all required columns: {expected_cols}")
     print(f"Processing {len(df)} rows...")
-    
+    print(f"Using neuroscience knowledge graph format")
+
     # Initialize output structure
     processed_data = {"nodes": [], "relationships": []}
     node_registry = {}  # Track unique nodes
@@ -191,35 +218,120 @@ def process_excel_data(input_file='concept_carina4.xlsx', output_file='concepts4
     
     return True
 
+def fix_property_names_in_json(json_file='kg_neuro_neo4j.json', backup=True):
+    """Fix property names in existing JSON file: change 'concept' to 'category'"""
+
+    print(f"🔧 Fixing property names in {json_file}...")
+
+    # Load existing JSON
+    if not os.path.exists(json_file):
+        print(f"❌ File not found: {json_file}")
+        return False
+
+    with open(json_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # Backup original if requested
+    if backup:
+        backup_file = json_file.replace('.json', '_backup.json')
+        with open(backup_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        print(f"📋 Backup created: {backup_file}")
+
+    # Count changes needed
+    changed_nodes = 0
+    total_nodes = len(data.get('nodes', []))
+
+    # Fix each node
+    for node in data.get('nodes', []):
+        properties = node.get('properties', {})
+
+        # If node has 'concept' property, rename it to 'category'
+        if 'concept' in properties and 'category' not in properties:
+            properties['category'] = properties.pop('concept')
+            changed_nodes += 1
+
+        # Update the node properties
+        node['properties'] = properties
+
+    # Save fixed JSON
+    fixed_file = json_file.replace('.json', '_fixed.json')
+    with open(fixed_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print(f"✅ Fixed {changed_nodes}/{total_nodes} nodes")
+    print(f"💾 Fixed file saved as: {fixed_file}")
+
+    # If all nodes were changed, replace original file
+    if changed_nodes == total_nodes and changed_nodes > 0:
+        original_file = json_file.replace('.json', '_original.json')
+        os.rename(json_file, original_file)
+        os.rename(fixed_file, json_file)
+        print(f"📝 Original file backed up as: {original_file}")
+        print(f"🔄 Fixed file is now: {json_file}")
+    elif changed_nodes > 0:
+        print(f"⁉️  Only {changed_nodes} nodes needed fixing - kept original")
+    else:
+        print(f"ℹ️  No 'concept' properties found - all nodes already correct")
+
+    return True
+
 def main():
     """Main function"""
     parser = argparse.ArgumentParser(
-        description='Transform streamlined Excel A/B structure to Neo4j JSON',
-        epilog='Expected columns: Category A, Value A, Relationship, Value B, Category B'
+        description='Transform Excel to Neo4j JSON or fix existing JSON property names',
+        epilog='Use --fix to fix property names in existing JSON files'
     )
-    parser.add_argument('--input', default='concept_carina4.xlsx', help='Input Excel file')
-    parser.add_argument('--output', default='concepts4_neo4j.json', help='Output JSON file')
-    
+
+    # Choose between process or fix modes
+    parser.add_argument('--mode', choices=['process', 'fix'], default='process',
+                       help='Mode: process Excel -> JSON or fix existing JSON property names')
+
+    # Excel processing arguments
+    parser.add_argument('--input', default='concept_carina4.xlsx', help='Input Excel file (for process mode)')
+    parser.add_argument('--output', default='concepts4_neo4j.json', help='Output JSON file (for process mode)')
+
+    # JSON fixing arguments
+    parser.add_argument('--fix', default='kg_neuro_neo4j.json', help='JSON file to fix (for fix mode)')
+    parser.add_argument('--no-backup', action='store_false', dest='backup',
+                       help='Skip creating backup of original file (dangerous!)')
+
     args = parser.parse_args()
-    
-    if not os.path.exists(args.input):
-        print(f"❌ Input file not found: {args.input}")
-        return
-    
-    print("🚀 Starting Excel to Neo4j transformation...")
-    print(f"📁 Input: {args.input}")
-    print(f"💾 Output: {args.output}")
-    
-    success = process_excel_data(args.input, args.output)
-    
-    if success:
-        print(f"\n🎉 Ready to import into Neo4j:")
-        print(f"   python data_ingestion_neo4j.py --file {args.output} --password YOUR_PASSWORD --clear")
-        print(f"\n💡 This structure is optimized for GraphRAG text2Cypher queries!")
-    else:
-        print("❌ Processing failed")
+
+    if args.mode == 'process':
+        # Excel processing mode
+        if not os.path.exists(args.input):
+            print(f"❌ Input file not found: {args.input}")
+            return
+
+        print("🚀 Starting Excel to Neo4j transformation...")
+        print(f"📁 Input: {args.input}")
+        print(f"💾 Output: {args.output}")
+
+        success = process_excel_data(args.input, args.output)
+
+        if success:
+            print(f"\n🎉 Ready to import into Neo4j:")
+            print(f"   python data_ingestion_neo4j.py --file {args.output} --password YOUR_PASSWORD --clear")
+            print(f"\n💡 This structure is optimized for GraphRAG text2Cypher queries!")
+        else:
+            print("❌ Processing failed")
+
+    elif args.mode == 'fix':
+        # JSON fixing mode
+        print("🛠️  Starting JSON property name fix...")
+        print(f"📁 Target: {args.fix}")
+        print(f"📋 Backup: {'enabled' if args.backup else 'disabled - DANGER!'}")
+
+        success = fix_property_names_in_json(args.fix, args.backup)
+
+        if success:
+            print("\n✅ Property fix complete!")
+            print("🔧 'concept' → 'category' conversion finished")
+        else:
+            print("❌ Property fix failed")
 
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
     os.chdir(script_dir)
-    main() 
+    main()

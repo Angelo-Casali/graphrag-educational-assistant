@@ -294,40 +294,84 @@ class MethodologyRanker:
         return recommendations
     
     def _is_methodology(self, node: Dict) -> bool:
-        """Check if node represents a pedagogical methodology"""
+        """Check if node represents a pedagogical methodology or neuroscience concept"""
         labels = node.get('labels', [])
-        return any(label in ['PedagogicalMethodology', 'TeachingApproach', 'LearningStrategy'] 
-                  for label in labels)
+        name = node.get('name', '')
+
+        # Traditional pedagogical methodology labels
+        traditional_labels = ['PedagogicalMethodology', 'TeachingApproach', 'LearningStrategy']
+        if any(label in traditional_labels for label in labels):
+            return True
+
+        # Neuroscience concept labels (our current graph structure)
+        neuroscience_labels = [
+            'MotivationalModulation', 'IntrinsicMotivation', 'ExtrinsicMotivation',
+            'Mindset', 'GrowthMindset', 'FixedMindset',
+            'PositiveStressEustress', 'NegativeStressDistress',
+            'PositiveEmotions', 'NegativeEmotions', 'Emotions',
+            'ExecutiveFunctions', 'Metacognition', 'CriticalThinking',
+            'Attention', 'WorkingMemory', 'LongTermMemory', 'Memory',
+            'Creativity', 'CognitiveControl', 'AttentionalControl'
+        ]
+        if any(label in neuroscience_labels for label in labels):
+            return True
+
+        # Neuroscience concept names (direct name matching)
+        neuroscience_names = list(self.kb.methodology_categories.keys())
+        if name in neuroscience_names:
+            return True
+
+        # Concept categories that can be mapped to methodologies
+        category_mappings = {
+            'Motivational Systems': ['Motivation', 'MotivationalModulation'],
+            'Mindset & Beliefs': ['Mindset', 'CognitiveBeliefs'],
+            'Self-Regulation & Awareness': ['Regulation', 'Cognitiveregulation'],
+            'Stress & Arousal': ['Stress', 'Emotionalstress'],
+            'Emotional Systems': ['Emotion', 'Emotionalprocesses'],
+            'Cognitive Processes': ['Cognition', 'Cognitiveprocesses'],
+            'Memory Systems': ['Memory', 'Memorysystems'],
+            'Cognitive Control': ['Control', 'Executivecontrol'],
+            'Higher-Order Thinking': ['Thinking', 'Higherthinking']
+        }
+
+        for category_labels in category_mappings.values():
+            if any(label in category_labels for label in labels):
+                return True
+
+        return False
     
     def _create_recommendation(self, node: Dict, query_metadata: Dict) -> Optional[MethodologyRecommendation]:
         """Create a methodology recommendation from a node"""
-        name = node.get('name', '')
-        if not name:
+        node_name = node.get('name', '')
+        if not node_name:
             return None
-        
-        # Get knowledge base info
-        kb_info = self.kb.methodology_categories.get(name, {})
-        
+
+        # Map node name to methodology name (handle neuroscience concept variations)
+        methodology_name = self._map_node_to_methodology(node_name)
+
+        # Get knowledge base info using the mapped name
+        kb_info = self.kb.methodology_categories.get(methodology_name, {})
+
         # Calculate relevance score
         relevance_score = self._calculate_relevance_score(node, query_metadata)
-        
+
         # Determine evidence type
         evidence_type = self._determine_evidence_type(node)
-        
+
         # Get implementation guidance
-        implementation = kb_info.get('implementation', f'Apply {name} methodology with appropriate adaptations')
-        
+        implementation = kb_info.get('implementation', f'Apply {methodology_name} methodology with appropriate adaptations')
+
         # Get classroom applications
-        applications = kb_info.get('applications', [f'Implement {name} in classroom context'])
-        
+        applications = kb_info.get('applications', [f'Implement {methodology_name} in classroom context'])
+
         # Get special considerations
         special_considerations = kb_info.get('special_needs_adaptations', ['Adapt based on individual student needs'])
-        
+
         # Determine confidence
         confidence = self._calculate_confidence(relevance_score, evidence_type, kb_info)
-        
+
         return MethodologyRecommendation(
-            name=name,
+            name=methodology_name,
             category=kb_info.get('category', 'Educational Methodology'),
             relevance_score=relevance_score,
             evidence_type=evidence_type,
@@ -336,6 +380,73 @@ class MethodologyRanker:
             special_considerations=special_considerations,
             confidence=confidence
         )
+
+    def _map_node_to_methodology(self, node_name: str) -> str:
+        """Map neuroscience concept node names to methodology names"""
+        # Direct mappings for exact matches
+        direct_mappings = {
+            'Flow, autonomy, self-determination, internal satisfaction': 'IntrinsicMotivation',
+            'External control, conditional incentives, social pressure': 'ExtrinsicMotivation',
+            'Internal satisfaction and autonomy (overjustification effect)': 'IntrinsicMotivation',
+            'External rewards (tangible: money, prizes; intangible: approval, status)': 'ExtrinsicMotivation'
+        }
+
+        if node_name in direct_mappings:
+            return direct_mappings[node_name]
+
+        # Keyword-based mappings for neuroscience concepts
+        name_lower = node_name.lower()
+
+        # Intrinsic motivation patterns
+        if any(kw in name_lower for kw in ['intrinsic', 'autonomy', 'self-determination', 'flow state', 'autonomy', 'competence', 'relatedness']):
+            return 'IntrinsicMotivation'
+
+        # Extrinsic motivation patterns
+        if any(kw in name_lower for kw in ['extrinsic', 'external rewards', 'grades', 'praises', 'money', 'prizes', 'social recognition']):
+            return 'ExtrinsicMotivation'
+
+        # Growth mindset patterns
+        if any(kw in name_lower for kw in ['growth mindset', 'growth', 'challenge', 'yet', 'effort', 'persistence']):
+            return 'GrowthMindset'
+
+        # Fixed mindset patterns
+        if any(kw in name_lower for kw in ['fixed mindset', 'fixed', 'innate', 'ability']):
+            return 'FixedMindset'
+
+        # Positive stress patterns
+        if any(kw in name_lower for kw in ['positive stress', 'eustress', 'optimal challenge']):
+            return 'PositiveStressEustress'
+
+        # Negative stress patterns
+        if any(kw in name_lower for kw in ['negative stress', 'distress', 'overwhelming', 'chronic stress']):
+            return 'NegativeStressDistress'
+
+        # Attention patterns
+        if any(kw in name_lower for kw in ['attention', 'focus', 'distract']):
+            return 'Attention'
+
+        # Working memory patterns
+        if any(kw in name_lower for kw in ['working memory', 'short-term memory', 'chunking']):
+            return 'WorkingMemory'
+
+        # Executive functions patterns
+        if any(kw in name_lower for kw in ['executive functions', 'planning', 'organization', 'inhibitory control']):
+            return 'ExecutiveFunctions'
+
+        # Metacognition patterns
+        if any(kw in name_lower for kw in ['metacognition', 'thinking about thinking', 'self-monitoring']):
+            return 'Metacognition'
+
+        # Positive emotions patterns
+        if any(kw in name_lower for kw in ['positive emotions', 'joy', 'curiosity', 'hope']):
+            return 'PositiveEmotions'
+
+        # Critical thinking patterns
+        if any(kw in name_lower for kw in ['critical thinking', 'analysis', 'evaluation', 'logic']):
+            return 'CriticalThinking'
+
+        # If no mapping found, return the original name
+        return node_name
     
     def _calculate_relevance_score(self, node: Dict, query_metadata: Dict) -> float:
         """Calculate relevance score for a methodology"""

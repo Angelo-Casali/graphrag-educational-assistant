@@ -860,13 +860,79 @@ class EnhancedMultilingualText2Cypher:
             educational_context_obj = None
             educational_context_dict = {}
 
+        # Step 4: Generate LLM Response (add this missing step!)
+        llm_response_result = {}
+        if educational_context_obj:
+            try:
+                from llm_chain import EducationalResponseGenerator
+                from config import config
+
+                response_generator = EducationalResponseGenerator(
+                    openai_api_key=config.openai.api_key,
+                    language="italian",
+                    temperature=0.7
+                )
+
+                llm_response_result = await response_generator.generate_response(
+                    educational_context_obj,
+                    query
+                )
+
+                # Close the generator
+                # Note: EducationalResponseGenerator doesn't have a close method
+
+            except Exception as e:
+                logger.error(f"LLM response generation failed: {e}")
+                import traceback
+                logger.error(traceback.format_exc())
+
+                # Generate fallback response
+                llm_response_result = {
+                    'response': f"""Mi dispiace, ho riscontrato un problema nella generazione della risposta completa.
+
+Tuttavia, ecco un riassunto delle metodologie neuroscientifiche identificate per la tua domanda "{query}":
+
+**Metodologie Raccomandate:**
+{chr(10).join([f"- {m['name']}" for m in educational_context_dict.get('primary_methodologies', [])])}
+
+**Confidenza:** {educational_context_dict.get('confidence_assessment', 'Bassa')}
+
+**Prossimi Passi:**
+- Consulta risorse specializzate in neuroscienze educative
+- Considera formazione per insegnati su approccio neuroscientifico
+- Collabora con esperti di didattica inclusiva
+
+Se hai bisogno di ulteriore assistenza, non esitare a chiedere.""",
+                    'confidence': 'LOW',
+                    'metadata': {'fallback': True, 'error': str(e)}
+                }
+        else:
+            # No context available - major fallback
+            llm_response_result = {
+                'response': f"""Mi dispiace, non sono riuscito a identificare metodologie specifiche per la tua domanda.
+
+Tuttavia, posso suggerire un approccio generale basato su neuroscienze:
+
+**Raccomandazioni Generiche:**
+- Crea un ambiente di apprendimento positivo che favorisca la motivazione intrinseca
+- Adatta le metodologie alle caratteristiche individuali degli studenti
+- Utilizza un approccio multisensoriale per migliorare l'apprendimento
+
+**Per supporto più specifico:** consulta specialisti di pedagogia o psicologia educativa.
+
+Riprova con una domanda più specifica sui bisogni educativi degli studenti.""",
+                'confidence': 'VERY_LOW',
+                'metadata': {'fallback': True, 'reason': 'no_context'}
+            }
+
         return {
             'original_query': query,
             'cypher_result': cypher_result,
             'retrieval_result': retrieval_result,
             'combined_context': self._build_context(retrieval_result),
             'educational_context': educational_context_dict,  # Dict for display
-            'educational_context_obj': educational_context_obj  # Object for LLM chain
+            'educational_context_obj': educational_context_obj,  # Object for LLM chain
+            'llm_response': llm_response_result  # Add the missing LLM response!
         }
     
     def _build_context(self, retrieval_result: RetrievedContext) -> str:

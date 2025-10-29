@@ -122,15 +122,19 @@ EXAMPLES:
 """ + examples + """
 
 QUERY PATTERNS:
-- Motivation concepts: MATCH (m:IntrinsicMotivation|ExtrinsicMotivation)-[r]->(o) RETURN m.name, type(r), o.name
-- Stress and learning: MATCH (s:PositiveStressEustress|NegativeStressDistress)-[r]->(l:LearningDevelopment) 
-- Mindset patterns: MATCH (m:GrowthMindset|FixedMindset)-[r]->(o) RETURN m.name, type(r), o.name
-- Emotions and cognition: MATCH (e:PositiveEmotions|NegativeEmotions)-[r]->(c:CognitiveProcesses)
-- Metacognition: MATCH (m:Metacognition)-[r]->(s:SelfRegulation) RETURN m.name, type(r), s.name
-- Attention processes: MATCH (a:Attention)-[r:IS_MODULATED_BY|SUPPORTS]->(o) RETURN a.name, type(r), o.name
-- Memory systems: MATCH (m:WorkingMemory|LongTermMemory)-[r]->(o) RETURN m.name, type(r), o.name
-- Executive functions: MATCH (e:ExecutiveFunctions)-[r]->(o) RETURN e.name, type(r), o.name
-- Critical thinking: MATCH (c:CriticalThinking)-[r]->(o) RETURN c.name, type(r), o.name
+- Motivation concepts: MATCH (m:MotivationalModulation)-[r:IS_CONTRASTED_WITH|SUPPORTS]->(o:LearningOutcomes) RETURN m.name, type(r), o.name
+- Stress and learning: MATCH (s:PositiveStressEustress|NegativeStressDistress)-[r:SUPPORTS|UNDERMINES]->(l:LearningDevelopment)
+- Mindset patterns: MATCH (m:GrowthMindset|FixedMindset)-[r:SUPPORTS|UNDERMINES]->(ld:LearningDevelopment) RETURN m.name, type(r), ld.name
+- Emotions and cognition: MATCH (e:PositiveEmotions|NegativeEmotions)-[r:ENHANCE|INTERFERE_WITH]->(c:CognitiveProcesses)
+- Metacognition: MATCH (m:Metacognition)-[r:STRENGTHENS|ENABLES]->(s:SelfRegulation) RETURN m.name, type(r), s.name
+- Attention processes: MATCH (a:Attention)-[r:SUPPORTS|IS_IMPAIRED_BY]->(ld:LearningDevelopment) RETURN a.name, type(r), ld.name
+- Memory systems: MATCH (m:WorkingMemory|LongTermMemory)-[r:FACILITATES|ENHANCES]->(learn:LearningOutcomes) RETURN m.name, type(r), learn.name
+- Executive functions: MATCH (e:ExecutiveFunctions)-[r:ESSENTIAL_FOR|REQUIRES|IMPAIRED_BY]->(o:LearningOutcomes) RETURN e.name, type(r), o.name
+- Critical thinking: MATCH (c:CriticalThinking)-[r:BUILDS_ON|DEPENDS_ON]->(ecf:ExecutiveFunctions) RETURN c.name, type(r), ecf.name
+- Creativity and cognition: MATCH (cr:Creativity)-[r:SUPPORTS|ENHANCES]->(cf:CognitiveFlexibility) RETURN cr.name, type(r), cf.name
+- Learned helplessness: MATCH (lh:LearnedHelplessness)-[r:LEADS_TO|REDUCES]->(m:MotivationalModulation) RETURN lh.name, type(r), m.name
+- Neuroplasticity: MATCH (np:Neuroplasticity)-[r:SUPPORTED_BY|ENHANCES]->(ld:LearningDevelopment) RETURN np.name, type(r), ld.name
+- Cognitive load: MATCH (cl:Cognitiveload|CognitiveLoad)-[r:INCREASES|IMPARS]->(wm:WorkingMemory|Attention) RETURN cl.name, type(r), wm.name
 
 Convert this natural language question to a Cypher query:
 Question: {question}
@@ -169,52 +173,109 @@ Cypher Query:"""
         return desc
     
     def _create_few_shot_examples(self) -> str:
-        """Create few-shot examples based on neuroscience knowledge graph"""
+        """Create comprehensive few-shot examples based on neuroscience knowledge graph"""
         examples = """
 Question: "What is the difference between intrinsic and extrinsic motivation?"
-Cypher: MATCH (i:IntrinsicMotivation)-[r]-(o) RETURN i.name, type(r) as relationship, o.name, labels(o) as target_type LIMIT 15
+Cypher: MATCH (i:AcademicMotivation)-[r:IS_LINKED_WITH]-(e:AcademicMotivation) WHERE i.name CONTAINS "Avoidance" AND e.name CONTAINS "avoidance" RETURN i.name, type(r), e.name LIMIT 15
 
 Question: "Can stress sometimes be positive for learning?"
-Cypher: MATCH (p:PositiveStressEustress)-[r:SUPPORTS|ENHANCES]->(l:LearningDevelopment) RETURN p.name, type(r), l.name LIMIT 10
+Cypher: MATCH (p:AffectiveMotivationalProcesses)-[r:SUPPORTS]->(l:LearningDevelopment) WHERE p.name CONTAINS "stress" RETURN p.name, type(r), l.name LIMIT 10
 
 Question: "What does growth mindset mean?"
-Cypher: MATCH (g:GrowthMindset)-[r]->(o) RETURN g.name, type(r), o.name, labels(o) LIMIT 15
+Cypher: MATCH (g:GrowthMindset)-[r:SUPPORTS|ENHANCES]->(o) RETURN g.name, type(r), o.name, labels(o) LIMIT 15
 
 Question: "How do emotions affect student learning?"
-Cypher: MATCH (e:PositiveEmotions)-[r]->(c:CognitiveProcesses) RETURN e.name, type(r), c.name LIMIT 10
+Cypher: MATCH (e:AffectiveProcesses)-[r:ENHANCE|INTERFERE_WITH]->(c:CognitiveProcesses) RETURN e.name, type(r), c.name LIMIT 10
 
 Question: "What is metacognition and why is it important?"
-Cypher: MATCH (m:Metacognition)-[r]->(o) RETURN m.name, type(r), o.name, labels(o) LIMIT 15
+Cypher: MATCH (m:Metacognition)-[r:STRENGTHENS|ENHANCES]->(o) RETURN m.name, type(r), o.name, labels(o) LIMIT 15
 
 Question: "How can I encourage intrinsic motivation in students?"
-Cypher: MATCH (i:IntrinsicMotivation)-[r:ENHANCES|SUPPORTS]->(l:LearningOutcomes) RETURN i.name, type(r), l.name LIMIT 10
+Cypher: MATCH (i:AffectiveMotivationalProcesses)-[r:SUPPORTS]->(l:LearningOutcomes) WHERE i.name CONTAINS "intrinsic" RETURN i.name, type(r), l.name LIMIT 10
 
 Question: "How does stress influence motivation?"
-Cypher: MATCH (s:PositiveStressEustress)-[r]-(m:IntrinsicMotivation) RETURN s.name, type(r), m.name LIMIT 10
+Cypher: MATCH (s:PositiveStressEustress)-[r:AFFECTS|SUPPORTS]->(m:AcademicMotivation) RETURN s.name, type(r), m.name LIMIT 10
 
 Question: "What's the link between emotions and mindset?"
-Cypher: MATCH (e:PositiveEmotions)-[r]-(g:GrowthMindset) RETURN e.name, type(r), g.name LIMIT 10
+Cypher: MATCH (e:AffectiveProcesses)-[r:ARE_LINKED_WITH]->(g:GrowthMindset) RETURN e.name, type(r), g.name LIMIT 10
 
 Question: "What cognitive processes support memory encoding?"
-Cypher: MATCH (p)-[r:FACILITATES|ENHANCES]->(m:Memoryencoding) RETURN p.name, labels(p), type(r), m.name LIMIT 10
+Cypher: MATCH (p:CognitiveProcesses)-[r:FACILITATES|ENHANCES]->(m:MemorySystems) RETURN p.name, labels(p), type(r), m.name LIMIT 10
 
 Question: "How does attention modulate learning?"
-Cypher: MATCH (a:Attention)-[r:IS_MODULATED_BY|SUPPORTS]->(l) RETURN a.name, type(r), l.name, labels(l) LIMIT 15
+Cypher: MATCH (a:Attention)-[r:SUPPORTS|ENHANCES|AFFECTS]->(o:LearningOutcomes) RETURN a.name, type(r), o.name, labels(o) LIMIT 15
 
 Question: "What factors impair executive functions?"
-Cypher: MATCH (f)-[r:IMPAIRS|REDUCES]->(e:ExecutiveFunctions) RETURN f.name, labels(f), type(r), e.name LIMIT 10
+Cypher: MATCH (f:Attention)-[r:IS_IMPAIRED_BY]->(e:ExecutiveFunctions) RETURN f.name, labels(f), type(r), e.name LIMIT 10
 
 Question: "How does working memory affect learning?"
-Cypher: MATCH (w:WorkingMemory)-[r]->(o) WHERE type(r) IN ['ENHANCES', 'SUPPORTS', 'AFFECTS', 'LIMITS'] RETURN w.name, type(r), o.name, labels(o) LIMIT 15
+Cypher: MATCH (w:WorkingMemory)-[r:ENHANCES|SUPPORTS|AFFECTS]->(o:LearningOutcomes) RETURN w.name, type(r), o.name, labels(o) LIMIT 15
 
 Question: "What enhances critical thinking?"
-Cypher: MATCH (n)-[r:ENHANCES|SUPPORTS|STRENGTHENS]->(c:CriticalThinking) RETURN n.name, labels(n), type(r), c.name LIMIT 10
+Cypher: MATCH (n:CognitiveProcesses)-[r:ENHANCES|SUPPORTS|STRENGTHENS]->(c:CriticalThinking) RETURN n.name, labels(n), type(r), c.name LIMIT 10
 
 Question: "How many types of attention are in the database?"
 Cypher: MATCH (a:Attention) RETURN COUNT(DISTINCT a.name) as attention_types
 
 Question: "What is the relationship between creativity and cognitive flexibility?"
-Cypher: MATCH (c:Creativity)-[r]-(cf:CognitiveFlexibility) RETURN c.name, type(r), cf.name LIMIT 10
+Cypher: MATCH (c:Creativity)-[r:SUPPORTS|ENHANCES]->(cf:CognitiveFlexibility) RETURN c.name, type(r), cf.name LIMIT 10
+
+Question: "How does learned helplessness affect motivation?"
+Cypher: MATCH (lh:LearnedHelplessness)-[r:REDUCES|AFFECTS]->(m:AcademicMotivation) RETURN lh.name, type(r), m.name LIMIT 10
+
+Question: "What helps overcome negative stress for learning?"
+Cypher: MATCH (ns:NegativeStressDistress)-[r:IS_LINKED_WITH]->(adapt:AdaptiveCoping) RETURN ns.name, type(r), adapt.name LIMIT 10
+
+Question: "How does positive stress enhance performance?"
+Cypher: MATCH (ps:PositiveStressEustress)-[r:SUPPORTS|ENHANCES]->(o:AcademicWorkOutcomes) RETURN ps.name, type(r), o.name LIMIT 10
+
+Question: "What is the impact of fixed mindset on learning?"
+Cypher: MATCH (fm:FixedMindset)-[r:UNDERMINES]->(ld:LearningDevelopment) RETURN fm.name, type(r), ld.name LIMIT 10
+
+Question: "How do executive functions support critical thinking?"
+Cypher: MATCH (ef:ExecutiveFunctions)-[r:ESSENTIAL_FOR|REQUIRES]->(ct:CriticalThinking) RETURN ef.name, type(r), ct.name LIMIT 15
+
+Question: "What role does memory play in creativity?"
+Cypher: MATCH (mem:MemorySystems)-[r:SUPPORTS|FACILITATES]->(cr:Creativity) RETURN mem.name, type(r), cr.name LIMIT 10
+
+Question: "How does neuroplasticity support learning?"
+Cypher: MATCH (np:Neuroplasticity)-[r:SUPPORTED_BY]->(ld:LearningDevelopment) RETURN np.name, type(r), ld.name LIMIT 10
+
+Question: "What impairs working memory and attention?"
+Cypher: MATCH (cogla:Cognitiveload|CognitiveLoad)-[r:INCREASES|IMPAIRS]->(wm:WorkingMemory|Attention) RETURN cogla.name, type(r), wm.name LIMIT 10
+
+Question: "How do emotions modulate attention?"
+Cypher: MATCH (em:AffectiveProcesses)-[r:MODULATES|ENHANCE|INTERFERE_WITH]->(att:Attention) RETURN em.name, type(r), att.name LIMIT 15
+
+Question: "What cognitive biases affect learning?"
+Cypher: MATCH (bias:CognitiveBiases)-[r:REINFORCES|DISTORTS|AFFECTS]->(learn:LearningOutcomes) RETURN bias.name, type(r), learn.name LIMIT 10
+
+Question: "How does mindfulness improve attention?"
+Cypher: MATCH (mindf:EducationalClinicalInterventions)-[r:TRAINED_BY|STRENGTHENED_THROUGH]->(att:Attention) WHERE mindf.name CONTAINS "Mindfulness" RETURN mindf.name, type(r), att.name LIMIT 10
+
+Question: "What is the relationship between ADHD and attention?"
+Cypher: MATCH (adhd:AffectiveBiologicalConstraints)-[r:IMPAIRED_BY|IS_IMPAIRED_IN]->(att:Attention) WHERE adhd.name CONTAINS "ADHD" RETURN adhd.name, type(r), att.name LIMIT 10
+
+Question: "How do motor coordination issues affect learning?"
+Cypher: MATCH (motor:CognitiveControl|ExecutiveFunctions)-[r:AFFECTS]->(learn:LearningOutcomes) RETURN motor.name, type(r), learn.name LIMIT 10
+
+Question: "What supports resilience in learning?"
+Cypher: MATCH (resil:Resilience)-[r:PROMOTES|FOSTERS]->(learn:LearningOutcomes) RETURN resil.name, type(r), learn.name LIMIT 10
+
+Question: "How does sleep affect memory consolidation?"
+Cypher: MATCH (slee:PsychoBiologicalfactor)-[r:SUPPORTED_BY]->(mem:MemoryStabilization) WHERE slee.name CONTAINS "sleep" RETURN slee.name, type(r), mem.name LIMIT 10
+
+Question: "Qual è la differenza tra motivazione intrinseca ed estrinseca?"
+Cypher: MATCH (i:AcademicMotivation)-[r:IS_LINKED_WITH]->(e:AcademicMotivation) WHERE i.name CONTAINS "Avoidance" RETURN i.name, type(r), e.name LIMIT 10
+
+Question: "Come aiuta lo stress l'apprendimento?"
+Cypher: MATCH (p:PositiveStressEustress|AffectiveMotivationalProcesses)-[r:SUPPORTS|AFFECTS]->(l:LearningDevelopment) RETURN p.name, type(r), l.name LIMIT 10
+
+Question: "Che cos'è il pensiero critico?"
+Cypher: MATCH (c:CriticalThinking)-[r:ARE_STRENGTHENED_THROUGH]->(o) RETURN c.name, type(r), o.name, labels(o) LIMIT 15
+
+Question: "Come funziona la memoria di lavoro?"
+Cypher: MATCH (w:WorkingMemory)-[r:ENHANCES|AFFECTS]->(l:LearningOutcomes) RETURN w.name, type(r), l.name LIMIT 15
 """
         return examples.strip()
     
@@ -488,20 +549,21 @@ Cypher: MATCH (c:Creativity)-[r]-(cf:CognitiveFlexibility) RETURN c.name, type(r
         }
         
         # Look for WHERE clauses with single term matching
-        pattern = r'WHERE\s+toLower\((?:s|n|m|e|a)\.name\)\s*=\s*toLower\("([^"]+)"\)'
-        
+        pattern = r'WHERE\s+toLower\((s|n|m|e|a)\.name\)\s*=\s*toLower\("([^"]+)"\)'
+
         def expand_synonyms(match):
-            term = match.group(1).lower()
-            
+            alias = match.group(1)
+            term = match.group(2).lower()
+
             # Check if this term has synonyms
             for key, synonyms in NEUROSCIENCE_SYNONYMS.items():
                 if key in term or any(term in syn.lower() for syn in synonyms):
                     # Create IN clause with all synonyms for broad matching
-                    synonym_list = '", "'.join(synonyms)
-                    return f'WHERE toLower(n.name) IN [toLower("{s}") for s in ["{synonym_list}"]]'
-            
+                    synonym_values = ', '.join([f'toLower("{syn}")' for syn in synonyms])
+                    return f'WHERE toLower({alias}.name) IN [{synonym_values}]'
+
             # If no synonyms found, use tolerant CONTAINS matching
-            return f'WHERE toLower(n.name) CONTAINS toLower("{match.group(1)}")'
+            return f'WHERE toLower({alias}.name) CONTAINS toLower("{match.group(2)}")'
         
         return re.sub(pattern, expand_synonyms, query)
     

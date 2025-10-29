@@ -49,7 +49,7 @@ class Config:
         """Load configuration from environment variables"""
         # Neo4j configuration
         self.neo4j.uri = os.getenv("NEO4J_URI", self.neo4j.uri)
-        self.neo4j.user = os.getenv("NEO4J_USER", self.neo4j.user)
+        self.neo4j.user = os.getenv("NEO4J_USERNAME") or os.getenv("NEO4J_USER", self.neo4j.user)
         self.neo4j.password = os.getenv("NEO4J_PASSWORD", self.neo4j.password)
         self.neo4j.database = os.getenv("NEO4J_DATABASE", self.neo4j.database)
         

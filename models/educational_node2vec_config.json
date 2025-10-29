@@ -33,7 +33,7 @@
     "CognitiveFlexibility": 2.0,
     "ProblemSolving": 2.0
   },
-  "training_date": "2025-10-24T18:24:20.038717",
-  "num_nodes": 409,
+  "training_date": "2025-10-29T18:00:43.169810",
+  "num_nodes": 412,
   "embedding_dim": 128
 }
